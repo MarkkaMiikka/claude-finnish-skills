@@ -184,7 +184,7 @@ P.S. Q2-raportti löytyy myös LinkedInistä, jos haluat jakaa sen tiimillesi.
 
 ---
 
-## 7. Footer ja peruutuslinkki
+## 7. Alatunniste (footer) ja peruutuslinkki
 
 ### 7.1 Pakolliset elementit
 
@@ -348,14 +348,14 @@ Saat tämän viestin, koska olet tilannut Esimerkki Oy:n uutiskirjeen.
 ## 11. Tarkistuslista ennen lähetystä
 
 ```
-[ ] Otsikkorivi 35–50 merkkiä, kuvaileva, ei clickbait
+[ ] Otsikkorivi 35–50 merkkiä, kuvaileva, ei klikkitavoitteinen
 [ ] Preheader 80–130 merkkiä, täydentää otsikkoa, ei toista
 [ ] Tervehdys: "Hei [etunimi]" tai vastaava (sinuttelu)
 [ ] Avauskappale: pointti heti, ei kuulumisten kyselyä
 [ ] Sisältöblokit: 2–4, yhdessä yksi CTA
 [ ] CTA-tekstit kuvailevia ("Lataa raportti", ei "Klikkaa tästä")
 [ ] Allekirjoitus henkilönä, ei pelkkänä yrityksenä
-[ ] Footer: yritys, osoite, Y-tunnus
+[ ] Alatunniste: yritys, osoite, Y-tunnus
 [ ] Peruutuslinkki näkyvä ja toimiva (laki)
 [ ] Selitelause "Saat tämän viestin, koska..."
 [ ] [[suomi-lokalisaatio-perus]] mukainen muotoilu (12.6.2026, 12 %)

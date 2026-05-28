@@ -38,7 +38,7 @@ Jos käyttäjä antaa kirjoitusnäytteen omasta tekstistään:
    - Miten kappaleet alkavat
    - Välimerkkien käyttö (paljon viivoja? sulkeita?)
    - Toistuvat fraasit ja "puheenparret"
-   - Miten siirtymät on tehty (eksplisiittiset sidoksia? vai uusi ajatus suoraan?)
+   - Miten siirtymät on tehty (eksplisiittiset sidokset? vai uusi ajatus suoraan?)
 
 2. **Sovita uudelleenkirjoitus näytteen ääneen.** Älä korvaa AI-kuvioita oman geneerisen tyylisi mukaisella tekstillä — käytä näytteen kuvioita.
 
@@ -50,7 +50,7 @@ Jos käyttäjä antaa kirjoitusnäytteen omasta tekstistään:
 
 AI-fraasien poistaminen on vain puolet työstä. Sieluton, neutraali teksti on yhtä paljastava kuin slop. Hyvällä tekstillä on ihminen takana.
 
-### Sielutontekstin merkit (vaikka teknisesti "puhdas"):
+### Sieluttoman tekstin merkit (vaikka teknisesti "puhdas"):
 - Joka virke samanmittainen ja samanrakenteinen
 - Ei mielipiteitä, pelkkää uutista
 - Ei tunnustusta epävarmuudesta tai ristiriitaisuudesta
@@ -313,7 +313,7 @@ Huom: tekstissä saa olla ajatusviivoja — mutta ei joka virkkeessä.
 > - **Tietoturva:** Tietoturvaa on vahvistettu salauksen avulla.
 
 **Jälkeen:**
-> Päivitys uudistaa käyttöliittymän, nopeuttaa latausaikoja ja lisää end-to-end-salauksen.
+> Päivitys uudistaa käyttöliittymän, nopeuttaa latausaikoja ja lisää päästä päähän -salauksen.
 
 ---
 
@@ -365,7 +365,7 @@ Suomessa ensisijaisesti ”näin” (Unicode-merkit U+201D), mutta suorat "näin
 
 ---
 
-### 21. Tieto-katkokset ja varauksia
+### 21. Tietokatkokset ja varaukset
 
 **Vältä:** "käytettävissä olevien tietojen perusteella", "tietoni eivät ulotu", "viimeisimmän tiedon mukaan", "yksityiskohdat ovat rajalliset"
 
@@ -662,7 +662,7 @@ Per virke (etenkin markkinointi-, esittely- ja hakemustekstissä):
 [ ] Onko muoto "olemme X" ilman todistetta? → lisää todiste tai pudota väittämä
 [ ] Kerronko lukijalle miten reagoida ("tämä osoittaa, kuinka...") sen sijaan että jättäisin sen lukijalle? → poista ohjeistus
 [ ] Onko sävy yliampuva amerikkalainen vai vaatimaton suomalainen? → suomalainen palkitsee jälkimmäistä
-[ ] Voiko lukija reverse-engineroida väittämän numeroista, eikä toisin päin? → kyllä = ok
+[ ] Voiko lukija päätellä väittämän numeroista, eikä toisin päin? → kyllä = ok
 ```
 
 ---

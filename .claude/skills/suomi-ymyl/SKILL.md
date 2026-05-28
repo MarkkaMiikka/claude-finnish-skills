@@ -1,10 +1,10 @@
 ---
 name: suomi-ymyl
-description: Suomenkielisen YMYL-sisällön (Your Money or Your Life — terveys, talous, lakiasiat, turvallisuus, ravitsemus, viranomaisasiat) kirjoittaminen journalist-position framingilla. Käytä AINA kun tuotat tai tarkistat suomenkielistä sisältöä jossa lukijan terveys, raha, turvallisuus tai oikeudet voivat olla riippuvaisia tekstin paikkansapitävyydestä. Aktivoituu kun käyttäjä mainitsee terveydellisen ohjeen, lääkkeen, sairauden, oikeudellisen neuvon, sijoituspäätöksen, lainan, vakuutuksen, ruoka-allergian, turvallisuusohjeen, eläinten hoidon, viranomaisasian, tai pyytää sisältöä joka voi vaikuttaa lukijan päätöksiin näissä aiheissa. Skill ohjaa erottamaan suosittelun (mitä virkamies/asiantuntija on sanonut, lähteen anchor-linkillä) referointiin verrattuna omaan suositteluun (mitä kirjoittaja itse väittäisi — kielletty YMYL-sisällössä ilman virallista pätevyyttä). Käytä rinnan [[suomi-kielihuolto]] ja [[suomi-ei-ai-sloppia]] -skillien kanssa.
+description: Suomenkielisen YMYL-sisällön (Your Money or Your Life — terveys, talous, lakiasiat, turvallisuus, ravitsemus, viranomaisasiat) kirjoittaminen journalisti-position näkökulmasta. Käytä AINA kun tuotat tai tarkistat suomenkielistä sisältöä jossa lukijan terveys, raha, turvallisuus tai oikeudet voivat olla riippuvaisia tekstin paikkansapitävyydestä. Aktivoituu kun käyttäjä mainitsee terveydellisen ohjeen, lääkkeen, sairauden, oikeudellisen neuvon, sijoituspäätöksen, lainan, vakuutuksen, ruoka-allergian, turvallisuusohjeen, eläinten hoidon, viranomaisasian, tai pyytää sisältöä joka voi vaikuttaa lukijan päätöksiin näissä aiheissa. Skill ohjaa erottamaan suosittelun (mitä virkamies/asiantuntija on sanonut, lähteen linkillä) referointiin verrattuna omaan suositteluun (mitä kirjoittaja itse väittäisi — kielletty YMYL-sisällössä ilman virallista pätevyyttä). Käytä rinnan [[suomi-kielihuolto]] ja [[suomi-ei-ai-sloppia]] -skillien kanssa.
 license: MIT
 ---
 
-# YMYL-sisältö suomeksi — journalist-position framing
+# YMYL-sisältö suomeksi — journalisti-position näkökulma
 
 > **Vinkki:** Jos haluat ajaa kaikki suomi-* -skillit yhdessä oikeassa järjestyksessä, käytä `[[suomi-tarkistuslista]]` -orkestraattoria. Se valitsee oikeat skillit ja pipeline-järjestyksen tekstin kontekstin perusteella.
 
@@ -16,7 +16,7 @@ YMYL-sisällön julkaiseminen ilman pätevää lähdettä on:
 
 - **Eettisesti ongelmallista** — lukija voi tehdä päätöksiä virheellisen tiedon perusteella
 - **Juridisesti riskialtista** — joissakin maissa korvausvelvollisuus virheellisen ohjeen seurauksista
-- **SEO-haitallista** — Google rankittaa AI-slop -YMYL-sisältöä alaspäin (E-E-A-T -kriteerit: Expertise, Experience, Authoritativeness, Trustworthiness)
+- **SEO-haitallista** — Google sijoittaa AI-slop-YMYL-sisältöä hakutuloksissa alemmas (E-E-A-T -kriteerit: Expertise, Experience, Authoritativeness, Trustworthiness)
 
 ## Journalist-position vs. consultant-position
 
@@ -65,9 +65,9 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Finanssivalvonta
 - Suomen Pankki
 - Valtiokonttori (eläkkeet, asuntolainat)
-- Suomen Vakuutusyhtiöiden Keskusliitto
+- Finanssiala ry
 - Verohallinto
-- Etua (Eläketurvakeskus)
+- Eläketurvakeskus (ETK)
 - Kuluttajaliitto
 
 **Vältä:**
@@ -126,7 +126,7 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Migri (Maahanmuuttovirasto)
 - Verohallinto
 - Tulli
-- Trafi (Liikenne- ja viestintävirasto)
+- Traficom (Liikenne- ja viestintävirasto)
 - Kuntien virkamiesohjeet
 
 **Vältä:**
@@ -136,7 +136,7 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 
 ---
 
-## Lauserakenteet — journalist-position framing
+## Lauserakenteet — journalisti-position näkökulma
 
 Käytä näitä rakenteita YMYL-sisällössä:
 
@@ -152,7 +152,7 @@ Käytä näitä rakenteita YMYL-sisällössä:
 
 ---
 
-## Anchor-link-konventio
+## Lähdelinkki-konventio
 
 Joka väite YMYL-tekstissä joka voisi vaikuttaa lukijan päätökseen:
 
@@ -175,9 +175,9 @@ Väite + [linkkiteksti viittaa lähteeseen](URL).
 ```
 [ ] Onko väite kirjoitettu journalisti-positiossa, ei konsulttipositiossa?
 [ ] Onko lähde nimetty (organisaatio, virasto, lehti, asiantuntija)?
-[ ] Onko lähteeseen anchor-linkki samaan virkkeeseen tai välittömästi sen jälkeen?
+[ ] Onko lähteeseen lähdelinkki samaan virkkeeseen tai välittömästi sen jälkeen?
 [ ] Onko väite tarkistettavissa annetussa lähteessä?
-[ ] Onko vältetty "minä suosittelen" / "minun kokemus" -framingia (paitsi jos pätevä)?
+[ ] Onko vältetty "minä suosittelen" / "minun kokemus" -näkökulmaa (paitsi jos pätevä)?
 [ ] Onko aikaleima viittauksessa (jos lähde voi muuttua: lakiteksti, lääkeohje)?
 [ ] Onko vastuuvapauslauseke kohdassa jossa väite voi muuttua tai jossa lukijan tilanne vaatii yksilöllistä arviota?
 ```
@@ -219,7 +219,7 @@ Erityisen riskialtis kategoria. AI saattaa tuottaa annosohjeen joka näyttää o
 
 "80 % ihmisistä", "joka kolmas suomalainen" ilman lähde-linkkiä. Joko on tutkimus jonka voi linkittää, tai luku poistetaan.
 
-### 5. Trademark-fraasien siteeraaminen ilman attribuointia
+### 5. Asiantuntijasuositusten siteeraaminen ilman attribuointia
 
 Esim. ammattijärjestön suositus jota ei attribuoida järjestölle. "Asiantuntijajärjestön mukaan..." on parempi kuin "asiantuntijat sanovat..."
 
@@ -229,12 +229,12 @@ YMYL-aiheet vaativat yleensä ammattikielistä tai virallista rekisteriä. Liian
 
 ---
 
-## Final-pass YMYL-tarkistus
+## YMYL-viimeistelytarkistus
 
 ```
 [ ] Jokainen väite jolla on lukijan päätökseen vaikuttava sisältö on attribuoitu nimettyyn lähteeseen
 [ ] Jokainen lähde on linkitetty
-[ ] Ei "minä suosittelen / kannattaa / sinun pitäisi" -framingia
+[ ] Ei "minä suosittelen / kannattaa / sinun pitäisi" -näkökulmaa
 [ ] Ei tilastoja tai lukuja ilman lähdettä
 [ ] Vastuuvapauslauseke on kerran sopivassa kohdassa jos aihe sitä vaatii
 [ ] Rekisteri sopii aiheen vakavuuteen

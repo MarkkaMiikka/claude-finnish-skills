@@ -162,7 +162,7 @@ AI-malli on usein oppinut, että "you" → "te" tuottaa kohteliaan tekstin. Täm
 
 ---
 
-## 6. Päätöspuukko
+## 6. Päätöspuu
 
 ```
 Käyttäjä antaa tekstin tai pyytää viestiä

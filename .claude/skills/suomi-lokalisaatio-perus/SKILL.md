@@ -20,7 +20,7 @@ Tämä skill on **ohjekirjasto**. Se ei korjaa tekstiä itse vaan tarjoaa muotoi
 | Konteksti | Muoto | Esimerkki |
 |---|---|---|
 | Lyhyt (UI, lomake, taulukko) | `pp.kk.vvvv` | `27.5.2026` |
-| Lyhyt nollalla (lomake jossa kiinteä leveys) | `pp.kk.vvvv` ilman nollia | `27.5.2026`, ei `27.05.2026` |
+| Ilman etunollia (suomalainen vakio) | `p.k.vvvv` ilman etunollia | `27.5.2026`, ei `27.05.2026` |
 | Tekstissä | sama lyhyt | `Tapaaminen on 27.5.2026.` |
 | Kalenterimainen | `pp. [kuukausi taivutettuna] vvvv` | `27. toukokuuta 2026` |
 | Viikonpäivän kanssa | `[viikonpäivä] pp. [kuukausi] vvvv` | `keskiviikko 27. toukokuuta 2026` |

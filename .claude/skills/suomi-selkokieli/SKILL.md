@@ -68,7 +68,7 @@ Käytä:
 - Lyhyet sanat
 - Suorat verbit (tehdä, antaa, ottaa)
 
-### 5. Konkretiat abstrakteiden sijaan
+### 5. Konkretia abstraktien sijaan
 
 | Abstrakti | Konkreettinen |
 |---|---|
@@ -82,7 +82,7 @@ Kappale ei sisällä useita aiheita. Yksi pääajatus, jota tukee 2–3 selittä
 
 ### 7. Looginen järjestys
 
-- Aika-järjestyksessä jos kuvataan prosessi (ensin tämä, sitten tämä, sitten tämä)
+- Aikajärjestyksessä jos kuvataan prosessi (ensin tämä, sitten tämä, sitten tämä)
 - Tärkein ensin, vähemmän tärkeä sitten
 - Yleinen ensin, yksityiskohdat sitten
 
@@ -145,7 +145,7 @@ Tunnista kuka tekee. Kirjoita siinä muodossa.
 - Otsikoita jokaiselle uudelle aiheelle
 - Listoja jos asioita on monta
 - Tyhjiä rivejä kappaleiden väliin
-- Tummennuksia avain-sanoille
+- Tummennuksia avainsanoille
 
 ### Vaihe 7 — Lue ääneen
 

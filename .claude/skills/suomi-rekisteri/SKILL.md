@@ -1,6 +1,6 @@
 ---
 name: suomi-rekisteri
-description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi — yleiskieli, ammattikieli, asiakaskieli, puhekieli — ja varmistaa että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaanikkaa (yhdyssanat, pilkutus) — käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]].
+description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi — yleiskieli, ammattikieli, asiakaskieli, puhekieli — ja varmistaa että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaniikkaa (yhdyssanat, pilkutus) — käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]].
 license: MIT
 ---
 
@@ -12,7 +12,7 @@ license: MIT
 
 Rekisteri on tekstin **kielellinen muotoilu** suhteessa lukijaan ja viestintätilanteeseen. Sama asiasisältö voidaan ilmaista eri rekistereissä, ja jokainen rekisteri viestii lukijalle erilaista suhdetta kirjoittajan ja kohteen välillä.
 
-Suomi käyttää neljää pää-rekisteriä:
+Suomi käyttää neljää päärekisteriä:
 
 1. **Virallinen / hallinnollinen** — viranomaisteksti, lait, asetukset, viralliset päätökset
 2. **Ammattikieli** — asiantuntijatyö, ammattijulkaisut, koulutus, raportointi
@@ -29,7 +29,7 @@ Toinen yleinen virhe: AI sekoittaa rekistereitä sattumanvaraisesti samassa teks
 
 ## Rekisterin tunnistustestit
 
-Per virke / kappale, kysy:
+Kysy jokaisesta virkkeestä tai kappaleesta:
 
 ### 1. Sanaston rekisterimerkki
 
@@ -97,7 +97,7 @@ Joillain teksteillä on legitiimi syy vaihtaa rekisteriä eri osioissa. Esim:
 | Tuotekuvauksen otsikko + ingressi | Ammattikieli |
 | Tuotekuvauksen "miten käytät" | Yleiskieli / asiakaskieli |
 | FAQ | Yleiskieli / asiakaskieli — vastaa lukijan kysymystä lukijan tasolla |
-| Käyttöehdot / privacy-osio | Virallinen (laillinen vaatimus) |
+| Käyttöehdot / tietosuojaseloste | Virallinen (laillinen vaatimus) |
 | Asiakaspalvelun chat-bot | Asiakaskieli, jopa puhekielisempi |
 | Blog-artikkeli | Ammattikieli + persoona |
 | Some-postaus | Puhekielisempi, vaihtelee kanavan mukaan |
@@ -106,10 +106,10 @@ Jos teksti on koko ajan yhdessä rekisterissä mutta sen pitäisi vaihdella → 
 
 ### Vaihe 4 — Korjaa
 
-Per rekisterirajoja rikkova kohta:
+Jokaisen rekisterirajaa rikkovan kohdan kohdalla:
 
-- Tunnista kohde-rekisteri
-- Kirjoita uudelleen kohde-rekisterissä
+- Tunnista kohderekisteri
+- Kirjoita uudelleen kohderekisterissä
 - Säilytä asiasisältö
 
 ---
@@ -178,8 +178,8 @@ Markkinointitekstissä äkillinen "te-muoto" vaihtaminen sinä-puhutteluun ja ta
 
 ```
 [ ] Kohde-rekisteri valittu ja kirjattu (virallinen / ammattikieli / yleiskieli / puhekieli)
-[ ] Sanasto kuuluu kohde-rekisteriin (ei "edellä mainittu" yleiskielessä, ei "tsekkaa" ammattikielessä)
-[ ] Virkerakenne sopii kohde-rekisteriin (pitkät vs lyhyet, passiivi vs aktiivi)
+[ ] Sanasto kuuluu kohderekisteriin (ei "edellä mainittu" yleiskielessä, ei "tsekkaa" ammattikielessä)
+[ ] Virkerakenne sopii kohderekisteriin (pitkät vs lyhyet, passiivi vs aktiivi)
 [ ] Puhuttelutapa johdonmukainen (sä/te/persoonaton — pidä yhtä koko teksti)
 [ ] Persoonan käyttö johdonmukainen (me/minä/passiivi — sekoittaminen ei satunnaista)
 [ ] Eri osiot (hero, FAQ, käyttöehdot, blogi) ovat omissa rekistereissään mutta jokainen osio on yhtenäinen

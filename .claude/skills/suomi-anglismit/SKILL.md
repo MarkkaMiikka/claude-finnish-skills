@@ -170,7 +170,7 @@ Per epäilty osuma: *"Kun käännän tämän englanniksi sanasta sanaan, kuulost
 - Vaihda raskaat yhdyssanat sanaliitoiksi tai genetiivirakenteiksi
 - Lyhennä — suomi on usein lyhyempi kuin englanninvastine
 
-### Vaihe 5 — final-pass
+### Vaihe 5 — viimeistelytarkistus
 Lue korjattu teksti ääneen. Jos lause kompastelee tai painottaa väärää sanaa, vielä yksi kierros.
 
 ---
@@ -182,7 +182,7 @@ Lue korjattu teksti ääneen. Jos lause kompastelee tai painottaa väärää san
 - **Ei tyylillistä editointia** (kappalerakenne, rytmi, lukijaystävällisyys)
 - **Ei suomen oikolukua sellaisenaan** — keskittyy vain käännöslaina-pattern-tunnistukseen
 
-Käytä rinnan muiden suomenkielisten skillien kanssa kun teet ison final-pass-tarkistuksen.
+Käytä rinnan muiden suomenkielisten skillien kanssa kun teet ison viimeistelytarkistuksen.
 
 ---
 
@@ -197,4 +197,4 @@ Selitys: [miksi tämä on käännöslaina — mihin englannin rakenteeseen viitt
 Korjaus: "[suomalainen vaihtoehto]"
 ```
 
-Yhteenveto lopussa: kuinka monta osumaa per pattern (1–7), top-3 toistuvat patternit clusterissa.
+Yhteenveto lopussa: kuinka monta osumaa per pattern (1–7), kolme yleisintä pattern-tyyppiä tekstissä.

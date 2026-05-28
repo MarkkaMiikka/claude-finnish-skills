@@ -296,7 +296,7 @@ Lisäksi olotila-sijat (eivät paikallissijoja, mutta usein samassa yhteydessä)
 - "Sopimuksessa allekirjoittaminen tapahtuu seuraavasti" → "Sopimuksen allekirjoittaminen tapahtuu seuraavasti" (genetiivi koska "allekirjoittaminen" on substantiivin attribuutti)
 - "Tähän projektiin kuuluu" → OK
 - "Tämän projektin osalta" → OK
-- "Tämän projektin kuulu" → "Tähän projektiin kuuluu" (verbin "kuulua" rektio on illatiivi, ei genetiivi)
+- "Tämän projektin kuuluu" → "Tähän projektiin kuuluu" (verbin "kuulua" rektio on illatiivi, ei genetiivi)
 
 #### 7.2.4 Postpositioiden rektio — yleisin AI-virhe
 

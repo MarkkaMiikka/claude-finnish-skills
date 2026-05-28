@@ -87,7 +87,7 @@ kiitos viestistä.
 ```
 Hei Aino,
 
-Kiitos viestistä. Olen palaava asiaan ensi viikolla.
+Kiitos viestistä. Palaan asiaan ensi viikolla.
 ```
 
 Kummatkin ovat hyväksyttäviä. Useimmat kirjoittajat aloittavat seuraavan rivin isolla, koska se aloittaa uuden virkkeen ja kappaleen.
@@ -309,7 +309,7 @@ Aino Esimerkki
 +358 40 000 0000
 ```
 
-### 7.5 Cold outreach -myyntiviesti
+### 7.5 Kylmä myyntiviesti (cold outreach)
 
 Lyhyt, henkilökohtainen, tarjoaa konkreettista arvoa. Ei myyntipuheita.
 
@@ -395,7 +395,7 @@ Esimerkki Oy
 
 - "Vastaan viestiin niin pian kuin mahdollista" — sano milloin oikeasti vastaat
 - Pitkät tarinat (`Olen viettämässä aikaa perheen kanssa Italiassa...`) — yksityistä, älä jaa
-- Englanninkielistä rinnakkaisversioita ilman tarvetta — jos suomi on pääkieli ja kontekstit ovat suomalaisia, suomi riittää
+- Englanninkielisiä rinnakkaisversioita ilman tarvetta — jos suomi on pääkieli ja kontekstit ovat suomalaisia, suomi riittää
 - "Have a great day!" -lopetusta
 
 ### 9.3 Lyhempi versio (kollegan kanssa)

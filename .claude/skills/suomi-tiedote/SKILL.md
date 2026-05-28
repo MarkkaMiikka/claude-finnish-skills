@@ -89,7 +89,7 @@ Toimitusjohtaja, Esimerkki Oy
 aino.esimerkki@example.fi
 ```
 
-### 1.7 Tausta-osa (yritysesittely / boilerplate)
+### 1.7 Tausta-osa (yritysesittely)
 
 Lehdistötiedotteen lopussa lyhyt yritysesittely, joka pysyy samana eri tiedotteissa. 2–4 virkettä.
 
@@ -103,7 +103,7 @@ Esimerkki Oy on vuonna 2017 perustettu suomalainen ohjelmistoyhtiö, joka kehitt
 
 ## 2. Sisäisen tiedotteen rakenne
 
-Sisäinen tiedote on **lyhyempi ja suorempi** kuin lehdistötiedote. Ei tarvita boilerplate-yritysesittelyä — vastaanottajat ovat jo organisaation jäseniä.
+Sisäinen tiedote on **lyhyempi ja suorempi** kuin lehdistötiedote. Ei tarvita yritysesittelyä — vastaanottajat ovat jo organisaation jäseniä.
 
 ### 2.1 Yleisrakenne
 
@@ -185,7 +185,7 @@ Suomalainen tiedotekulttuuri suosii **rauhallista, kuvailevaa** otsikkoa. Amerik
 ❌ "Vallankumouksellinen läpimurto mullistaa pk-yritysten arjen"
 ✅ "Esimerkki Oy lanseeraa kirjanpidon automaation"
 
-### 4.2 Liian montaa adjektiivia samassa virkkeessä
+### 4.2 Liian monta adjektiivia samassa virkkeessä
 
 ❌ "Esimerkki Oy julkaisi ainutlaatuisen, mullistavan ja ennennäkemättömän palvelun, joka tarjoaa erinomaista käyttäjäkokemusta."
 
@@ -207,7 +207,7 @@ AI-tuotettu sitaatti kuulostaa lähes aina samalta: "Olemme erittäin iloisia vo
 
 ✅ "Pk-yritysten kirjanpito on edelleen liian aikaa vievää. Esimerkki-palvelu hoitaa nyt 80 % rutiinista automaattisesti", sanoo Esimerkki Oy:n toimitusjohtaja Aino Esimerkki.
 
-### 4.5 Boilerplate ennen pääasiaa
+### 4.5 Yritysesittely ennen pääasiaa
 
 Tiedote ei aloita yritysesittelyllä. Ensimmäinen virke kertoo, mitä tapahtui.
 
@@ -322,7 +322,7 @@ Esimerkki Oy on vuonna 2017 perustettu suomalainen ohjelmistoyhtiö, joka kehitt
 [ ] Käänteinen pyramidi: tärkein ensin, taustat lopussa
 [ ] Sitaatti tunnistettavalta henkilöltä, virallinen titteli, max 2 virkettä
 [ ] Sitaatti kuulostaa ihmisen puhumalta, ei AI-fraasilta
-[ ] Yritysesittely (boilerplate) lehdistötiedotteessa lopussa, ei alussa
+[ ] Yritysesittely lehdistötiedotteessa lopussa, ei alussa
 [ ] Lisätietolohko: nimi, titteli, puhelin, sähköposti
 [ ] Päivämäärät [[suomi-lokalisaatio-perus]] -muodossa (27.5.2026)
 [ ] Numerot suomen muodossa (12 500 €, 25,5 %)

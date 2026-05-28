@@ -51,7 +51,7 @@ Initial release. Eight skills for Finnish text quality, plus an orchestrator tha
 
 **Orchestrator (recommended entry point):**
 
-- **suomi-tarkistuslista** — meta-skill that detects context, picks the right pipeline of sub-skills (A-F), runs them in correct order, and consolidates findings into one report. Removes the need to remember which skill to invoke when.
+- **suomi-tarkistuslista** — meta-skill that detects context, picks the right pipeline of sub-skills (A–F), runs them in correct order, and consolidates findings into one report. Removes the need to remember which skill to invoke when.
 
 **Universal text-quality skills:**
 

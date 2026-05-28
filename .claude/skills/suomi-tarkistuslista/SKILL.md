@@ -16,19 +16,19 @@ Tämä on **meta-skill**. Se ei itse korjaa tekstiä, vaan valitsee oikeat alask
 
 Suomi-* -skillit ovat kolmessa kategoriassa:
 
-**Yleiset cleanup-skillit (ajetaan lähes aina pipelinen lopussa):**
+**Yleiset puhdistus-skillit (ajetaan lähes aina pipelinen lopussa):**
 
 - `suomi-rekisteri` — määrittää kohderekisterin (vaikuttaa kaikkiin myöhempiin valintoihin)
-- `suomi-ei-ai-sloppia` — yleinen AI-pattern-puhdistus
+- `suomi-ei-ai-sloppia` — yleinen AI-kuvioiden puhdistus
 - `suomi-anglismit` — käännöslainojen puhdistus (kapeampi kuin ei-ai-sloppia)
 - `suomi-kielihuolto` — mekaniikka (yhdyssanat, pilkutus, sijamuodot, rektiot, erisnimien taivutus)
 
-**Kontekstuaaliset primary-skillit (konteksti-spesifinen vaihe pipelinen alussa, ennen cleanupia):**
+**Kontekstuaaliset pää-skillit (konteksti-spesifinen vaihe pipelinen alussa, ennen puhdistusvaihetta):**
 
 - `suomi-some-tyyli` — some-postaus (LinkedIn / Instagram / TikTok / Facebook)
 - `suomi-ymyl` — terveys, talous, lakiasiat, turvallisuus, ravitsemus, eläinten hoito, viranomaisasiat
 - `suomi-selkokieli` — selkokieliversio monimutkaisesta tekstistä
-- `suomi-sahkoposti` — yksittäinen sähköposti (asiakasviesti, B2B, sisäinen, cold outreach)
+- `suomi-sahkoposti` — yksittäinen sähköposti (asiakasviesti, B2B, sisäinen, kylmäkontaktiviesti)
 - `suomi-tarjous` — kaupallinen tarjous yritysasiakkaalle
 - `suomi-tiedote` — lehdistötiedote tai sisäinen tiedote
 - `suomi-uutiskirje` — email-uutiskirje
@@ -101,7 +101,7 @@ Jos kysymyksiin ei saa vastauksia, päättele tekstistä:
 
 ```
 1. [[suomi-rekisteri]]      — lukitse kohderekisteri
-2. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus
+2. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus
 3. [[suomi-anglismit]]      — käännöslainojen puhdistus
 4. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -112,7 +112,7 @@ Huom: yksittäiseen sähköpostiin käytä Pipeline G:tä, uutiskirjeeseen Pipel
 
 ```
 1. [[suomi-some-tyyli]]     — kanavakohtainen rakenne, pituus, rekisteri
-2. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus
+2. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus
 3. [[suomi-anglismit]]      — käännöslainojen puhdistus
 4. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -122,9 +122,9 @@ Huom: `suomi-rekisteri` skippautuu koska `suomi-some-tyyli` sisältää kanavako
 ### Pipeline C — YMYL-teksti (terveys, talous, oikeudet, turvallisuus jne.)
 
 ```
-1. [[suomi-ymyl]]           — journalist-position framing, lähteet, anchor-linkit
+1. [[suomi-ymyl]]           — journalisti-position näkökulma, lähteet, lähdelinkit
 2. [[suomi-rekisteri]]      — varmistaa että rekisteri sopii aiheen vakavuuteen
-3. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus
+3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus
 4. [[suomi-anglismit]]      — käännöslainojen puhdistus
 5. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -154,7 +154,7 @@ Huom: `suomi-ei-ai-sloppia` skippautuu yleensä — virallinen rekisteri sallii 
 ```
 1. [[suomi-hakemuspaketti]] — räätälöinti työpaikkailmoituksen mukaan, CV.md + Hakemuskirje.md
 2. [[suomi-rekisteri]]      — ammattikieli + henkilökohtainen sävy
-3. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus, erityisesti pattern 31 humble brag
+3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus, erityisesti pattern 31 humble brag
 4. [[suomi-anglismit]]      — käännöslainat (huom: säilytä alan vakiintuneet termit kuten "orgaaninen", "brieffata", "konversio")
 5. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -164,7 +164,7 @@ Huom: `suomi-ei-ai-sloppia` skippautuu yleensä — virallinen rekisteri sallii 
 ```
 1. [[suomi-sinuttelu-teitittely]] — konsultoiva, valitse puhuttelumuoto
 2. [[suomi-sahkoposti]]     — tervehdys, runko, lopetus, allekirjoitus
-3. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus, erityisesti chatbot-aloitukset
+3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus, erityisesti chatbot-aloitukset
 4. [[suomi-anglismit]]      — käännöslainojen puhdistus ("toivottavasti voit hyvin" jne.)
 5. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -175,7 +175,7 @@ Huom: `suomi-rekisteri` skippautuu yleensä — sähköposti-skill sisältää t
 
 ```
 1. [[suomi-tiedote]]        — rakenne, käänteinen pyramidi, sitaatit, lisätietolohko
-2. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus, erityisesti AI-sitaatit ja mahtailuretoriikka
+2. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus, erityisesti AI-sitaatit ja mahtailuretoriikka
 3. [[suomi-anglismit]]      — käännöslainojen puhdistus
 4. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -187,7 +187,7 @@ Huom: konsultoi `suomi-lokalisaatio-perus` -skilliä päivämäärien ja numeroi
 ```
 1. [[suomi-rekisteri]]      — ammattikieli, neutraali sävy
 2. [[suomi-tarjous]]        — rakenne, ALV-erottelu, maksuehdot, voimassaolo
-3. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus, erityisesti myyntipuheen karsinta
+3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus, erityisesti myyntipuheen karsinta
 4. [[suomi-anglismit]]      — käännöslainojen puhdistus
 5. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -199,7 +199,7 @@ Huom: konsultoi `suomi-lokalisaatio-perus` -skilliä hinnoittelun, ALV:n ja päi
 ```
 1. [[suomi-rekisteri]]      — asiakaskieli tai ammattikieli kohderyhmän mukaan
 2. [[suomi-uutiskirje]]     — otsikkorivi, preheader, sisältöblokit, CTA, peruutuslinkki
-3. [[suomi-ei-ai-sloppia]]  — yleinen AI-pattern -puhdistus, erityisesti kuulumisten kyselyt ja kolmiosalistat
+3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus, erityisesti kuulumisten kyselyt ja kolmiosalistat
 4. [[suomi-anglismit]]      — käännöslainojen puhdistus ("Mikä on uutta?" jne.)
 5. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -232,7 +232,7 @@ Vaihe N+1 — Käynnistä seuraava skill
 3. Konsolidoi yhdeksi korjaussetiksi
 4. Vasta sitten kirjoita lopullinen versio joka noudattaa kaikkia löydöksiä
 
-Poikkeus: jos teksti vaatii rakenteellisen muunnoksen (esim. selkokielistäminen, some-kanavakohtaistus, YMYL-framing), tee se ENSIN ja sitten aja mekaaniset tarkistukset puhdistetulle versiolle.
+Poikkeus: jos teksti vaatii rakenteellisen muunnoksen (esim. selkokielistäminen, some-kanavakohtaistus, YMYL-näkökulma), tee se ENSIN ja sitten aja mekaaniset tarkistukset puhdistetulle versiolle.
 
 ## VAIHE 3 — Löydösten konsolidointi
 
@@ -255,7 +255,7 @@ Kun kaikki pipelinen skillit on ajettu, konsolidoi löydökset:
 - [Löydös 1]
 - [Löydös 2]
 
-### AI-pattern -puhdistus ([[suomi-ei-ai-sloppia]])
+### AI-kuvioiden puhdistus ([[suomi-ei-ai-sloppia]])
 - Pattern X: [konkreettinen virke + korjausehdotus]
 - Pattern Y: [konkreettinen virke + korjausehdotus]
 
@@ -281,7 +281,7 @@ Kun kaikki pipelinen skillit on ajettu, konsolidoi löydökset:
 
 ## VAIHE 4 — Iterointi
 
-Jos itse-auditissa löytyi vielä AI-pattern -merkkejä:
+Jos itse-auditissa löytyi vielä AI-kuvio-merkkejä:
 
 1. Käy ne läpi
 2. Korjaa

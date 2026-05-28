@@ -40,11 +40,11 @@ Pura ilmoitus seuraaviin osiin:
 - **Kulttuurivinkit** — yrityksen tapa kirjoittaa (esim. "tiimimme on rento" → vältä yliformaali sävy)
 - **Pyydetyt liitteet** — joskus pyydetään palkkatoive, portfolio, suosittelijat
 
-### Vaihe 2: Mätsää hakijan tausta ilmoituksen kieleen
+### Vaihe 2: Sovita hakijan tausta ilmoituksen kieleen
 
-Käy hakijan tausta läpi ja **valitse** mitkä bulletit nousevat CV:n kärkeen. Älä yritä kertoa kaikkea — valitse 70 % sisällöstä joka mätsää ilmoitukseen.
+Käy hakijan tausta läpi ja **valitse** mitkä bulletit nousevat CV:n kärkeen. Älä yritä kertoa kaikkea — valitse 70 % sisällöstä joka vastaa ilmoitusta.
 
-Mätsäys tarkoittaa kahta asiaa:
+Vastaavuus tarkoittaa kahta asiaa:
 - **Sisältö vastaa** ilmoituksen vaatimuksiin
 - **Sanasto vastaa** ilmoituksen sanoja (jos ilmoituksessa "data-analytiikka", käytä sitä, älä "datatieteistä"-muotoa)
 
