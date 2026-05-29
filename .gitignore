@@ -1,6 +1,10 @@
 # Local-only notes
 CLAUDE.md
+AGENTS.md
 *_PLAN.md
+
+# Local-only agent working copies (Codex mirror of .claude/skills)
+.agents/
 
 # Editor / OS noise
 .DS_Store

@@ -74,7 +74,7 @@ Sitaatti **tunnistettavalta henkilöltä virallisella tittelillä**. Pituus enin
 - "Tämä on todella merkittävä askel..."
 - Yli 3 virkettä
 - Mahtailuretoriikkaa ("pohjimmiltaan", "todellisuudessa")
-- Sitaatit jotka eivät kuulosta ihmisen puhumalta
+- Sitaatit, jotka eivät kuulosta ihmisen puhumalta
 
 ### 1.6 Lisätietolohko
 

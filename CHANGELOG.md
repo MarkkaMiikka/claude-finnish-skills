@@ -10,7 +10,7 @@ Second release. Seven new skills covering Finnish business documents (email, app
 
 - **suomi-sahkoposti** — Finnish email conventions: greeting hierarchy (`Hei [Etunimi]` / `Hyvä [Titteli]`), request forms (`Voitko` / `Voisitko` / `Voisitteko`), endings (`Ystävällisin terveisin` / `Terveisin`), signature block, out-of-office. Five categories (B2B, B2C, internal, authority, cold outreach) with example emails.
 - **suomi-hakemuspaketti** — tailored Finnish CV + cover letter for a specific job posting, output as markdown (CV.md + Hakemuskirje.md) with Pandoc/Google Docs conversion instructions. Bullet convention: concrete action + measured outcome. Avoids "Olen erittäin kiinnostunut" -opening and similar AI tells.
-- **suomi-tarjous** — Finnish commercial proposal: required elements (Y-tunnus, ALV split, payment terms, validity), B2B vs B2C pricing, standard contract reference (KSE 2018, IT2018), scope-in/scope-out separation. Does not provide legal advice — refers to Asianajajaliitto for contract clauses.
+- **suomi-tarjous** — Finnish commercial proposal: required elements (Y-tunnus, ALV split, payment terms, validity), B2B vs B2C pricing, standard contract reference (KSE 2013, IT2022), scope-in/scope-out separation. Does not provide legal advice — refers to Asianajajaliitto for contract clauses.
 - **suomi-tiedote** — Finnish press release and internal announcement: inverted pyramid, 1–3-sentence ingressi, quote conventions (max 2 sentences, no "Olemme erittäin iloisia..."), boilerplate placement at end. Covers five sub-types (launch, financials, personnel, change, crisis).
 - **suomi-uutiskirje** — Finnish email newsletter: subject line (35–50 chars), preheader (80–130 chars, complements not repeats), CTA conventions (`Lue lisää` not `Klikkaa tästä`), mandatory unsubscribe link, P.S. used selectively not mechanically.
 
@@ -63,7 +63,7 @@ Initial release. Eight skills for Finnish text quality, plus an orchestrator tha
 **Context-specific skills:**
 
 - **suomi-some-tyyli** — channel-specific Finnish social media style for LinkedIn, Instagram, TikTok, Facebook
-- **suomi-ymyl** — YMYL (Your Money or Your Life) content rules in Finnish, journalist-position framing with anchor-linked sources
+- **suomi-ymyl** — YMYL (Your Money or Your Life) content rules in Finnish, journalistic framing with authoritative source links
 - **suomi-selkokieli** — Finnish plain-language conversion following Selkokeskuksen guidelines
 
 ### Six pipelines covered by orchestrator

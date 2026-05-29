@@ -1,6 +1,6 @@
 ---
 name: suomi-some-tyyli
-description: Kirjoita suomenkielisiä some-postauksia kanavakohtaisilla mikrorekistereillä. Käytä kun käyttäjä sanoo "tee LinkedIn-postaus", "kirjoita Instagram-caption", "TikTok-hook", "Facebook-postaus", "tee multi-channel some", "samaan viestiin eri kanavaversiot", tai antaa raakaviestin joka pitäisi muotoilla kanavakohtaisesti. Skill tunnistaa että LinkedIn, Instagram, TikTok ja Facebook ovat omia mikrorekisterejään suomeksi — yhden geneerisen some-version kirjoittaminen ei toimi. Tuottaa per-kanava -versiot oikealla pituudella, sävyllä, rakenteella ja CTA-konventiolla. Käytä rinnan [[suomi-ei-ai-sloppia]] -humanisointi-skillin ja [[suomi-kielihuolto]] -mekaniikkaskillin kanssa final-passissa.
+description: Kirjoita suomenkielisiä some-postauksia kanavakohtaisilla mikrorekistereillä. Käytä kun käyttäjä sanoo "tee LinkedIn-postaus", "kirjoita Instagram-caption", "TikTok-hook", "Facebook-postaus", "tee multi-channel some", "samaan viestiin eri kanavaversiot", tai antaa raakaviestin, joka pitäisi muotoilla kanavakohtaisesti. Skill tunnistaa, että LinkedIn, Instagram, TikTok ja Facebook ovat omia mikrorekisterejään suomeksi — yhden geneerisen some-version kirjoittaminen ei toimi. Tuottaa per-kanava -versiot oikealla pituudella, sävyllä, rakenteella ja CTA-konventiolla. Käytä rinnan [[suomi-ei-ai-sloppia]] -humanisointi-skillin ja [[suomi-kielihuolto]] -mekaniikkaskillin kanssa final-passissa.
 license: MIT
 ---
 
@@ -30,9 +30,9 @@ Jokaisella kanavalla on:
 **Pituus:** 800–1300 merkkiä (näytetään ilman "näytä lisää" -klikkausta noin 200 merkkiä, joten alkupään pitää koukuttaa).
 
 **Hook (ensimmäinen rivi):**
-- Kysymys joka aktivoi tunnistamisen ("Mietitkö joskus, miksi...")
+- Kysymys, joka aktivoi tunnistamisen ("Mietitkö joskus, miksi...")
 - Oivallus tai kontraindikaatio ("Markkinointitiimit luulevat että X. Se ei ole totta.")
-- Henkilökohtainen tarinan alku ("Eilen tein virheen jonka maksoin myöhemmin.")
+- Henkilökohtainen tarinan alku ("Eilen tein virheen, jonka maksoin myöhemmin.")
 - Konkreettinen numero alussa ("Käytin viikossa 18 tuntia raporttiin, jonka kukaan ei lukenut.")
 
 **Rakenne:**
@@ -51,7 +51,7 @@ Jokaisella kanavalla on:
 
 **Hashtagit:** Suomessa hashtagien arvo LinkedInissä on laskenut — 0–3 olennaista tagia loppuun. Älä laita 10. Älä laita yhtä hashtagia per rivi.
 
-**CTA:** Ei "kommentoi 🚀-emojilla" -tyyppisiä. Avoin kysymys joka kutsuu keskusteluun ("Miten teidän tiimissä tämä on ratkaistu?").
+**CTA:** Ei "kommentoi 🚀-emojilla" -tyyppisiä. Avoin kysymys, joka kutsuu keskusteluun ("Miten teidän tiimissä tämä on ratkaistu?").
 
 **Vältä LinkedInissä:**
 - 🚀💡✅-emojien yliannostus
@@ -97,9 +97,9 @@ Jokaisella kanavalla on:
 **Rakenne:**
 
 ```
-[Caption: 1 lyhyt rivi joka tukee videon hookia tai kontekstoi sen]
+[Caption: 1 lyhyt rivi, joka tukee videon hookia tai kontekstoi sen]
 [Tyhjä rivi]
-[CTA: 1 lause joka kutsuu sitoutumaan — kommentti, seuraaminen, tallennus]
+[CTA: 1 lause, joka kutsuu sitoutumaan — kommentti, seuraaminen, tallennus]
 [Tyhjä rivi]
 [Hashtagit: 3–6 olennaista, ei spämmiä]
 ```
@@ -187,14 +187,14 @@ Lopputulos: kokouksia 3 tuntia per päivä. Niistä 40 % olisi pystytty hoitamaa
 Tämä ei ole uutta — kaikki tietävät että kokouksia on liikaa. Mutta numero tekee siitä konkreettista:
 
 — 15 tuntia viikossa kokouksissa
-— 6 tuntia viikossa kokouksissa jotka eivät tarvinneet kokousta
+— 6 tuntia viikossa kokouksissa, jotka eivät tarvinneet kokousta
 — Yksi työpäivä, jolla olisin tehnyt todellista työtä
 
-Kolme muutosta jotka teen ensi viikolla:
+Kolme muutosta, jotka teen ensi viikolla:
 
 1. Oletus uusiin kokouspyyntöihin: "Voiko tämän hoitaa sähköpostilla?"
-2. 15 min kokoukset 30 min sijasta paikkalla missä mahdollista
-3. Ei tiistain kokouksia ennen klo 13:00 — aamupäivä syvä työpäivä
+2. 15 minuutin kokoukset 30 minuutin sijaan aina kun mahdollista
+3. Ei tiistain kokouksia ennen klo 13.00 — aamupäivä syvä työpäivä
 
 Onko teidän tiimissä tehty samaa harjoitusta? Mitä tuli ilmi?
 ```
@@ -214,7 +214,7 @@ Tallenna myöhempää varten. Kerro kommenteissa: missä SINUN aika menee?
 ### TikTok-versio (caption, oletus että video sisältää itse keskeisen)
 
 ```
-Pidin kirjaa kokouksistani viikon. Numero jonka huomasin: 40 %.
+Pidin kirjaa kokouksistani viikon. Numero, jonka huomasin: 40 %.
 
 Kommentoi alle: oletko itse mitannut?
 

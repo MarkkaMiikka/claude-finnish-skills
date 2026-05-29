@@ -174,12 +174,14 @@ Suomessa desimaalierotin on pilkku, EI piste:
 ### 4.2 Pisteettömät
 
 - Sisälyhenteet, joissa sanan loppu mukana: nro, tri
-- Isokirjainlyhenteet: EU, YK, YLE, KELA
+- Isokirjainlyhenteet: EU, YK
+- Organisaationimet, joita ei nykykäytössä kirjoiteta isokirjainlyhenteinä: Yle, Kela
 - Mittayksiköt: kg, km, m, cm, l, dl, h, min, s
 
 ### 4.3 Lyhenteiden taivutus
 
-- Isokirjainlyhenteisiin pääte kaksoispisteellä: EU:n, YK:ssa, KELA:n
+- Isokirjainlyhenteisiin pääte kaksoispisteellä: EU:n, YK:ssa
+- Yle ja Kela taipuvat suoraan: Ylen, Ylessä, Kelan, Kelassa
 - Pieniin kirjainlyhenteisiin pääte suoraan: kg:n, km:llä
 - Pisteellisiä lyhenteitä ei taivuteta
 
@@ -244,7 +246,7 @@ Suomessa desimaalierotin on pilkku, EI piste:
 
 ### 7.2 Sijamuodot — partitiivi, akkusatiivi, genetiivi
 
-Sijamuodot ovat suomen kielen perustana ja AI-tekstissä toistuva virhealue. Tunne kolme yleisintä joiden välillä AI tekee sekaannuksia.
+Sijamuodot ovat suomen kielen perustana ja AI-tekstissä toistuva virhealue. Tunne kolme yleisintä, joiden välillä AI tekee sekaannuksia.
 
 #### 7.2.1 Partitiivi vs. akkusatiivi objektissa
 
@@ -338,10 +340,10 @@ Eri verbeillä on tietyt sijavaatimukset niiden objektille tai täydennykselle. 
 | **suostua** | illatiivi | "Suostun tähän ehtoon." |
 | **kieltäytyä** | elatiivi | "Kieltäydyn tästä." |
 | **kysyä** | elatiivi tai ablatiivi | "Kysyn asiakkaalta" (henkilöltä) tai "kysyn asiasta" (aiheesta) |
-| **vastata** | illatiivi tai partitiivi | "Vastaan kysymykseen" (= mihin) tai "vastaan tästä" (= mistä vastuussa) |
-| **opettaa** | partitiivi (objekti) + illatiivi (oppiainetta) | "Opetan oppilaita matematiikkaan." |
-| **muistaa** | partitiivi | "Muistan sen tapaamisen hyvin." |
-| **unohtaa** | akkusatiivi (totaalinen) tai partitiivi (osittainen) | "Unohdin avaimen" (totaalisesti) tai "unohdin nimeä" (en muistanut hetkeen) |
+| **vastata** | illatiivi tai elatiivi | "Vastaan kysymykseen" (= mihin) tai "vastaan tästä projektista" (= mistä olen vastuussa) |
+| **opettaa** | objektina henkilöä/ryhmää tai allatiivi + opetettava asia partitiivissa | "Opetan oppilaita" / "Opetan oppilaille matematiikkaa." |
+| **muistaa** | kokonaisobjekti tai partitiivi merkityksen mukaan | "Muistan sen tapaamisen hyvin." / "Muistan tapaamista hämärästi." |
+| **unohtaa** | kokonaisobjekti tai partitiivi merkityksen mukaan | "Unohdin avaimen." / "Unohdin nimen hetkeksi." |
 
 #### 7.3.2 Erityisen huijaavia rektioita
 
@@ -382,7 +384,7 @@ Huom: Joillakin paikkakunnilla on perinteisesti ulkopaikallissijat (-lla/-lta/-l
 
 Vieraskielisillä paikannimillä ja brändeillä on kaksi vaihtoehtoa:
 
-**A. Suora taivutus** (suositeltava kun sana päättyy konsonanttiin tai vokaaliin joka sopii suomen rakenteeseen):
+**A. Suora taivutus** (suositeltava kun sana päättyy konsonanttiin tai vokaaliin, joka sopii suomen rakenteeseen):
 
 - New York → New Yorkissa, New Yorkista, New Yorkiin
 - Berlin → Berliinissä, Berliinistä, Berliiniin (vakiintunut suomalainen muoto)
@@ -391,15 +393,13 @@ Vieraskielisillä paikannimillä ja brändeillä on kaksi vaihtoehtoa:
 - Tokio → Tokiossa
 - Kalifornia → Kaliforniassa
 
-**B. Kaksoispiste-erotin** (käytetään kun taivutus muuten näyttäisi epäselvältä, sana on outo, tai kyse on lyhenteestä):
+**B. Kaksoispiste-erotin** (vain kun suora taivutus näyttäisi epäselvältä tai kyse on lyhenteestä):
 
-- LinkedIn:ssä (kun selkeämpi taivutus on outo)
-- Skype:ssä (sopii)
-- Excel:issä, tai Excelissä (molemmat hyväksyttyjä)
-- TikTok:issa tai TikTokissa (molemmat hyväksyttyjä)
-- Slack:issa tai Slackissa
+- Lyhenteet: EU:n, YK:ssa, EKP:n
+- Nimet, jotka päättyvät äännettäessä eri tavalla kuin kirjoitettaessa: Bordeaux'ssa (ääntyy "bordoo")
+- Digipalvelujen nimet taipuvat sen sijaan suoraan, älä käytä niissä kaksoispistettä: LinkedInissä, Skypessä, Excelissä, TikTokissa, Slackissa
 
-**Tärkeä sääntö:** valitse yksi tapa ja pidä se yhtenäisenä tekstin sisällä. AI:n yleisin virhe on **vaihdella** tekstin sisällä: "LinkedIn:ssä" yhdessä virkkeessä, "LinkedInissä" toisessa, "LinkedIn:issä" kolmannessa.
+**Tärkeä sääntö:** valitse yksi tapa ja pidä se yhtenäisenä tekstin sisällä. AI:n yleisin virhe on **vaihdella** tekstin sisällä: "LinkedInissä" yhdessä virkkeessä, "LinkedIn:ssä" toisessa, "LinkedIn:issä" kolmannessa — käytä johdonmukaisesti suoraa muotoa "LinkedInissä".
 
 #### 7.4.3 Brändien ja palveluiden taivutus
 
@@ -463,10 +463,11 @@ Suomen passiivi on yleistävä:
 
 ### 8.1 Lainausmerkit
 
-- Ensisijaisesti: ”lainaus” (ala- ja yläpuoliset kaksoisheittomerkit U+201D)
+- Ensisijaisesti suomenkielisessä viimeistellyssä tekstissä: ”lainaus” eli kaarevat kokolainausmerkit (U+201D), sama merkki alussa ja lopussa
 - Toissijaisesti sisäkkäisenä: ’lainaus lainauksen sisällä’
 - EI kulmikkaita »näin» (ruotsin malli)
-- Suorat "tikkuheittomerkit" yleisiä digitaalisissa teksteissä, hyväksyttäviä
+- Digitaalisessa raakatekstissä suorat "lainausmerkit" ovat usein hyväksyttäviä
+- Älä sekoita samassa tekstissä suoria, suomalaisia kaarevia ja englannin erimuotoisia alku- ja loppulainausmerkkejä
 
 ### 8.2 Heittomerkki sanan sisällä
 

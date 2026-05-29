@@ -24,7 +24,7 @@ Kun saat tekstin humanisoitavaksi:
 3. **Säilytä merkitys** — ydinviesti pysyy ennallaan
 4. **Säilytä äänensävy** — virallinen, rento, tekninen — pidä sama rekisteri
 5. **Lisää sielu** — älä vain poista pahoja kuvioita; lisää persoonaa
-6. **Tee anti-AI -tarkistus lopuksi:** "Mikä alla olevassa on edelleen ilmiselvästi AI-tuotettua?" Vastaa lyhyesti, korjaa, esitä lopullinen.
+6. **Tee AI-jäljen tarkistus lopuksi:** "Mikä alla olevassa on edelleen ilmiselvästi AI-tuotettua?" Vastaa lyhyesti, korjaa, esitä lopullinen.
 
 ---
 
@@ -103,7 +103,7 @@ AI-fraasien poistaminen on vain puolet työstä. Sieluton, neutraali teksti on y
 **Ongelma:** Hakkaa lukijaa päähän maineella ilman sisältöä.
 
 **Ennen:**
-> Hänen näkemyksiään on siteerattu Hesarissa, YLE:llä, Talouselämässä ja Kauppalehdessä. Hän on aktiivinen Twitterissä yli 50 000 seuraajan kanssa.
+> Hänen näkemyksiään on siteerattu Hesarissa, Ylellä, Talouselämässä ja Kauppalehdessä. Hän on aktiivinen Twitterissä yli 50 000 seuraajan kanssa.
 
 **Jälkeen:**
 > Hesarin 2024 haastattelussa hän esitti, että pankkien sääntelyn pitäisi keskittyä asiakkaan suojaan teknisten yksityiskohtien sijaan.
@@ -343,11 +343,11 @@ Huom: tekstissä saa olla ajatusviivoja — mutta ei joka virkkeessä.
 
 ---
 
-### 19. Kaarevat lainausmerkit ("smart quotes")
+### 19. Lainausmerkkimallien sekoittaminen
 
-**Ongelma:** ChatGPT vaihtaa suoria lainausmerkkejä kaareviin.
+**Ongelma:** AI-teksti sekoittaa eri lainausmerkkimalleja samassa tekstissä: suoria "tikkumerkkejä", suomalaisia kaarevia ”kokolainausmerkkejä” ja englannin erimuotoisia alku- ja loppulainausmerkkejä.
 
-Suomessa ensisijaisesti ”näin” (Unicode-merkit U+201D), mutta suorat "näin" ovat hyväksyttäviä digitaalisissa teksteissä. Älä sekoita malleja samassa tekstissä.
+Suomessa ensisijainen on kaareva ”näin” (sama merkki U+201D alussa ja lopussa), mutta suorat "näin" ovat hyväksyttäviä digitaalisissa teksteissä. Valitse yksi malli ja pidä se yhtenäisenä koko tekstissä.
 
 ---
 
@@ -400,7 +400,7 @@ Suomessa ensisijaisesti ”näin” (Unicode-merkit U+201D), mutta suorat "näin
 | "tällä hetkellä" | "nyt" |
 | "siltä varalta, että tarvitset apua" | "jos tarvitset apua" |
 | "järjestelmällä on kyky käsitellä" | "järjestelmä käsittelee" |
-| "on tärkeää huomata, että data näyttää" | "data näyttää" |
+| "on tärkeää huomata, että luvut osoittavat" | "luvut osoittavat" |
 | "siinä mielessä, että" | (poista, tai "koska", "siten että") |
 | "tämän myötä" | "näin", "siksi" |
 | "ottaen huomioon sen, että" | "koska" |
@@ -454,7 +454,7 @@ Tämä on suomen erityispiirre. AI-suomi on usein piilo-englantia.
 
 ---
 
-### 27. Mahtailuretoriikan trooppit
+### 27. Mahtailuretoriikan troopit
 
 **Vältä:** "pohjimmiltaan...", "todellisuudessa...", "syvällä tasolla...", "ytimessä on...", "todellinen kysymys on...", "merkityksellistä on..."
 
@@ -573,7 +573,7 @@ AI ei käytä tätä painotustapaa, vaan kirjoittaa kaiken neutraalissa SVO-jär
 Kun epäilet käännöksenmakuista virkettä, kysy:
 
 1. **Olisinko sanonut tämän näin spontaanisti?** Jos virke kuulostaa siltä että sitä on käännetty, se on ollut.
-2. **Onko aikamääre tai paikka-määre väärässä päässä?** Englannissa ne ovat usein lopussa ("...last week"). Suomessa ne ovat useammin alussa.
+2. **Onko aikamääre tai paikanmääre väärässä päässä?** Englannissa ne ovat usein lopussa ("...last week"). Suomessa ne ovat useammin alussa.
 3. **Onko pitkä raskas osa alussa?** Suomessa raskaat osat painottuvat loppuun.
 4. **Onko subjekti–verbi–objekti -mekaanisuudella jokin syy?** Jos ei, harkitse uudelleenjärjestelyä.
 
@@ -583,7 +583,7 @@ Kun epäilet käännöksenmakuista virkettä, kysy:
 [ ] Onko teema ennen reemaa?
 [ ] Onko uusi tieto virkkeen lopussa?
 [ ] Onko raskas osa virkkeen lopussa, ei alussa?
-[ ] Onko aikamääre tai paikka-määre oikeassa kohdassa (yleensä alussa kontekstina)?
+[ ] Onko aikamääre tai paikanmääre oikeassa kohdassa (yleensä alussa kontekstina)?
 [ ] Sopisiko korostus paremmin nostamalla jokin elementti alkuun?
 [ ] Onko virke väärin painotettu kontekstiinsa nähden?
 ```
@@ -592,7 +592,7 @@ Kun epäilet käännöksenmakuista virkettä, kysy:
 
 ### 31. Suomalainen humble brag — myynti- ja viestintäkulttuurin sävy
 
-AI-treenidata on noin 95 % englantia, suurelta osin amerikkalaista. Amerikkalainen myynti- ja viestintäkulttuuri palkitsee **yliampuvaa** kuvausta: "best in class", "industry-leading", "revolutionary". Suomalainen kulttuuri palkitsee **aliarvioivaa raportointia** — humble brag, kun anglosaksinen kollega olisi liioitellut.
+Suuri osa yleiskäyttöisten kielimallien koulutusaineistosta on englanninkielistä, suurelta osin amerikkalaista. Amerikkalainen myynti- ja viestintäkulttuuri palkitsee **yliampuvaa** kuvausta: "best in class", "industry-leading", "revolutionary". Suomalainen kulttuuri palkitsee **aliarvioivaa raportointia** — humble brag, kun anglosaksinen kollega olisi liioitellut.
 
 AI kääntää amerikkalaisen sävyn suoraan suomeksi, mikä tuottaa kulttuurisesti väärän tuntuisen tekstin.
 
@@ -624,13 +624,13 @@ Numerot tekevät väittämästä konkreettisen. Yliampuvat adjektiivit eivät ku
 
 (Vältä: "Tämä osoittaa sitoutumistamme asiakkaaseen". Lukija päättelee itse.)
 
-#### 31.3 Yliampuvat sanat joita amerikkalaisesta vetää suomalaiseen — vältä
+#### 31.3 Yliampuvat sanat, joita amerikkalaisesta vetää suomalaiseen — vältä
 
-| Yliampuva (käännöslainas) | Suomalainen vaihtoehto |
+| Yliampuva (käännöslaina) | Suomalainen vaihtoehto |
 |---|---|
 | "ainutlaatuinen" | konkreettinen kuvaus mikä on erilaista |
 | "vertaansa vailla" | numero tai vertailu konkreettisesti |
-| "huipputasoinen" | mittari joka todistaa tason |
+| "huipputasoinen" | mittari, joka todistaa tason |
 | "intohimoinen tiimi" | "tiimi jolla on 5+ vuoden kokemus" |
 | "sitoutunut asiakkaisiin" | esimerkki sitoutumisesta |
 | "alan ehdoton ykkönen" | konkreettinen mittari (markkinaosuus, asiakasmäärä) |
@@ -655,7 +655,7 @@ Tärkeä erotus: humble brag ei tarkoita että aliarvioit työsi tai vähätelet
 
 #### 31.5 Korjauksen testit
 
-Per virke (etenkin markkinointi-, esittely- ja hakemustekstissä):
+Virkkeittäin (etenkin markkinointi-, esittely- ja hakemustekstissä):
 
 ```
 [ ] Onko adjektiivi konkreettisen sijasta abstrakti? ("ainutlaatuinen", "huipputasoinen") → vaihda numeroon tai esimerkkiin
@@ -734,7 +734,7 @@ Anna:
 > Käytettävissä olevien tietojen perusteella Esimerkki Oy on merkittävä toimija. Haasteista huolimatta — kuten kanavien pirstaloituminen ja kuluttajan tavoitettavuus — tulevaisuus näyttää valoisalta. Yhdessä kuljemme kohti yhä parempaa markkinointia.
 
 **Luonnosversio (humanisoitu):**
-> Hain Esimerkki Oy:n markkinointiasiantuntijan paikkaa, koska teette juuri sitä asiakaskuntaa, jota olen oppinut palvelemaan kahden edellisen vuoden aikana. Käytännön työ on tuttua: tein keväällä asiakaskampanjan jossa liidikonversio nousi 22 % ja paransin samalla raportoinnin selkeyttä. Numerot mainoslaitureissa, ei diaesityksessä.
+> Hain Esimerkki Oy:n markkinointiasiantuntijan paikkaa, koska teette juuri sitä asiakaskuntaa, jota olen oppinut palvelemaan kahden edellisen vuoden aikana. Käytännön työ on tuttua: tein keväällä asiakaskampanjan, jossa liidikonversio nousi 22 % ja paransin samalla raportoinnin selkeyttä. Numerot mainosalustoissa, ei diaesityksessä.
 >
 > Aiemmin tein hallinnollisia tehtäviä toimistossa ja opin siellä, että hyvä brief säästää viikon työtä. Sitä taitoa haluan tuoda Esimerkki Oy:lle. Tunnen Looker Studion, LinkedIn-mainosverkon perustyökalut ja kampanjarakentamisen kärsivällisyyden.
 >
@@ -742,7 +742,7 @@ Anna:
 
 **Mikä yllä olevassa on edelleen AI-makuista:**
 - "Juuri sitä asiakaskuntaa" on lähellä klisettä
-- "Numerot mainoslaitureissa, ei diaesityksessä" — yritetty särmä mutta vähän temppua
+- "Numerot mainosalustoissa, ei diaesityksessä" — yritetty särmä mutta vähän temppua
 - Kolmas kappale on lyhyt mutta kysymys ("Sopiiko keskustella tarkemmin?") on kliseinen
 
 **Tee siitä vielä vähemmän AI:**
@@ -751,10 +751,10 @@ Anna:
 > Sitä ennen toimisto opetti, että hyvä brief säästää viikon. Sitä taitoa pyrin tuomaan mukaan. Looker Studio, LinkedIn Campaign Manager ja kampanjarakentaminen ovat työkalupakkini perusteita.
 
 **Muutokset:**
-- Poistettu chatbot-aukaisu, mainosmainen kielenkäyttö, mahtailuretoriikka
+- Poistettu chatbot-avaus, mainosmainen kielenkäyttö, mahtailuretoriikka
 - Poistettu kolmiosa-listat ja "ei pelkästään X, vaan Y"
 - Poistettu "-en"-loppuiset varjoanalyysit
-- Poistettu generic-loppulause ja haasteet-osio
+- Poistettu geneerinen loppulause ja haasteet-osio
 - Tuotu konkretiat etusijalle (kvartaali, 22 %, LinkedIn-kampanja)
 - Vähennetty "edistää"-tyyppisiä AI-verbejä
 - Vaihdettu rytmiä: lyhyitä ja pitempiä virkkeitä sekaisin

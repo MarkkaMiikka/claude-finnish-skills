@@ -138,22 +138,22 @@ Vakaa välilyönti (`&nbsp;` HTML:ssä, ` ` koodissa) estää rivin katkeamisen
 
 **Älä kirjoita:** `€12,50` (englanti-tyyli), `12,50EUR` (ilman välilyöntiä), `12,50 e`.
 
-### 4.2 Alv (arvonlisävero) erottelu
+### 4.2 ALV-erottelu
 
-Suomessa yleinen alv on 25,5 % (alkaen 1.9.2024). Aiemmin 24 %. Tarkista voimassa oleva taso.
+Suomessa yleinen ALV (arvonlisävero) on 25,5 % (alkaen 1.9.2024). Aiemmin 24 %. Tarkista voimassa oleva taso.
 
-**B2C-hinnoittelu** (kuluttaja-asiakkaat): hinta sisältää alv:n. Mainoksissa ja hinnastoissa loppuhinta riittää, mutta erottelu lisää selkeyttä.
+**B2C-hinnoittelu** (kuluttaja-asiakkaat): hinta sisältää ALV:n. Mainoksissa ja hinnastoissa loppuhinta riittää, mutta erottelu lisää selkeyttä.
 
 ```
 Tuote: 125,50 €
-(sis. alv 25,5 %)
+(sis. ALV 25,5 %)
 ```
 
-**B2B-hinnoittelu** (yritysasiakkaat): hinta ilmoitetaan ilman alv:tä, alv eritellään.
+**B2B-hinnoittelu** (yritysasiakkaat): hinta ilmoitetaan ilman ALV:tä, ALV eritellään.
 
 ```
-Konsultointi:       100,00 €/h (alv 0 %)
-Alv 25,5 %:          25,50 €
+Konsultointi:       100,00 €/h (ALV 0 %)
+ALV 25,5 %:          25,50 €
 Yhteensä:           125,50 €
 ```
 
@@ -310,7 +310,7 @@ Käytä tätä kun viimeistelet suomenkielistä tekstiä, jossa on numeerista ta
 [ ] Desimaali pilkulla (12,5 — ei 12.5)
 [ ] Tuhaterotin välilyönnillä (1 234 — ei 1,234)
 [ ] Välilyönti luvun ja yksikön välissä (25 %, 12,50 €, 25 °C)
-[ ] Alv eritelty B2B-hinnoissa
+[ ] ALV eritelty B2B-hinnoissa
 [ ] Postinumero ennen kaupunkia, ilman pilkkua
 [ ] Puhelinnumero ilman sulkeita suuntanumeron ympärillä
 [ ] Alle 10 luvut sanoin yleisessä tekstissä

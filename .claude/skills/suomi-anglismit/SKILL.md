@@ -1,6 +1,6 @@
 ---
 name: suomi-anglismit
-description: Etsi ja korjaa suoraan englannista käännettyjä sanoja ja rakenteita suomenkielisestä tekstistä. Käytä kun viimeistelet julkaistavaa suomenkielistä sisältöä ja epäilet käännöslainoja, kun käyttäjä sanoo "kuulostaa englannilta", "AI-makuinen sana", "outo yhdyssana", "tämä ei kuulosta suomelta", "tarkista anglismit", "X-laina-sana", tai kun teet final-passin suomenkieliselle markkinointikopiolle, blogiartikkelille, sivuston sisällölle, hakemuksille tai some-julkaisuille. Spesifimpi kuin [[suomi-ei-ai-sloppia]] joka kattaa koko AI-slop-listan — tämä keskittyy vain käännöslainoihin ja anglismeihin. Aktivoituu erityisesti yhdyssanojen kohdalla joiden alkuosa on erisnimi/lyhenne + jälkimerkitysosa joka näyttää suoralta käännökseltä englannista (esim. "Helsinki-pohjainen", "eläinlaina", "lähde-stack").
+description: Etsi ja korjaa suoraan englannista käännettyjä sanoja ja rakenteita suomenkielisestä tekstistä. Käytä kun viimeistelet julkaistavaa suomenkielistä sisältöä ja epäilet käännöslainoja, kun käyttäjä sanoo "kuulostaa englannilta", "AI-makuinen sana", "outo yhdyssana", "tämä ei kuulosta suomelta", "tarkista anglismit", "X-laina-sana", tai kun teet final-passin suomenkieliselle markkinointikopiolle, blogiartikkelille, sivuston sisällölle, hakemuksille tai some-julkaisuille. Spesifimpi kuin [[suomi-ei-ai-sloppia]] joka kattaa koko AI-slop-listan — tämä keskittyy vain käännöslainoihin ja anglismeihin. Aktivoituu erityisesti yhdyssanojen kohdalla, joiden alkuosa on erisnimi/lyhenne + jälkimerkitysosa, joka näyttää suoralta käännökseltä englannista (esim. "Helsinki-pohjainen", "eläinlaina", "lähde-stack").
 license: MIT
 ---
 
@@ -21,13 +21,13 @@ Tämä skilli ei kata kaikkea AI-slop-listaa (kolmiosalistat, "edistää"-verbi,
 ## Prosessi
 
 1. **Lue teksti läpi** ja merkitse jokainen sana tai rakenne, joka tuntuu raskaalta, kankealta tai vieraalta suomalaiselle
-2. **Käy alla olevat patternit järjestyksessä** — etsi osumia
-3. **Per osuma:** kirjoita uudelleen luontevammalla suomalaisella rakenteella
+2. **Käy alla olevat kuviot järjestyksessä** — etsi osumia
+3. **Jokaisen osuman kohdalla:** kirjoita uudelleen luontevammalla suomalaisella rakenteella
 4. **Vertaa lopuksi:** lukeeko teksti nyt kuin suomalaisen kirjoittamaa?
 
 ---
 
-## Pattern 1: X-pohjainen / X-stack / X-laina / X-import -yhdyssanat
+## Kuvio 1: X-pohjainen / X-stack / X-laina / X-import -yhdyssanat
 
 Erisnimen tai lyhenteen + jälkimerkitysosan yhdyssanat ovat tämän skillin **kärkihavainto**. Englannin "X-based / X-stack / X-borrowing / X-import" -rakenne ei toimi suomeksi.
 
@@ -42,13 +42,13 @@ Erisnimen tai lyhenteen + jälkimerkitysosan yhdyssanat ovat tämän skillin **k
 | "Open-source" sellaisenaan | "Avoimen lähdekoodin" (ei "open-source-pohjainen") |
 | "Stub-pohja" (stub base) | "Raakaversio" / "Luonnos" / "Alustava versio" |
 
-**Tunnistustesti:** Jos yhdyssanan ALKUOSA on erisnimi tai lyhenne ja JÄLKIOSA on substantiivi joka kuvaa lähdettä/perustaa/tyyppiä ("-pohjainen", "-stack", "-laina", "-import", "-source", "-base") — todennäköinen anglismi.
+**Tunnistustesti:** Jos yhdyssanan ALKUOSA on erisnimi tai lyhenne ja JÄLKIOSA on substantiivi, joka kuvaa lähdettä/perustaa/tyyppiä ("-pohjainen", "-stack", "-laina", "-import", "-source", "-base") — todennäköinen anglismi.
 
 ---
 
-## Pattern 2: Verbit käännöslainoina
+## Kuvio 2: Verbit käännöslainoina
 
-Englannin verbit joiden suomalainen vastine on lyhyempi/luontevampi.
+Englannin verbit, joiden suomalainen vastine on lyhyempi/luontevampi.
 
 | Anglismi | Korjaus |
 |---|---|
@@ -70,7 +70,7 @@ Englannin verbit joiden suomalainen vastine on lyhyempi/luontevampi.
 
 ---
 
-## Pattern 3: Adjektiivit ja kuvalliset substantiivit
+## Kuvio 3: Adjektiivit ja kuvalliset substantiivit
 
 | Anglismi | Korjaus |
 |---|---|
@@ -94,7 +94,7 @@ Englannin verbit joiden suomalainen vastine on lyhyempi/luontevampi.
 
 ---
 
-## Pattern 4: Lauserakenteet käännöslainoina
+## Kuvio 4: Lauserakenteet käännöslainoina
 
 | Anglismi | Korjaus |
 |---|---|
@@ -110,7 +110,7 @@ Englannin verbit joiden suomalainen vastine on lyhyempi/luontevampi.
 
 ---
 
-## Pattern 5: Idiomit ja kliseet
+## Kuvio 5: Idiomit ja kliseet
 
 | Anglismi | Korjaus |
 |---|---|
@@ -123,7 +123,7 @@ Englannin verbit joiden suomalainen vastine on lyhyempi/luontevampi.
 
 ---
 
-## Pattern 6: Omakeksitty terminologia virallisen sijaan
+## Kuvio 6: Omakeksitty terminologia virallisen sijaan
 
 Kun käännät englannin termiä suomeksi, älä keksi käännöstä — tarkista, käytetäänkö Suomessa virallista termiä samasta asiasta. Omakeksitty käännös voi muuttaa merkitystä tai luoda lukijalle harhakuvan.
 
@@ -131,7 +131,7 @@ Kun käännät englannin termiä suomeksi, älä keksi käännöstä — tarkist
 
 **Tunnistustesti:** Tarkista virallinen lähde (Finlex, viranomaisen sivut, ammattisanakirja, Kielitoimiston sanakirja). Käytetäänkö sanaa sellaisenaan? Jos virallinen termi on toinen, oman muodon käyttäminen heikentää tekstin uskottavuutta ja E-E-A-T:ta.
 
-Esimerkkejä asiayhteyksistä joissa pitää tarkistaa virallinen termi:
+Esimerkkejä asiayhteyksistä, joissa pitää tarkistaa virallinen termi:
 - Lakikäsitteet (Finlex)
 - Terveydenhuollon termit (THL, Käypä hoito)
 - Veroterminologia (vero.fi)
@@ -139,7 +139,7 @@ Esimerkkejä asiayhteyksistä joissa pitää tarkistaa virallinen termi:
 
 ---
 
-## Pattern 7: Suomelle vieraat yhdyssana-ketjut
+## Kuvio 7: Suomelle vieraat yhdyssana-ketjut
 
 Suomen kielessä yhdyssana voi olla 2–3 osaa, mutta englannin tyyppiset 4+ osaiset (process improvement initiative manager) ovat raskaita.
 
@@ -154,21 +154,21 @@ Suomen kielessä yhdyssana voi olla 2–3 osaa, mutta englannin tyyppiset 4+ osa
 
 ---
 
-## Workflow
+## Työnkulku
 
 ### Vaihe 1 — pikalukeminen
 Lue teksti läpi normaalisti. Merkitse sanat ja lauseet, jotka pysähdyttävät tai kuulostavat raskailta tai vierailta.
 
-### Vaihe 2 — pattern-tarkistus
-Käy 7 pattern-listaa läpi järjestyksessä. Etsi osumia.
+### Vaihe 2 — kuviotarkistus
+Käy 7 kuviolistaa läpi järjestyksessä. Etsi osumia.
 
 ### Vaihe 3 — tunnistustesti
-Per epäilty osuma: *"Kun käännän tämän englanniksi sanasta sanaan, kuulostaako se englanniksi luontevalta? Entä alkuperäinen suomeksi?"* Jos englannin versio on luonteva ja suomalaisen versio kankea → anglismi.
+Jokaisen epäillyn osuman kohdalla: *"Kun käännän tämän englanniksi sanasta sanaan, kuulostaako se englanniksi luontevalta? Entä alkuperäinen suomeksi?"* Jos englannin versio on luonteva ja suomalaisen versio kankea → anglismi.
 
 ### Vaihe 4 — korjaus
 - Käytä suomen oman ilmaisun rakennetta
 - Vaihda raskaat yhdyssanat sanaliitoiksi tai genetiivirakenteiksi
-- Lyhennä — suomi on usein lyhyempi kuin englanninvastine
+- Lyhennä — suomi on usein lyhyempi kuin englanninkielinen vastine
 
 ### Vaihe 5 — viimeistelytarkistus
 Lue korjattu teksti ääneen. Jos lause kompastelee tai painottaa väärää sanaa, vielä yksi kierros.
@@ -180,15 +180,15 @@ Lue korjattu teksti ääneen. Jos lause kompastelee tai painottaa väärää san
 - **Ei kielioppia** (yhdyssana-säännöt, pilkutus, kongruenssi) → [[suomi-kielihuolto]]
 - **Ei AI-slop kokonaisuudessaan** (kolmiosalistat, mahtipontinen tyyli, kliseet, "edistää"-verbi) → [[suomi-ei-ai-sloppia]]
 - **Ei tyylillistä editointia** (kappalerakenne, rytmi, lukijaystävällisyys)
-- **Ei suomen oikolukua sellaisenaan** — keskittyy vain käännöslaina-pattern-tunnistukseen
+- **Ei suomen oikolukua sellaisenaan** — keskittyy vain käännöslainakuvioiden tunnistukseen
 
 Käytä rinnan muiden suomenkielisten skillien kanssa kun teet ison viimeistelytarkistuksen.
 
 ---
 
-## Output-muoto
+## Tulosmuoto
 
-Per löydös:
+Jokaisesta löydöksestä:
 
 ```
 Tiedosto: [polku:rivi]
@@ -197,4 +197,4 @@ Selitys: [miksi tämä on käännöslaina — mihin englannin rakenteeseen viitt
 Korjaus: "[suomalainen vaihtoehto]"
 ```
 
-Yhteenveto lopussa: kuinka monta osumaa per pattern (1–7), kolme yleisintä pattern-tyyppiä tekstissä.
+Yhteenveto lopussa: kuinka monta osumaa kuvioittain (1–7), kolme yleisintä kuviotyyppiä tekstissä.

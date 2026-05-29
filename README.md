@@ -36,7 +36,7 @@ The orchestrator (`suomi-tarkistuslista`) detects what kind of text you have, pi
 | Skill | What it catches | Trigger phrases |
 |---|---|---|
 | **suomi-some-tyyli** | Channel-specific Finnish social media style — LinkedIn, Instagram, TikTok, Facebook are separate micro-registers, not one "generic social post" | "tee LinkedIn-postaus", "Instagram-caption", "TikTok-hook", "multi-channel some" |
-| **suomi-ymyl** | YMYL content rules in Finnish — health, finance, legal, safety. Journalist-position framing with anchor-linked authoritative sources, not consultant-position advice | "tarkista YMYL", "terveyssisältö", "taloussisältö", "lainopillinen teksti" |
+| **suomi-ymyl** | YMYL content rules in Finnish — health, finance, legal, safety. Journalistic framing with authoritative source links, not personal advice | "tarkista YMYL", "terveyssisältö", "taloussisältö", "lainopillinen teksti" |
 | **suomi-selkokieli** | Convert complex Finnish (bureaucratic, legal, technical) into plain language (selkokieli) following Selkokeskuksen guidelines | "tee selkokieliseksi", "yksinkertaista", "saavutettava versio" |
 
 ### Document templates (new in v0.2 — Finnish document conventions, not just text quality)
@@ -45,7 +45,7 @@ The orchestrator (`suomi-tarkistuslista`) detects what kind of text you have, pi
 |---|---|---|
 | **suomi-sahkoposti** | Finnish email conventions — greeting hierarchy, request forms, endings, signature, out-of-office; B2B, B2C, internal, authority and cold outreach categories | "kirjoita sähköposti", "muotoile työsähköposti", "vastaa asiakkaalle", "poissaoloviesti" |
 | **suomi-hakemuspaketti** | Tailored Finnish CV + cover letter for a specific job posting; outputs markdown (CV.md + Hakemuskirje.md) with Pandoc/Google Docs conversion instructions | "räätälöi CV", "tee hakemus", "rakenna hakemuspaketti", "kirjoita hakemuskirje" |
-| **suomi-tarjous** | Finnish commercial proposal — required elements (Y-tunnus, ALV split, payment terms, validity), scope-in/scope-out, KSE 2018 / IT2018 references. Does NOT give legal advice | "tee tarjous", "muotoile tarjouspohja", "konsultointitarjous", "ALV-erottelu" |
+| **suomi-tarjous** | Finnish commercial proposal — required elements (Y-tunnus, ALV split, payment terms, validity), scope-in/scope-out, KSE 2013 / IT2022 references. Does NOT give legal advice | "tee tarjous", "muotoile tarjouspohja", "konsultointitarjous", "ALV-erottelu" |
 | **suomi-tiedote** | Finnish press release and internal announcement — inverted pyramid, ingressi, sitaatti conventions, lisätietolohko, taustaosa | "kirjoita lehdistötiedote", "tee tiedote", "PR-tiedote", "lanseeraustiedote" |
 | **suomi-uutiskirje** | Finnish email newsletter — subject (35–50 chars), preheader, CTA conventions, mandatory unsubscribe link, P.S. used selectively | "tee uutiskirje", "kirjoita newsletter", "email-kampanja", "kuukausikirje" |
 

@@ -1,6 +1,6 @@
 ---
 name: suomi-tarkistuslista
-description: Orkestroi muut suomi-* -skillit oikeassa järjestyksessä suomenkielisen tekstin täyttä laadunvarmistusta varten. Käytä AINA kun käyttäjä sanoo "aja täysi suomi-tarkistus", "tarkista koko teksti", "tee final-pass suomeksi", "suomi-check", "humanisoi ja tarkista", "viimeistele suomenkielinen teksti", tai antaa tekstin joka pitää käydä läpi useilla laaduntarkistuksilla. Tunnistaa tekstin kontekstin (markkinointi, hakemus, blog, some, YMYL, selkokieli, sähköposti, tarjous, tiedote, uutiskirje) ja ajaa oikeat skillit oikeassa järjestyksessä — yleiset tyylipassit ensin, mekaniikka viimeiseksi. Konsolidoi löydökset yhdeksi raportiksi. Ei tee mekaniikkatyötä itse; delegoi alaskilleille [[suomi-anglismit]], [[suomi-ei-ai-sloppia]], [[suomi-kielihuolto]], [[suomi-rekisteri]], [[suomi-some-tyyli]], [[suomi-ymyl]], [[suomi-selkokieli]], [[suomi-sahkoposti]], [[suomi-tarjous]], [[suomi-tiedote]], [[suomi-uutiskirje]], [[suomi-hakemuspaketti]] ja konsultoiviin meta-skilleihin [[suomi-sinuttelu-teitittely]] ja [[suomi-lokalisaatio-perus]].
+description: Orkestroi muut suomi-* -skillit oikeassa järjestyksessä suomenkielisen tekstin täyttä laadunvarmistusta varten. Käytä AINA kun käyttäjä sanoo "aja täysi suomi-tarkistus", "tarkista koko teksti", "tee final-pass suomeksi", "suomi-check", "humanisoi ja tarkista", "viimeistele suomenkielinen teksti", tai antaa tekstin, joka pitää käydä läpi useilla laaduntarkistuksilla. Tunnistaa tekstin kontekstin (markkinointi, hakemus, blog, some, YMYL, selkokieli, sähköposti, tarjous, tiedote, uutiskirje) ja ajaa oikeat skillit oikeassa järjestyksessä — yleiset tyylipassit ensin, mekaniikka viimeiseksi. Konsolidoi löydökset yhdeksi raportiksi. Ei tee mekaniikkatyötä itse; delegoi alaskilleille [[suomi-anglismit]], [[suomi-ei-ai-sloppia]], [[suomi-kielihuolto]], [[suomi-rekisteri]], [[suomi-some-tyyli]], [[suomi-ymyl]], [[suomi-selkokieli]], [[suomi-sahkoposti]], [[suomi-tarjous]], [[suomi-tiedote]], [[suomi-uutiskirje]], [[suomi-hakemuspaketti]] ja konsultoiviin meta-skilleihin [[suomi-sinuttelu-teitittely]] ja [[suomi-lokalisaatio-perus]].
 license: MIT
 ---
 
@@ -122,7 +122,7 @@ Huom: `suomi-rekisteri` skippautuu koska `suomi-some-tyyli` sisältää kanavako
 ### Pipeline C — YMYL-teksti (terveys, talous, oikeudet, turvallisuus jne.)
 
 ```
-1. [[suomi-ymyl]]           — journalisti-position näkökulma, lähteet, lähdelinkit
+1. [[suomi-ymyl]]           — journalistinen näkökulma, lähteet, lähdelinkit
 2. [[suomi-rekisteri]]      — varmistaa että rekisteri sopii aiheen vakavuuteen
 3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus
 4. [[suomi-anglismit]]      — käännöslainojen puhdistus
@@ -147,14 +147,14 @@ Huom: `suomi-ei-ai-sloppia` skippautuu pääosin, koska selkokieli vaatii erilai
 3. [[suomi-anglismit]]      — käännöslainoja erityisesti vältettävä
 ```
 
-Huom: `suomi-ei-ai-sloppia` skippautuu yleensä — virallinen rekisteri sallii tiettyjä rakenteita jotka muissa konteksteissa olisi AI-slop (esim. passiivi-vahvuus virkamiestekstissä).
+Huom: `suomi-ei-ai-sloppia` skippautuu yleensä — virallinen rekisteri sallii tiettyjä rakenteita, jotka muissa konteksteissa olisi AI-slop (esim. passiivi-vahvuus virkamiestekstissä).
 
 ### Pipeline F — Hakemus tai CV
 
 ```
 1. [[suomi-hakemuspaketti]] — räätälöinti työpaikkailmoituksen mukaan, CV.md + Hakemuskirje.md
 2. [[suomi-rekisteri]]      — ammattikieli + henkilökohtainen sävy
-3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus, erityisesti pattern 31 humble brag
+3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus, erityisesti kuvio 31 (humble brag)
 4. [[suomi-anglismit]]      — käännöslainat (huom: säilytä alan vakiintuneet termit kuten "orgaaninen", "brieffata", "konversio")
 5. [[suomi-kielihuolto]]    — mekaniikka
 ```
@@ -169,7 +169,7 @@ Huom: `suomi-ei-ai-sloppia` skippautuu yleensä — virallinen rekisteri sallii 
 5. [[suomi-kielihuolto]]    — mekaniikka
 ```
 
-Huom: `suomi-rekisteri` skippautuu yleensä — sähköposti-skill sisältää tervehdys- ja lopetus-hierarkian joka kalibroi rekisterin.
+Huom: `suomi-rekisteri` skippautuu yleensä — sähköposti-skill sisältää tervehdys- ja lopetus-hierarkian, joka kalibroi rekisterin.
 
 ### Pipeline H — Tiedote
 
@@ -208,7 +208,7 @@ Huom: konsultoi `suomi-lokalisaatio-perus` -skilliä päivämäärien muotoiluun
 
 ## VAIHE 2 — Per-skill suoritus
 
-Per jokainen skilli pipelinessä:
+Jokaisen pipelineen kuuluvan skillin kohdalla:
 
 ### Suoritussykli
 
@@ -230,7 +230,7 @@ Vaihe N+1 — Käynnistä seuraava skill
 1. Aja jokainen skill puhtaalla alkuperäisellä tekstillä
 2. Kerää löydökset listana
 3. Konsolidoi yhdeksi korjaussetiksi
-4. Vasta sitten kirjoita lopullinen versio joka noudattaa kaikkia löydöksiä
+4. Vasta sitten kirjoita lopullinen versio, joka noudattaa kaikkia löydöksiä
 
 Poikkeus: jos teksti vaatii rakenteellisen muunnoksen (esim. selkokielistäminen, some-kanavakohtaistus, YMYL-näkökulma), tee se ENSIN ja sitten aja mekaaniset tarkistukset puhdistetulle versiolle.
 
@@ -256,8 +256,8 @@ Kun kaikki pipelinen skillit on ajettu, konsolidoi löydökset:
 - [Löydös 2]
 
 ### AI-kuvioiden puhdistus ([[suomi-ei-ai-sloppia]])
-- Pattern X: [konkreettinen virke + korjausehdotus]
-- Pattern Y: [konkreettinen virke + korjausehdotus]
+- Kuvio X: [konkreettinen virke + korjausehdotus]
+- Kuvio Y: [konkreettinen virke + korjausehdotus]
 
 ### Anglismit ([[suomi-anglismit]])
 - [Löydös 1]
@@ -270,7 +270,7 @@ Kun kaikki pipelinen skillit on ajettu, konsolidoi löydökset:
 
 ## Lopullinen versio
 
-[Kirjoita korjattu versio koko tekstistä joka noudattaa kaikkia löydöksiä]
+[Kirjoita korjattu versio koko tekstistä, joka noudattaa kaikkia löydöksiä]
 
 ## Itse-audit
 
@@ -293,7 +293,7 @@ Korkeintaan kaksi iteraatiokierrosta. Jos kolmannella kierroksella on vielä AI-
 
 ### Älä skippaa skilliä ilman syytä
 
-Jokaisella skillilla on roolinsa pipelinessa. Skippaaminen pitää olla harkittu päätös (esim. selkokielessä `suomi-ei-ai-sloppia` ei ole pääpriorisoitu).
+Jokaisella skillillä on roolinsa pipelinessä. Skippaaminen pitää olla harkittu päätös (esim. selkokielessä `suomi-ei-ai-sloppia` ei ole pääpriorisoitu).
 
 ### Älä aja samaa skilliä kahdesti
 

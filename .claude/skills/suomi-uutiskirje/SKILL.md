@@ -51,7 +51,7 @@ Preheader on sähköpostiohjelmissa näkyvä esikatselurivi otsikon vieressä. 8
 
 **Hyvä yhdistelmä:**
 - Otsikko: `Q2-raportti: pk-yritysten markkinointitrendit`
-- Preheader: `Mitä 240 yrityksen data kertoo budjeteista, kanavista ja AI:n roolista.`
+- Preheader: `Mitä 240 yrityksen vastaukset kertovat budjeteista, kanavista ja AI:n roolista.`
 
 **Heikko yhdistelmä (toisto):**
 - Otsikko: `Q2-raportti: pk-yritysten markkinointitrendit`
@@ -86,7 +86,7 @@ Suomalainen uutiskirjelukija **haluaa heti pointin**. Tämä eroaa amerikkalaise
 **Suomalaisen lukijan kannalta hyvä avaus:**
 > Hei Aino,
 >
-> Q2-raporttimme on valmis. Tärkein löytö: 240 yrityksen data näyttää, että pk-yritysten markkinointibudjetti laski keskimäärin 12 % vuoden alusta — ja AI-työkalut korvaavat aiempaa sisäistä tuotantoa.
+> Q2-raporttimme on valmis. Tärkein löytö: 240 yrityksen vastaukset osoittavat, että pk-yritysten markkinointibudjetti laski keskimäärin 12 % vuoden alusta — ja AI-työkalut korvaavat aiempaa sisäistä tuotantoa.
 >
 > [Lue koko raportti]
 
@@ -268,7 +268,7 @@ Kaikki AI-uutiskirjeet alkavat tällä. Aloita sisällöllä, ei kuulutuksilla.
 
 ### 9.4 Liika lihavointi ja kursivointi
 
-AI lihavoi avainsanat mekaanisesti. Lue uutiskirje ääneen — kohta jonka korostat puheessa on lihavoitavissa, muut eivät.
+AI lihavoi avainsanat mekaanisesti. Lue uutiskirje ääneen — kohta, jonka korostat puheessa, on lihavoitavissa, muut eivät.
 
 ### 9.5 Liika emoji B2B-kontekstissa
 
@@ -293,13 +293,13 @@ Yhdessä blokissa yksi CTA. Uutiskirjeessä yhteensä 2–4 CTA:ta. Liika valint
 
 ```markdown
 [Otsikkorivi]: Q2-raportti: pk-yritysten markkinointitrendit
-[Preheader]: Mitä 240 yrityksen data kertoo budjeteista, kanavista ja AI:n roolista.
+[Preheader]: Mitä 240 yrityksen vastaukset kertovat budjeteista, kanavista ja AI:n roolista.
 
 ---
 
 Hei Aino,
 
-Q2-raporttimme on valmis. Tärkein löytö: 240 pk-yrityksen data näyttää, että markkinointibudjetit laskivat keskimäärin 12 % vuoden alusta. Samalla AI-työkalut korvaavat aiempaa sisäistä tuotantoa.
+Q2-raporttimme on valmis. Tärkein löytö: 240 pk-yrityksen vastaukset osoittavat, että markkinointibudjetit laskivat keskimäärin 12 % vuoden alusta. Samalla AI-työkalut korvaavat aiempaa sisäistä tuotantoa.
 
 [Lataa Q2-raportti]
 

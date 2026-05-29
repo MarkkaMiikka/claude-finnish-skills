@@ -1,6 +1,6 @@
 ---
 name: suomi-selkokieli
-description: Muunna monimutkainen suomenkielinen teksti (virastokieli, ammattikieli, lainopillinen teksti, sopimusteksti) selkokielelle tai sen lähimmäksi vastineeksi. Käytä kun käyttäjä sanoo "tee tästä selkokielinen", "yksinkertaista", "muunna virastokielestä", "tee tästä luettavampi", "saavutettava versio", "selkokielistä", tai antaa monimutkaisen tekstin joka pitää avata laajemmalle lukijakunnalle. Skill noudattaa Selkokeskuksen ohjeita: lyhyt virke, yksi ajatus per virke, tuttu sanasto, konkreettiset esimerkit, looginen jäsentely. Ei kata pelkkää oikolukua — käytä siihen [[suomi-kielihuolto]]. Ei kata AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]]. Ei kata rekisterin tunnistamista — käytä siihen [[suomi-rekisteri]].
+description: Muunna monimutkainen suomenkielinen teksti (virastokieli, ammattikieli, lainopillinen teksti, sopimusteksti) selkokielelle tai sen lähimmäksi vastineeksi. Käytä kun käyttäjä sanoo "tee tästä selkokielinen", "yksinkertaista", "muunna virastokielestä", "tee tästä luettavampi", "saavutettava versio", "selkokielistä", tai antaa monimutkaisen tekstin, joka pitää avata laajemmalle lukijakunnalle. Skill noudattaa Selkokeskuksen ohjeita: lyhyt virke, yksi ajatus per virke, tuttu sanasto, konkreettiset esimerkit, looginen jäsentely. Ei kata pelkkää oikolukua — käytä siihen [[suomi-kielihuolto]]. Ei kata AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]]. Ei kata rekisterin tunnistamista — käytä siihen [[suomi-rekisteri]].
 license: MIT
 ---
 
@@ -18,8 +18,8 @@ Lukijoita joille selkokieli on tarpeellista:
 - Lukivaikeudesta kärsivät
 - Vanhempi väestö
 - Kognitiivisesti haastavissa elämäntilanteissa olevat
-- Lapset jotka oppivat itsenäistä lukemista
-- Kuka tahansa kiireinen joka haluaa tiedon nopeasti
+- Lapset, jotka oppivat itsenäistä lukemista
+- Kuka tahansa kiireinen, joka haluaa tiedon nopeasti
 
 Selkokielistäminen on rakenteellinen muunnos, joka säilyttää sisällön mutta avaa muodon. Pelkkä virkkeiden lyhentäminen ei riitä.
 
@@ -31,7 +31,7 @@ Tämä skill tähtää **selkokielen lähimmäksi vastineeksi**, ei välttämät
 
 ### 1. Yksi ajatus per virke
 
-Pitkä virastokielinen virke joka sisältää 3–5 ajatusta jaetaan 3–5 virkkeeseen.
+Pitkä virastokielinen virke, joka sisältää 3–5 ajatusta, jaetaan 3–5 virkkeeseen.
 
 **Ennen (yleiskielinen):**
 > Asiakkaan tulee toimittaa allekirjoitettu sopimus alkuperäisenä kahden viikon kuluessa siitä, kun se on hänelle lähetetty, jotta käsittely voidaan aloittaa ilman lisäselvityksiä.
@@ -72,8 +72,8 @@ Käytä:
 
 | Abstrakti | Konkreettinen |
 |---|---|
-| "Tukea tarvitsevat henkilöt" | "Ihmiset joilla on vaikeuksia" |
-| "Toimintaa edistävät toimet" | "Asiat jotka auttavat" |
+| "Tukea tarvitsevat henkilöt" | "Ihmiset, joilla on vaikeuksia" |
+| "Toimintaa edistävät toimet" | "Asiat, jotka auttavat" |
 | "Sopeutumisaikaa edellytetään" | "Tarvitset aikaa tottua" |
 
 ### 6. Yksi näkökulma per kappale
@@ -120,9 +120,9 @@ Jos selkokielistät tekstin "maahanmuuttajille" se voi vaatia eri valintoja kuin
 
 Lue alkuteksti ja merkitse:
 
-- Virkkeet joissa on enemmän kuin 15 sanaa
-- Sanat jotka voivat olla tuntemattomia
-- Lauseet jotka sisältävät useita ajatuksia
+- Virkkeet, joissa on enemmän kuin 15 sanaa
+- Sanat, jotka voivat olla tuntemattomia
+- Lauseet, jotka sisältävät useita ajatuksia
 - Passiivit
 - Abstraktit ilmaisut
 
@@ -134,7 +134,7 @@ Jokainen merkitsemäsi pitkä virke = useampi lyhyt virke. Kirjoita alkuperäine
 
 Vaihda tuntemattomat sanat tuttuihin. Jos ammattisanasta ei pääse eroon (esim. lakitermi), selitä sana välittömästi:
 
-> "Asianajopalkkio. Se tarkoittaa rahaa jonka maksat juristille."
+> "Asianajopalkkio. Se tarkoittaa rahaa, jonka maksat juristille."
 
 ### Vaihe 5 — Vaihda passiivi aktiiviksi
 
@@ -199,7 +199,7 @@ Selkokielinen teksti pitää voida lukea ääneen sujuvasti. Jos kompastelet, vi
 > Asumistuki riippuu kolmesta asiasta:
 >
 > - Kuinka paljon vuokra maksaa.
-> - Mikä on omavastuusi (osa jonka maksat itse).
+> - Mikä on omavastuusi (osa, jonka maksat itse).
 > - Kuinka paljon tienaat.
 
 ### Esimerkki C: Sopimusehto
@@ -222,10 +222,10 @@ Selkokielinen teksti pitää voida lukea ääneen sujuvasti. Jos kompastelet, vi
 
 Selkokielistäminen ei ole:
 
-- **Lapsille kirjoittamista.** Selkokieli on aikuislukijan tekstiä jonka ymmärrettävyyttä on parannettu.
+- **Lapsille kirjoittamista.** Selkokieli on aikuislukijan tekstiä, jonka ymmärrettävyyttä on parannettu.
 - **Sisällön köyhdyttämistä.** Kaikki olennainen säilyy.
 - **Slangia tai puhekieltä.** Selkokieli on kirjakieltä, vaikkakin yksinkertaista.
-- **Mainospuhetta.** Se ei voi olla "innostavaa" tai "vetävää" tavalla joka peittäisi sisältöä.
+- **Mainospuhetta.** Se ei voi olla "innostavaa" tai "vetävää" tavalla, joka peittäisi sisältöä.
 - **Käännöstä.** Se on suomesta suomeen muunnos.
 
 ---

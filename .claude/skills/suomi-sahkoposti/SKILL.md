@@ -144,7 +144,7 @@ Pidä kappaleet lyhyinä — 2–4 virkettä on hyvä ohje sähköpostissa. Mobi
 
 ### 4.3 Konkretia ennen pyyntöä
 
-Kun pyydät jotain, kerro **mitä, miksi ja koska** yhdessä lauseessa.
+Kun pyydät jotain, kerro **mitä tarvitset, miksi ja mihin mennessä** yhdessä lauseessa.
 
 ✅ `Voitko lähettää Q2-raportin perjantaihin mennessä, jotta saan tehtyä yhteenvedon ennen tiimipalaveria?`
 

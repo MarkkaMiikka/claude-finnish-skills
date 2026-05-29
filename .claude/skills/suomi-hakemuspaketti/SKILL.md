@@ -36,17 +36,17 @@ Pura ilmoitus seuraaviin osiin:
 
 - **Pakolliset vaatimukset** — "vaadimme", "edellytetään", "tulee olla"
 - **Toivotut taidot** — "katsomme eduksi", "plussaa", "toivomme"
-- **Painotetut termit** — sanat jotka toistuvat tai joita on lihavoitu
+- **Painotetut termit** — sanat, jotka toistuvat tai joita on lihavoitu
 - **Kulttuurivinkit** — yrityksen tapa kirjoittaa (esim. "tiimimme on rento" → vältä yliformaali sävy)
 - **Pyydetyt liitteet** — joskus pyydetään palkkatoive, portfolio, suosittelijat
 
 ### Vaihe 2: Sovita hakijan tausta ilmoituksen kieleen
 
-Käy hakijan tausta läpi ja **valitse** mitkä bulletit nousevat CV:n kärkeen. Älä yritä kertoa kaikkea — valitse 70 % sisällöstä joka vastaa ilmoitusta.
+Käy hakijan tausta läpi ja **valitse** mitkä bulletit nousevat CV:n kärkeen. Älä yritä kertoa kaikkea — valitse 70 % sisällöstä, joka vastaa ilmoitusta.
 
 Vastaavuus tarkoittaa kahta asiaa:
 - **Sisältö vastaa** ilmoituksen vaatimuksiin
-- **Sanasto vastaa** ilmoituksen sanoja (jos ilmoituksessa "data-analytiikka", käytä sitä, älä "datatieteistä"-muotoa)
+- **Sanasto vastaa** ilmoituksen sanoja. Jos ilmoituksessa lukee "data-analytiikka", käytä samaa termiä; älä vaihda sitä esimerkiksi "datatieteeksi"
 
 ### Vaihe 3: Kirjoita CV.md
 
@@ -155,7 +155,7 @@ Jos numeroa ei ole, käytä konkreettista lopputulosta (lanseeraus, asiakas, tul
 - Vanhempi rooli: 2–3 bullettia
 - Yli 10 vuotta vanha rooli: 1 bullet tai vain rivi
 
-Jätä pois roolit jotka eivät tue hakua. Älä tunge kaikkea CV:hen.
+Jätä pois roolit, jotka eivät tue hakua. Älä tunge kaikkea CV:hen.
 
 ### 3.5 Yhdyssanojen kärki — tarkista nämä
 
@@ -231,11 +231,11 @@ Avaus voi viitata:
 - Yrityksen julkiseen tekemiseen (artikkeli, kampanja, tuotelanseeraus)
 - Ilmoituksen erityispiirteeseen
 - Yhteiseen kontaktiin (nimellä, jos lupa)
-- Hakijan kokemukseen jolla on suora yhteys rooliin
+- Hakijan kokemukseen, jolla on suora yhteys rooliin
 
 ### 4.4 Keskikappale: konkretia
 
-**Tavoite:** todista 1–2 keskeisellä esimerkillä, että osaat mitä ilmoitus pyytää. **Älä toista CV:tä rivi riviltä.** Kerro tarina jonka CV:n bullet vain mainitsee.
+**Tavoite:** todista 1–2 keskeisellä esimerkillä, että osaat mitä ilmoitus pyytää. **Älä toista CV:tä rivi riviltä.** Kerro tarina, jonka CV:n bullet vain mainitsee.
 
 **Esimerkki:**
 > Edellisessä työssäni vedin SaaS-asiakkaan liidituotantokampanjan, jonka kuukausibudjetti oli viisinumeroinen. Optimoin sen MQL-konversion mukaan ja koordinoin sisällöntuotannon kahden ulkopuolisen kumppanin kanssa. Konversio nousi 22 % ja samalla asiakashankintakustannus laski. Tämä työ vaati sekä mainostyökalujen käytännön hallintaa että tiivistä kommunikointia asiakkaan kanssa.
@@ -287,7 +287,7 @@ Maks. 1 sivu. Kolme kappaletta (avaus + keskikappale + lopetus) on yleensä riit
 | Anti-pattern | Miksi vältä | Korjaus |
 |---|---|---|
 | "Olen erittäin kiinnostunut" -avaus | Lähes joka hakija kirjoittaa näin | Konkreettinen syy juuri tähän paikkaan |
-| CV:n toisto rivi riviltä | Tila menee hukkaan | Kerro tarina jonka CV vain mainitsee |
+| CV:n toisto rivi riviltä | Tila menee hukkaan | Kerro tarina, jonka CV vain mainitsee |
 | "Tiedän, että voisin tuoda lisäarvoa..." | AI-fraasi, tyhjä | Konkreettinen esimerkki mitä toisit |
 | Liika kohteliaisuus ("ihmettelisin, jos suvaitsisitte harkita") | Suomalainen suoruus on arvoa | "Sopisiko keskustelu ensi viikolla?" |
 | Kolmiosaiset listat ("luovuutta, asiantuntemusta ja sitoutumista") | AI-tyyppinen | Yksi konkreettinen esimerkki |
@@ -331,12 +331,12 @@ Pandoc-asennus: [pandoc.org/installing.html](https://pandoc.org/installing.html)
 4. Tarkista muotoilu silmämääräisesti
 5. Tiedosto → Lataa → Microsoft Word (.docx) tai PDF (.pdf)
 
-### 6.3 Markdown-editorit, joissa export
+### 6.3 Markdown-editorit, joissa on vientitoiminto
 
 - **Typora** (kaupallinen) — Tiedosto → Vie → Word / PDF
-- **Obsidian** (ilmainen) — Vaatii export-pluginin
+- **Obsidian** (ilmainen) — Vaatii vientilisäosan
 - **VS Code** + Markdown PDF -laajennos — Komento "Markdown PDF: Export"
-- **Marked 2** (macOS) — built-in export
+- **Marked 2** (macOS) — sisäänrakennettu vienti
 
 ### 6.4 ATS-yhteensopivuus
 

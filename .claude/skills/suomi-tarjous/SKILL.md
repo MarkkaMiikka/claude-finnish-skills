@@ -27,7 +27,7 @@ Suomalainen kaupallinen tarjous sisältää aina nämä osat. Jos osa puuttuu, t
 6. **Hinnoittelu** — rivi riviltä, ALV erikseen
 7. **Maksuehdot** — maksuaika ja viivästyskorko
 8. **Tarjouksen voimassaolo** — esim. "30 päivää tarjouspäivästä"
-9. **Sopimusehdot tai viittaus alan vakiosopimuksiin** (IT2018, JIT2015, KSE 2018 jne.)
+9. **Sopimusehdot tai viittaus alan vakiosopimuksiin** (IT2022, JIT 2015, KSE 2013 jne. — tarkista aina uusin voimassa oleva versio)
 10. **Yhteyshenkilö ja allekirjoitus**
 
 ---
@@ -54,7 +54,7 @@ Vastaanottaja:
 
 ## 2. Mitä ei kuulu tarjoukseen
 
-[Eksplisiittinen lista siitä, mitä ei kuulu. Tämä on kriittinen osa joka usein puuttuu AI-tuotetuista tarjouksista.]
+[Eksplisiittinen lista siitä, mitä ei kuulu. Tämä on kriittinen osa, joka usein puuttuu AI-tuotetuista tarjouksista.]
 
 ## 3. Hinnoittelu
 
@@ -125,11 +125,9 @@ Kaikki hinnat ALV 0 %. Arvonlisävero 25,5 % lisätään laskutuksessa.
 
 Suomessa yleinen ALV on **25,5 %** (1.9.2024 alkaen). Aiempi 24 % pätee aiempiin sopimuksiin. Tarkista voimassa oleva taso ennen tarjouksen lähettämistä.
 
-Erityistasot:
+Erityistasot (tarkista aina ajantasainen kanta Verohallinnosta):
 - Elintarvikkeet ja rehu: 14 %
-- Lääkkeet ja terveysneuvonta: 10 %
-- Kirjat, kulttuuri ja liikunta: 10 %
-- Kuljetuspalvelut (henkilöliikenne): 10 %
+- Alennettuun 13,5 %:n kantaan kuuluvat 1.1.2026 alkaen muun muassa kirjat, lääkkeet, henkilökuljetukset sekä liikunta- ja kulttuuripalvelut
 
 Useimmissa konsultointi- ja markkinointiprojekteissa pätee yleinen 25,5 %.
 
@@ -242,14 +240,16 @@ Tarkista että tarjous kertoo selkeästi:
 
 | Vakiosopimus | Käyttöala |
 |---|---|
-| IT2018 | IT-palvelusopimukset |
-| JIT2015 | Julkisen sektorin IT-hankinnat |
-| KSE 2018 | Konsulttitoiminnan yleiset sopimusehdot (suunnittelu ja konsultointi) |
+| IT2022 | IT-palvelusopimukset |
+| JIT 2015 | Julkisen sektorin IT-hankinnat — vanha ehto, tarkista uusin versio ennen käyttöä |
+| KSE 2013 | Konsulttitoiminnan yleiset sopimusehdot (suunnittelu ja konsultointi) |
 | YSE 1998 | Rakennustyö |
 | RYHT 2000 | Rakennusurakan yleiset hankintaehdot |
 
 Tarjouksessa voi viitata sovellettavaan vakiosopimukseen:
-> Sovellettavat ehdot: KSE 2018 (konsulttitoiminnan yleiset sopimusehdot).
+> Sovellettavat ehdot: KSE 2013 (konsulttitoiminnan yleiset sopimusehdot).
+
+**Tarkista aina sopimusehtojen uusin voimassa oleva versio ennen tarjouksen lähettämistä** — vakiosopimusten nimet ja vuosiluvut päivittyvät.
 
 ### 7.2 Jos ei viittaa vakiosopimukseen
 
@@ -274,7 +274,7 @@ AI-tuotettu tarjous voi käyttää myyntipuheita, jotka suomalaisessa kontekstis
 ❌ Vältä:
 - "Empower your business to..."
 - "Unlock the potential of..."
-- "Vallankumouksellinen ratkaisu joka mullistaa..."
+- "Vallankumouksellinen ratkaisu, joka mullistaa..."
 - "Hopealuoti teidän markkinointiongelmiinne"
 
 ✅ Käytä:
@@ -383,7 +383,7 @@ Tarjous on voimassa 30 päivää tarjouspäivästä, eli 26.6.2026 saakka.
 
 ## 7. Sopimusehdot
 
-Sovellettavat ehdot: KSE 2018 (konsulttitoiminnan yleiset sopimusehdot).
+Sovellettavat ehdot: KSE 2013 (konsulttitoiminnan yleiset sopimusehdot).
 
 ## 8. Yhteyshenkilö
 

@@ -1,6 +1,6 @@
 ---
 name: suomi-rekisteri
-description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi — yleiskieli, ammattikieli, asiakaskieli, puhekieli — ja varmistaa että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaniikkaa (yhdyssanat, pilkutus) — käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]].
+description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi — yleiskieli, ammattikieli, asiakaskieli, puhekieli — ja varmistaa että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä, jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaniikkaa (yhdyssanat, pilkutus) — käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]].
 license: MIT
 ---
 
@@ -83,9 +83,9 @@ Kysy itseltäsi (tai pyydä käyttäjältä jos epäselvää):
 
 Lue teksti läpi ja merkitse:
 
-- **Sanat jotka eivät kuulu** valittuun rekisteriin (esim. virallinen "edellä mainittu" yleiskielisessä asiakassivulla)
-- **Virkkeet jotka ovat liian raskaita** (pitkät sivulauseet ja nominaalimuodot yleiskielisessä tekstissä)
-- **Lauseet jotka ovat liian rentoja** (puhekielisiä elementtejä ammattikielisessä tekstissä)
+- **Sanat, jotka eivät kuulu** valittuun rekisteriin (esim. virallinen "edellä mainittu" yleiskielisessä asiakassivulla)
+- **Virkkeet, jotka ovat liian raskaita** (pitkät sivulauseet ja nominaalimuodot yleiskielisessä tekstissä)
+- **Lauseet, jotka ovat liian rentoja** (puhekielisiä elementtejä ammattikielisessä tekstissä)
 
 ### Vaihe 3 — Tarkista rekisterivaihtelu eri osioiden välillä
 
@@ -143,7 +143,7 @@ Jokaisen rekisterirajaa rikkovan kohdan kohdalla:
 ### Tilanne 4: Puhekielen oikea käyttö (some-kanava)
 
 **Sopiva LinkedIn-puhekielisyys:**
-> Mietin tätä eilen kun tein asiakkaalle Q3-raporttia: miksi me kirjoitamme markkinoinnin tuloksista aina samalla tylsällä tavalla? Tässä kolme ajatusta jotka muuttivat sen.
+> Mietin tätä eilen kun tein asiakkaalle Q3-raporttia: miksi me kirjoitamme markkinoinnin tuloksista aina samalla tylsällä tavalla? Tässä kolme ajatusta, jotka muuttivat sen.
 
 **Sopiva Instagram-puhekielisyys (samasta aiheesta):**
 > Tylsää markkinointiraportointia? Kokeile näitä kolmea.
@@ -158,7 +158,7 @@ AI valitsee oletusrekisterinään ammatti- tai virallisen rekisterin, koska harj
 
 ### 2. Liian-rento ammattilukijoille suunnattu teksti
 
-Ammattijulkaisussa joka käsittelee teknisiä asioita, kirjoitetaan kuin some-postauksessa. Asiantuntijalukija kokee tekstin epäuskottavaksi.
+Ammattijulkaisussa, joka käsittelee teknisiä asioita, kirjoitetaan kuin some-postauksessa. Asiantuntijalukija kokee tekstin epäuskottavaksi.
 
 ### 3. Sekaisin rekistereitä samassa tekstissä
 
@@ -166,7 +166,7 @@ Yksi virke on ammattikielistä, seuraava puhekielistä, kolmas mainosmaista. Lop
 
 ### 4. Anglismeilla rekisterin rentouttaminen
 
-"Hei guys", "tsekkaa tää", "killer feature" suomenkielisessä tekstissä jonka muuten pitäisi olla ammattikielinen. Anglismi-rekisteririkko on yleisin some-postauksissa.
+"Hei guys", "tsekkaa tää", "killer feature" suomenkielisessä tekstissä, jonka muuten pitäisi olla ammattikielinen. Anglismi-rekisteririkko on yleisin some-postauksissa.
 
 ### 5. Vääränlainen me-/sinä-puhuttelu
 
