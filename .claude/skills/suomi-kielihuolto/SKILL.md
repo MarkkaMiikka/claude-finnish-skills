@@ -316,14 +316,14 @@ Postpositiot vaativat tietyn sijan ennen niitä. AI sekoittaa nämä jatkuvasti:
 | **ohella** | genetiivi | "työn ohella" |
 | **ympärillä** | genetiivi | "rakennuksen ympärillä" |
 
-**Säännöksen poikkeukset:**
+**Säännön poikkeukset:**
 - **ennen** ottaa partitiivin: "ennen kokousta" (EI: ennen kokouksen)
 - **päässä / etäisyydellä** ottaa genetiivin: "kymmenen kilometrin päässä"
 - **mukaan** ottaa genetiivin pääkäytössä ("tutkimuksen mukaan", "asian mukaan"); allatiivilla se on liikeverbin täydennys ("tuli meille mukaan"), ei postpositio
 
 ### 7.3 Verbin rektio — verbi vaatii tietyn sijan
 
-Eri verbeillä on tietyt sijavaatimukset niiden objektille tai täydennykselle. AI sekoittaa näitä toistuvasti. Kun käytät verbiä, tarkista että objekti tai täydennys on oikeassa sijassa.
+Eri verbeillä on tietyt sijavaatimukset niiden objektille tai täydennykselle. AI sekoittaa näitä toistuvasti. Kun käytät verbiä, tarkista, että objekti tai täydennys on oikeassa sijassa.
 
 #### 7.3.1 Yleisimmät rektiot — opettele nämä
 

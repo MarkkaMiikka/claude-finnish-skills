@@ -46,7 +46,7 @@ Otsikko on **kuvaileva, ei klikkitavoitteinen**. AI-tuotetut tiedotteet käyttä
 
 ### 1.3 Ingressi
 
-Ingressi on **1–3 virkettä** otsikon jälkeen, joka vastaa peruskysymyksiin: kuka, mitä, missä, milloin, miksi. Tämä on tiedotteen tärkein osa — toimittaja tekee usein päätöksen sen perusteella, lukeeko loppua.
+Ingressi on **1–3 virkettä** otsikon jälkeen, joka vastaa peruskysymyksiin: kuka, mitä, missä, milloin, miksi. Tämä on tiedotteen tärkein osa — toimittaja päättää usein sen perusteella, lukeeko loppua.
 
 **Esimerkki:**
 > Esimerkki Oy julkaisi tänään 27.5.2026 uuden Esimerkki-palvelun pk-yrityksille. Palvelu automatisoi laskutuksen ja kirjanpidon ja maksaa 49 € kuukaudessa. Kohderyhmänä ovat 1–10 hengen yritykset, joiden liikevaihto on alle miljoona euroa.
@@ -284,7 +284,7 @@ Esimerkki Oy julkaisi tänään 27.5.2026 Esimerkki Auto -palvelun, joka automat
 
 ## Tarve syntyy aikaa vievästä rutiinista
 
-Tilastokeskuksen mukaan suomalaisia pk-yrityksiä on noin 280 000, ja niistä suurin osa hoitaa kirjanpidon ulkopuolisella tilitoimistolla. Kuukausimaksut alkavat 200 eurosta ja nousevat liikevaihdon mukaan. Esimerkki Auto antaa pienille yrityksille vaihtoehdon, jossa rutiinityö automatisoituu mutta käyttäjä saa tarkistettavakseen lopputuloksen.
+Tilastokeskuksen mukaan suomalaisia pk-yrityksiä on noin 280 000, ja niistä suurin osa hoitaa kirjanpidon ulkopuolisella tilitoimistolla. Kuukausimaksut alkavat 200 eurosta ja nousevat liikevaihdon mukaan. Esimerkki Auto antaa pienille yrityksille vaihtoehdon, jossa rutiinityö automatisoituu, mutta käyttäjä saa tarkistettavakseen lopputuloksen.
 
 Palvelu tunnistaa kuitit, vientit ja arvonlisäveron automaattisesti. Käyttäjä hyväksyy tai korjaa AI:n ehdotukset, ja valmis tilinpäätös syntyy automaattisesti vuoden lopussa.
 

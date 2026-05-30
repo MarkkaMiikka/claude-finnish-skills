@@ -128,7 +128,7 @@ AI-fraasien poistaminen on vain puolet työstä. Sieluton, neutraali teksti on y
 
 **Vältä:** "ainutlaatuinen", "huipputasoinen", "tinkimätön laatu", "luksusta", "elämystä", "sielukas", "viehättävä", "hurmaava", "kosketuksiin", "lumoava", "henkeäsalpaava", "uskomaton", "vertaansa vailla", "harvinaislaatuinen", "korkeatasoinen"
 
-**Ongelma:** AI ei pidä neutraalia rekisteriä, etenkään kun aihe on "lifestyle" tai "kulttuuri".
+**Ongelma:** AI ei pidä neutraalia rekisteriä, etenkään kun aihe on "elämäntyyli" tai "kulttuuri".
 
 **Ennen:**
 > Hurmaavan kaupungin sydämessä Esimerkki Kiinteistöt tarjoaa ainutlaatuisen ja elämyksellisen välityskokemuksen, joka yhdistää tinkimättömän laadun paikalliseen tuntemukseen.
@@ -521,7 +521,7 @@ Vastaa kysymykseen "Missä Anna on?":
 Vastaa kysymykseen "Kuka on Helsingissä?":
 > ✅ Helsingissä on Anna. (Helsingissä = teema/konteksti, Anna = uutta tietoa = reema)
 
-Sama tieto, eri sanajärjestys riippuen siitä mitä lukija kysyy. **AI antaa miltei aina ensimmäisen muodon** vaikka konteksti vaatisi toisen.
+Sama tieto, eri sanajärjestys riippuen siitä, mitä lukija kysyy. **AI antaa miltei aina ensimmäisen muodon**, vaikka konteksti vaatisi toisen.
 
 #### 30.2 Yleisimmät SVO-jäykkyydestä johtuvat ongelmat
 
@@ -545,7 +545,7 @@ Sama tieto, eri sanajärjestys riippuen siitä mitä lukija kysyy. **AI antaa mi
 
 **Ongelma C: Pitkä subjekti virkkeen alussa**
 
-Suomessa pitkät, raskaat osat siirretään mielellään virkkeen loppuun ("end-weight principle"):
+Suomessa pitkät, raskaat osat siirretään mielellään virkkeen loppuun (loppupainoperiaate, engl. end-weight principle):
 
 **Ennen (jäykkä SVO):**
 > Suomen suurin yksityinen vakuutusyhtiö, joka aloitti toimintansa 1990-luvulla, julkaisi uudet tuotteet.
@@ -572,7 +572,7 @@ AI ei käytä tätä painotustapaa, vaan kirjoittaa kaiken neutraalissa SVO-jär
 
 Kun epäilet käännöksenmakuista virkettä, kysy:
 
-1. **Olisinko sanonut tämän näin spontaanisti?** Jos virke kuulostaa siltä että sitä on käännetty, se on ollut.
+1. **Olisinko sanonut tämän näin spontaanisti?** Jos virke kuulostaa siltä, että sitä on käännetty, se on ollut.
 2. **Onko aikamääre tai paikanmääre väärässä päässä?** Englannissa ne ovat usein lopussa ("...last week"). Suomessa ne ovat useammin alussa.
 3. **Onko pitkä raskas osa alussa?** Suomessa raskaat osat painottuvat loppuun.
 4. **Onko subjekti–verbi–objekti -mekaanisuudella jokin syy?** Jos ei, harkitse uudelleenjärjestelyä.
@@ -628,7 +628,7 @@ Numerot tekevät väittämästä konkreettisen. Yliampuvat adjektiivit eivät ku
 
 | Yliampuva (käännöslaina) | Suomalainen vaihtoehto |
 |---|---|
-| "ainutlaatuinen" | konkreettinen kuvaus mikä on erilaista |
+| "ainutlaatuinen" | konkreettinen kuvaus siitä, mikä on erilaista |
 | "vertaansa vailla" | numero tai vertailu konkreettisesti |
 | "huipputasoinen" | mittari, joka todistaa tason |
 | "intohimoinen tiimi" | "tiimi jolla on 5+ vuoden kokemus" |
@@ -642,7 +642,7 @@ Numerot tekevät väittämästä konkreettisen. Yliampuvat adjektiivit eivät ku
 
 #### 31.4 Suomalainen humble brag ei ole nöyristelyä
 
-Tärkeä erotus: humble brag ei tarkoita että aliarvioit työsi tai vähätelet osaamistasi. Se tarkoittaa että annat **numeroiden, faktojen ja konkretian** puhua puolestaan.
+Tärkeä erotus: humble brag ei tarkoita, että aliarvioit työsi tai vähättelet osaamistasi. Se tarkoittaa, että annat **numeroiden, faktojen ja konkretian** puhua puolestaan.
 
 **Yliampuva (vältä):**
 > Olen alan ehdoton huippuosaaja sosiaalisen median markkinoinnissa.

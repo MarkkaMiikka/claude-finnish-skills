@@ -1,6 +1,6 @@
 ---
 name: suomi-some-tyyli
-description: Kirjoita suomenkielisiä some-postauksia kanavakohtaisilla mikrorekistereillä. Käytä kun käyttäjä sanoo "tee LinkedIn-postaus", "kirjoita Instagram-caption", "TikTok-hook", "Facebook-postaus", "tee multi-channel some", "samaan viestiin eri kanavaversiot", tai antaa raakaviestin, joka pitäisi muotoilla kanavakohtaisesti. Skill tunnistaa, että LinkedIn, Instagram, TikTok ja Facebook ovat omia mikrorekisterejään suomeksi — yhden geneerisen some-version kirjoittaminen ei toimi. Tuottaa per-kanava -versiot oikealla pituudella, sävyllä, rakenteella ja CTA-konventiolla. Käytä rinnan [[suomi-ei-ai-sloppia]] -humanisointi-skillin ja [[suomi-kielihuolto]] -mekaniikkaskillin kanssa final-passissa.
+description: Kirjoita suomenkielisiä some-postauksia kanavakohtaisilla mikrorekistereillä. Käytä kun käyttäjä sanoo "tee LinkedIn-postaus", "kirjoita Instagram-caption", "TikTok-hook", "Facebook-postaus", "tee multi-channel some", "samaan viestiin eri kanavaversiot", tai antaa raakaviestin, joka pitäisi muotoilla kanavakohtaisesti. Skill tunnistaa, että LinkedIn, Instagram, TikTok ja Facebook ovat omia mikrorekisterejään suomeksi — yhden geneerisen some-version kirjoittaminen ei toimi. Tuottaa kanavakohtaiset versiot oikealla pituudella, sävyllä, rakenteella ja CTA-konventiolla. Käytä rinnan [[suomi-ei-ai-sloppia]] -humanisointi-skillin ja [[suomi-kielihuolto]] -mekaniikkaskillin kanssa final-passissa.
 license: MIT
 ---
 
@@ -104,7 +104,7 @@ Jokaisella kanavalla on:
 [Hashtagit: 3–6 olennaista, ei spämmiä]
 ```
 
-**Rekisteri:** Puhekielisempi kuin Instagram. Lyhyt, suora. Tunnustetaan että lukija on lyhyellä huomiokyvyllä.
+**Rekisteri:** Puhekielisempi kuin Instagram. Lyhyt, suora. Tunnustetaan, että lukija on lyhyellä huomiokyvyllä.
 
 **Hashtagit:** 3–6 — ei enempää. TikTokin algoritmi painottaa muita signaaleja enemmän kuin hashtageja. Käytä mieluummin 1 trendaava + 2 kapean aiheen + 1 brändi.
 
@@ -139,9 +139,9 @@ Kun pyydetään yksi viesti → 4 kanavaa:
 
 ### Vaihe 1 — Ydinviesti
 
-Tunnista mikä on **se yksi asia** jonka jokaisen kanavan version lukijan pitää saada. Tämä on lähtökapseli kaikkiin neljään.
+Tunnista, mikä on **se yksi asia**, jonka jokaisen kanavan version lukijan pitää saada. Tämä on lähtökapseli kaikkiin neljään.
 
-### Vaihe 2 — Kohdeyleisö per kanava
+### Vaihe 2 — Kohdeyleisö kanavittain
 
 | Kanava | Tyypillinen suomalainen yleisö |
 |---|---|
@@ -150,7 +150,7 @@ Tunnista mikä on **se yksi asia** jonka jokaisen kanavan version lukijan pitä�
 | TikTok | Nuorempi keskimäärin, viihdettä, lyhyt huomiokyky, mobiili |
 | Facebook | Vanhempi keskimäärin, yhteisölliset jaot, tarinat, suorat ostopäätökset |
 
-### Vaihe 3 — Per-kanava kirjoitus
+### Vaihe 3 — Kanavakohtainen kirjoitus
 
 Kirjoita kanavakohtaiset versiot tyhjästä. Älä käännä yhtä versiota toisesta. Joka versio:
 
@@ -158,7 +158,7 @@ Kirjoita kanavakohtaiset versiot tyhjästä. Älä käännä yhtä versiota tois
 - Käyttää kanavan rekisteriä
 - Optimoi kanavan algoritmisille signaaleille (LinkedIn: kommentit; Instagram: tallennukset; TikTok: katseluaika; Facebook: jaot)
 
-### Vaihe 4 — Hashtag-strategia per kanava
+### Vaihe 4 — Hashtag-strategia kanavittain
 
 Kuten yllä — eri kanavat = eri hashtag-strategiat. Älä kopioi samaa hashtag-listaa kaikille.
 
@@ -211,7 +211,7 @@ Tallenna myöhempää varten. Kerro kommenteissa: missä SINUN aika menee?
 
 [Hashtagit ensimmäiseen kommenttiin: #työelämä #produktiivisuus #etätyö #kokoukset #ajanhallinta #urakehitys #suomi]
 
-### TikTok-versio (caption, oletus että video sisältää itse keskeisen)
+### TikTok-versio (caption, oletus, että video sisältää itse keskeisen)
 
 ```
 Pidin kirjaa kokouksistani viikon. Numero, jonka huomasin: 40 %.
@@ -233,10 +233,10 @@ Onko muilla samanlaisia kokemuksia? Mitä työkaluja kalenterin analyysiin?
 
 ---
 
-## Yhteenveto: per-kanava tarkistus
+## Yhteenveto: kanavakohtainen tarkistus
 
 ```
-[ ] Pituus oikea per kanava (LinkedIn 800–1300, Instagram 100–300, TikTok 80–150, Facebook 100–1200)
+[ ] Pituus oikea kanavittain (LinkedIn 800–1300, Instagram 100–300, TikTok 80–150, Facebook 100–1200)
 [ ] Hook sopii kanavalle (LinkedIn: kysymys/oivallus; IG: ensimmäiset 125 merkkiä; TikTok: video-hook; Facebook: suora)
 [ ] Rekisteri kanavakohtainen (LinkedIn ammattikieli, IG yleiskieli + tunne, TikTok puhekielinen, Facebook yleiskielinen)
 [ ] CTA kanavakohtainen (LinkedIn: keskustelu; IG: tallenna/jaa; TikTok: kommentti/seuraa; Facebook: linkki)

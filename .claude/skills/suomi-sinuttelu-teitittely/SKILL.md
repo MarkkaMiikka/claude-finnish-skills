@@ -9,7 +9,7 @@ license: MIT
 
 > **Vinkki:** Jos haluat ajaa kaikki suomi-* -skillit yhdessä oikeassa järjestyksessä, käytä `[[suomi-tarkistuslista]]` -orkestraattoria.
 
-Tämä skill auttaa valitsemaan sinuttelu- ja teitittelymuotojen välillä suomeksi sekä korjaa sekoittuvaa puhuttelumuotoa. Suomalainen viestintäkulttuuri on **paljon vähemmän teitittelevää kuin saksalainen tai ranskalainen** — AI-mallit virittävät teitittelyä liian helposti, koska treenidata painottuu kohteliaaseen rekisteriin.
+Tämä skill auttaa valitsemaan sinuttelu- ja teitittelymuotojen välillä suomeksi sekä korjaa sekoittuvaa puhuttelumuotoa. Suomalainen viestintäkulttuuri on **paljon vähemmän teitittelevää kuin saksalainen tai ranskalainen** — AI-mallit virittävät teitittelyä liian helposti, koska harjoitusdata painottuu kohteliaaseen rekisteriin.
 
 ---
 
@@ -73,7 +73,7 @@ Asiakaspalvelussa (chat, peruspankkitoiminta) sinuttelu on yleistä.
 
 Oletus lähes kaikessa. Erityisesti varmista sinuttelu näissä:
 
-- B2B-asiakas vaikka olisi yli 70-vuotias yrityksen toimitusjohtaja
+- B2B-asiakas, vaikka olisi yli 70-vuotias yrityksen toimitusjohtaja
 - Kollegan kanssa työpaikalla, riippumatta hierarkiasta
 - Suomenkielinen verkkosivusto, kun kohderyhmä on yleinen
 - Asiakaspalvelukeskustelu chat- tai puhelinkanavalla

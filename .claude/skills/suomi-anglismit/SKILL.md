@@ -129,7 +129,7 @@ Kun käännät englannin termiä suomeksi, älä keksi käännöstä — tarkist
 
 **Periaate:** Jos asialla on virallinen suomenkielinen termi (laki, viranomainen, ammattisanasto), käytä sitä. Älä käännä englanninkielisestä lähteestä, vaikka käännös vaikuttaisi suoraviivaiselta.
 
-**Tunnistustesti:** Tarkista virallinen lähde (Finlex, viranomaisen sivut, ammattisanakirja, Kielitoimiston sanakirja). Käytetäänkö sanaa sellaisenaan? Jos virallinen termi on toinen, oman muodon käyttäminen heikentää tekstin uskottavuutta ja E-E-A-T:ta.
+**Tunnistustesti:** Tarkista virallinen lähde (Finlex, viranomaisen sivut, ammattisanakirja, Kielitoimiston sanakirja). Käytetäänkö sanaa sellaisenaan? Jos virallinen termi on toinen, oman muodon käyttäminen heikentää tekstin uskottavuutta ja E-E-A-T:tä.
 
 Esimerkkejä asiayhteyksistä, joissa pitää tarkistaa virallinen termi:
 - Lakikäsitteet (Finlex)

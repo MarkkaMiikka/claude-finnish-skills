@@ -98,8 +98,8 @@ Joillain teksteillä on legitiimi syy vaihtaa rekisteriä eri osioissa. Esim:
 | Tuotekuvauksen "miten käytät" | Yleiskieli / asiakaskieli |
 | FAQ | Yleiskieli / asiakaskieli — vastaa lukijan kysymystä lukijan tasolla |
 | Käyttöehdot / tietosuojaseloste | Virallinen (laillinen vaatimus) |
-| Asiakaspalvelun chat-bot | Asiakaskieli, jopa puhekielisempi |
-| Blog-artikkeli | Ammattikieli + persoona |
+| Asiakaspalvelun chatbotti | Asiakaskieli, jopa puhekielisempi |
+| Blogiartikkeli | Ammattikieli + persoona |
 | Some-postaus | Puhekielisempi, vaihtelee kanavan mukaan |
 
 Jos teksti on koko ajan yhdessä rekisterissä mutta sen pitäisi vaihdella → korjaa.

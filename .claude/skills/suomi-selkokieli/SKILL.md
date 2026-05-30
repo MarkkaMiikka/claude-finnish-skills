@@ -12,7 +12,7 @@ license: MIT
 
 Selkokieli on suomen kielen muoto, joka on tarkoituksellisesti yksinkertaisempi rakenteeltaan, sanastoltaan ja sisällöltään kuin yleiskieli. Selkokielen viralliset ohjeet löytyvät Selkokeskuksesta (Kehitysvammaliitto). Tarkoitus: tieto on ymmärrettävä laajalle lukijakunnalle.
 
-Lukijoita joille selkokieli on tarpeellista:
+Lukijoita, joille selkokieli on tarpeellista:
 
 - Maahanmuuttajat ja suomea toisena kielenä opiskelevat
 - Lukivaikeudesta kärsivät
@@ -114,7 +114,7 @@ Selkokielessä pienet selventävät sanat eivät ole "täytettä" — ne auttava
 
 ### Vaihe 1 — Tunnista kohdelukija
 
-Jos selkokielistät tekstin "maahanmuuttajille" se voi vaatia eri valintoja kuin "lukivaikeudesta kärsiville". Jos kohde on yleinen "saavutettava versio", noudata yleisiä selkokielen sääntöjä.
+Jos selkokielistät tekstin "maahanmuuttajille", se voi vaatia eri valintoja kuin "lukivaikeudesta kärsiville". Jos kohde on yleinen "saavutettava versio", noudata yleisiä selkokielen sääntöjä.
 
 ### Vaihe 2 — Etsi raskaat rakenteet
 
@@ -128,7 +128,7 @@ Lue alkuteksti ja merkitse:
 
 ### Vaihe 3 — Pilko virkkeet
 
-Jokainen merkitsemäsi pitkä virke = useampi lyhyt virke. Kirjoita alkuperäinen ajatus uudelleen niin että jokainen virke sisältää vain yhden ajatuksen.
+Jokainen merkitsemäsi pitkä virke = useampi lyhyt virke. Kirjoita alkuperäinen ajatus uudelleen niin, että jokainen virke sisältää vain yhden ajatuksen.
 
 ### Vaihe 4 — Vaihda sanasto
 
@@ -171,7 +171,7 @@ Selkokielinen teksti pitää voida lukea ääneen sujuvasti. Jos kompastelet, vi
 >
 > Käsittelemme hakemuksen 14 arkipäivässä.
 >
-> Käsittely alkaa sen jälkeen kun olemme saaneet kaikki liitteet.
+> Käsittely alkaa sen jälkeen, kun olemme saaneet kaikki liitteet.
 >
 > ## Jos saat kielteisen päätöksen
 >
@@ -187,7 +187,7 @@ Selkokielinen teksti pitää voida lukea ääneen sujuvasti. Jos kompastelet, vi
 **Jälkeen (selkokielisempi):**
 > ## Voitko saada asumistukea?
 >
-> Asumistukea voi saada kun:
+> Asumistukea voi saada, kun:
 >
 > - Asut Suomessa vakituisesti.
 > - Tulosi eivät ole liian suuria.

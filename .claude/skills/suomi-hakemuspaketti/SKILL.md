@@ -59,7 +59,7 @@ Käytä kohdassa 4 olevaa rakennetta.
 ### Vaihe 5: Aja tarkistukset
 
 Pakollinen ketjutus:
-- [[suomi-ei-ai-sloppia]] — erityisesti pattern 31 (suomalainen humble brag) ja pattern 7 (AI-sanasto)
+- [[suomi-ei-ai-sloppia]] — erityisesti kuvio 31 (suomalainen humble brag) ja kuvio 7 (AI-sanasto)
 - [[suomi-kielihuolto]] — yhdyssanat, pilkutus, sijamuodot
 - [[suomi-anglismit]] — käännöslainat (poikkeus: alan vakiintuneet termit kuten "orgaaninen", "brieffata", "konversio" säilytetään)
 
@@ -280,7 +280,7 @@ Maks. 1 sivu. Kolme kappaletta (avaus + keskikappale + lopetus) on yleensä riit
 | Kaikki työkokemus 10+ vuoden takaa täydessä laajuudessa | Vie tilan tärkeämmältä | Tiivistä vanhat roolit yhteen riviin |
 | "Vastasin..." joka rivissä | Yksitoikkoista | Vaihtelevat verbit: rakensin, kasvatin, tuotin, optimoin, lanseerasin |
 | Hard skills ja soft skills sekaisin yhteen luetteloon | Hämmentää | Erottele: tekninen osaaminen vs. johtamis- ja vuorovaikutusosaaminen |
-| Englanninkielisiä tittelejä keskellä suomenkielistä CV:tä | Sekavaa | Käännä, tai pidä englanniksi jos rooli oli englanniksi (esim. "Account Manager") |
+| Englanninkielisiä tittelejä keskellä suomenkielistä CV:tä | Sekavaa | Käännä, tai pidä englanniksi, jos rooli oli englanniksi (esim. "Account Manager") |
 
 ### 5.2 Hakemuskirjeen anti-patternit
 
@@ -456,7 +456,7 @@ aino.esimerkki@example.fi
 [ ] Hakemuksen lopussa on selkeä pyyntö (keskustelu, tapaaminen, ajankohta)
 [ ] Sähköpostiosoite ja puhelinnumero tarkistettu
 [ ] LinkedIn-linkki toimii ja vastaa hakemusta
-[ ] [[suomi-ei-ai-sloppia]] ajettu, erityisesti pattern 31 (humble brag)
+[ ] [[suomi-ei-ai-sloppia]] ajettu, erityisesti kuvio 31 (humble brag)
 [ ] [[suomi-kielihuolto]] ajettu (yhdyssanat, pilkutus, sijamuodot)
 [ ] [[suomi-anglismit]] ajettu (huom: säilytä alan vakiintuneet termit kuten orgaaninen, brieffata, konversio)
 [ ] Pandoc- tai Google Docs -muunto-ohjeet annettu käyttäjälle
@@ -468,7 +468,7 @@ aino.esimerkki@example.fi
 
 - [[suomi-tarkistuslista]] — pipeline F: hakemus/CV
 - [[suomi-rekisteri]] — ammattikieli + henkilökohtainen sävy
-- [[suomi-ei-ai-sloppia]] — pakollinen ketjutus, erityisesti pattern 31 humble brag
+- [[suomi-ei-ai-sloppia]] — pakollinen ketjutus, erityisesti kuvio 31 humble brag
 - [[suomi-kielihuolto]] — pakollinen mekaniikkatarkistus
 - [[suomi-anglismit]] — pakollinen, huomioiden alan vakiintunut sanasto
 - [[suomi-sahkoposti]] — jos hakemus lähetetään sähköpostitse (saateviestin muoto)

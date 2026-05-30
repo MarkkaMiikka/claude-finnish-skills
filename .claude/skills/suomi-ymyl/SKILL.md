@@ -166,7 +166,7 @@ Väite + [linkkiteksti viittaa lähteeseen](URL).
 **Huono esimerkki (puuttuva linkki):**
 > Tutkimusten mukaan tyypin 2 diabeteksen hoito alkaa elämäntapamuutoksilla.
 
-"Tutkimusten mukaan" ilman tutkimusviittausta on YMYL-sääntö-rikko.
+"Tutkimusten mukaan" ilman tutkimusviittausta on YMYL-sääntörikko.
 
 ---
 
@@ -209,7 +209,7 @@ AI vetää ne sisään koska markkinointi- ja blogitekstit on tyypillisesti kirj
 
 ### 2. Tutkimusten "yleinen referointi"
 
-"Tutkimusten mukaan", "asiantuntijat sanovat", "yleisesti tiedetään" ilman nimettyä lähdettä. Anglismi: ympäripyöreä viittaus käännetään suoraan suomeksi.
+"Tutkimusten mukaan", "asiantuntijat sanovat", "yleisesti tiedetään" ilman nimettyä lähdettä. Ympäripyöreä, lähteetön viittaus — nimeä lähde tai poista väite.
 
 ### 3. Lääkkeiden tai annosten ohjeistus ilman lähdettä
 

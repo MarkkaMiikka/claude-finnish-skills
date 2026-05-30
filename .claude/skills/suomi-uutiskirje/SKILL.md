@@ -1,7 +1,7 @@
 ---
 name: suomi-uutiskirje
 description: >
-  Suomenkielinen email-uutiskirje — otsikkorivi, preheader, avaus, sisältöblokit, CTA-konventiot, allekirjoitus ja peruutuslinkki. Käytä kun rakennat asiakasuutiskirjettä, sisältöuutiskirjettä, yrityksen sisäistä uutiskirjettä tai sähköpostimarkkinointia, tai kun käyttäjä sanoo "tee uutiskirje", "kirjoita newsletter", "email-kampanja", "uutiskirjeen otsikko", "asiakaskirje" tai "kuukausikirje". Ei käsittele yksittäistä sähköpostia — käytä siihen [[suomi-sahkoposti]]. Konsultoi [[suomi-lokalisaatio-perus]] -skilliä päivämääriin ja [[suomi-sinuttelu-teitittely]] -skilliä lukijan puhuttelumuotoon.
+  Suomenkielinen sähköpostiuutiskirje — otsikkorivi, preheader, avaus, sisältöblokit, CTA-konventiot, allekirjoitus ja peruutuslinkki. Käytä kun rakennat asiakasuutiskirjettä, sisältöuutiskirjettä, yrityksen sisäistä uutiskirjettä tai sähköpostimarkkinointia, tai kun käyttäjä sanoo "tee uutiskirje", "kirjoita newsletter", "email-kampanja", "uutiskirjeen otsikko", "asiakaskirje" tai "kuukausikirje". Ei käsittele yksittäistä sähköpostia — käytä siihen [[suomi-sahkoposti]]. Konsultoi [[suomi-lokalisaatio-perus]] -skilliä päivämääriin ja [[suomi-sinuttelu-teitittely]] -skilliä lukijan puhuttelumuotoon.
 license: MIT
 ---
 
@@ -97,7 +97,7 @@ Suomalainen uutiskirjelukija **haluaa heti pointin**. Tämä eroaa amerikkalaise
 
 ### 3.3 P.S. käytön sääntö
 
-Englannin uutiskirjekulttuurissa P.S. on lähes pakollinen lopussa. Suomeksi se on harkittu, ei mekaaninen. Käytä P.S.-osaa kun:
+Englannin uutiskirjekulttuurissa P.S. on lähes pakollinen lopussa. Suomeksi se on harkittu, ei mekaaninen. Käytä P.S.-osaa, kun:
 - Sinulla on aidosti yksi lisätieto, joka ei mahdu runkoon
 - Haluat alleviivata yhden CTA:n
 - Et joka uutiskirjeessä

@@ -154,7 +154,7 @@ Kun pyydät jotain, kerro **mitä tarvitset, miksi ja mihin mennessä** yhdessä
 
 Käytä [[suomi-lokalisaatio-perus]] -ohjeita:
 - Päivämäärä: `12.6.2026 klo 14.30`
-- Hinta: `12 500 € (alv 0 %)`
+- Hinta: `12 500 € (ALV 0 %)`
 - Aikaväli: `viikolla 24` tai `10.–14.6.`
 
 ---
@@ -240,7 +240,7 @@ Hei Aino,
 
 Kiitos eilisestä keskustelusta. Lähetän alla pyydetyt tiedot Q3-kampanjasta.
 
-Kampanjan kohderyhmä on 25–45-vuotiaat pk-yritysten päättäjät pääkaupunkiseudulla. Budjetti on 25 000 € (alv 0 %), ja kampanja ajetaan 1.7.–31.8.2026.
+Kampanjan kohderyhmä on 25–45-vuotiaat pk-yritysten päättäjät pääkaupunkiseudulla. Budjetti on 25 000 € (ALV 0 %), ja kampanja ajetaan 1.7.–31.8.2026.
 
 Tarvitsen tarjouksen 12.6.2026 mennessä. Sopiiko keskustelu vielä ensi viikon perjantain aikana, jos tarvitset tarkennuksia?
 

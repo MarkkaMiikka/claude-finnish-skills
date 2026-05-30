@@ -96,7 +96,7 @@ ___________________________
 Hinta sisältää ALV:n. Kuluttajansuojalain mukaan B2C-hinnoissa ALV:n tulee olla mukana.
 
 ```
-Verkkokurssi: 99 € (sis. alv 25,5 %)
+Verkkokurssi: 99 € (sis. ALV 25,5 %)
 ```
 
 ### 3.2 B2B-hinnoittelu (yritysasiakas)
@@ -104,7 +104,7 @@ Verkkokurssi: 99 € (sis. alv 25,5 %)
 Hinta ilmoitetaan ilman ALV:tä, ja ALV eritellään erikseen.
 
 ```
-Konsultointityö:      100,00 €/h (alv 0 %)
+Konsultointityö:      100,00 €/h (ALV 0 %)
 40 tunnin sopimus:  4 000,00 €
 Alv 25,5 %:         1 020,00 €
 Yhteensä:           5 020,00 €
@@ -192,7 +192,7 @@ Ilman voimassaoloaikaa tarjous voidaan tulkita avoimeksi, mikä rajoittaa hinnoi
 
 ---
 
-## 6. Scope-määrittely: mitä kuuluu, mitä ei kuulu
+## 6. Työn rajaus: mitä kuuluu, mitä ei kuulu
 
 Tämä on tärkein osa tarjouksesta. AI-tuotetut tarjoukset jättävät tämän usein liian löysäksi.
 
@@ -225,7 +225,7 @@ Seuraavat eivät kuulu tarjoukseen ja laskutetaan erikseen tai sovitaan myöhemm
 
 ### 6.3 Tyypilliset puuttuvat erottelut
 
-Tarkista että tarjous kertoo selkeästi:
+Tarkista, että tarjous kertoo selkeästi:
 - Sisältyykö projektin hallintatyö (project management) hintaan?
 - Sisältyykö ensimmäinen palaveri vai onko se erillinen?
 - Kuinka monta muutoskierrosta on mukana?
@@ -295,7 +295,7 @@ Tarkista:
 
 Ilman voimassaoloa tarjous voi velvoittaa loputtomiin. Aina merkitse päättymispäivä.
 
-### 8.4 Löysä scope
+### 8.4 Löysä rajaus
 
 ❌ "Toteutamme markkinointikampanjan tarpeidenne mukaisesti."
 ✅ "Toteutamme 4 viikon Meta Ads -kampanjan, sisältäen 1 maksullisen videon ja 5 staattista kuvaa. Kuukausibudjetti ja kohderyhmämääritys ovat erillinen sopimusasia."
@@ -352,7 +352,7 @@ Seuraavat eivät kuulu tarjoukseen:
 
 ## 3. Hinnoittelu
 
-| Vaihe | Työpäiviä | Hinta (alv 0 %) |
+| Vaihe | Työpäiviä | Hinta (ALV 0 %) |
 |---|---|---|
 | Esiselvitys | 5 | 4 250,00 € |
 | Suunnitelma | 3 | 2 550,00 € |
@@ -361,7 +361,7 @@ Seuraavat eivät kuulu tarjoukseen:
 | **Yhteensä** | **18 + tuki** | **16 100,00 €** |
 
 Alv 25,5 % lisätään laskutuksessa: 4 105,50 €
-Kokonaishinta: **20 205,50 €** (sis. alv)
+Kokonaishinta: **20 205,50 €** (sis. ALV)
 
 ## 4. Maksuehdot
 
