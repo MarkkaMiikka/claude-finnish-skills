@@ -1,7 +1,7 @@
 ---
 name: suomi-hakemuspaketti
 description: >
-  Räätälöi suomenkielinen CV ja hakemuskirje tiettyyn avoimena olevaan työtehtävään markdown-muodossa. Käytä kun käyttäjä antaa työpaikkailmoituksen ja taustatietonsa, tai sanoo "räätälöi CV", "tee hakemus", "rakenna hakemuspaketti", "tee CV [yritykselle]", "kirjoita hakemuskirje", "muokkaa CV tähän hakuun", "hakemus [yritykselle/roolille]". Tuottaa kaksi markdown-tiedostoa (CV.md ja Hakemuskirje.md) sekä ohjeet niiden muuntamiseksi Word- tai PDF-muotoon. EI sovellu pelkkään yleiseen CV-neuvontaan ilman kohdetyöpaikkaa. Ketjuttaa pakollisina [[suomi-ei-ai-sloppia]]- ja [[suomi-kielihuolto]]-skillit lopputuloksen tarkistukseen.
+  Räätälöi suomenkielinen CV ja hakemuskirje tiettyyn avoimena olevaan työtehtävään markdown-muodossa. Käytä kun käyttäjä antaa työpaikkailmoituksen ja taustatietonsa, tai sanoo "räätälöi CV", "tee hakemus", "rakenna hakemuspaketti", "tee CV [yritykselle]", "kirjoita hakemuskirje", "muokkaa CV tähän hakuun", "hakemus [yritykselle/roolille]". Tuottaa kaksi markdown-tiedostoa (CV.md ja Hakemuskirje.md) sekä ohjeet niiden muuntamiseksi Word- tai PDF-muotoon. EI sovellu pelkkään yleiseen CV-neuvontaan ilman kohdetyöpaikkaa. Ketjuttaa pakollisina [[suomi-ei-ai-sloppia]]-, [[suomi-kielihuolto]]- ja [[suomi-anglismit]]-skillit lopputuloksen tarkistukseen.
 license: MIT
 ---
 
@@ -296,7 +296,7 @@ Maks. 1 sivu. Kolme kappaletta (avaus + keskikappale + lopetus) on yleensä riit
 
 ### 5.3 Yhteiset anti-patternit
 
-- Em-dashin ylikäyttö (max 1 koko hakemuksessa, mieluiten 0)
+- Ajatusviivan (—) ylikäyttö (max 1 koko hakemuksessa, mieluiten 0)
 - Iso Alkukirjain Otsikoissa (vain ensimmäinen sana isolla suomessa)
 - Emojit
 - Lihavointi joka toisessa virkkeessä

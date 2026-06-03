@@ -20,7 +20,7 @@ The orchestrator (`suomi-tarkistuslista`) detects what kind of text you have, pi
 
 | Skill | What it does | Trigger phrases |
 |---|---|---|
-| **suomi-tarkistuslista** | Meta-skill — detects context (markkinointi / hakemus / some / YMYL / selkokieli / email / tarjous / tiedote / uutiskirje), picks the right pipeline of the 10 available, runs the other skills in correct order, consolidates findings | "aja täysi suomi-tarkistus", "tarkista koko teksti", "suomi-check", "viimeistele suomenkielinen teksti" |
+| **suomi-tarkistuslista** | Meta-skill — detects context (markkinointi / hakemus / some / YMYL / selkokieli / lakiteksti / email / tarjous / tiedote / uutiskirje), picks the right pipeline of the 10 available, runs the other skills in correct order, consolidates findings | "aja täysi suomi-tarkistus", "tarkista koko teksti", "suomi-check", "viimeistele suomenkielinen teksti" |
 
 ### Universal text-quality skills (used by most pipelines)
 

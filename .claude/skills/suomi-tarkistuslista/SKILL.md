@@ -123,7 +123,7 @@ Huom: `suomi-rekisteri` jää väliin, koska `suomi-some-tyyli` sisältää kana
 
 ```
 1. [[suomi-ymyl]]           — journalistinen näkökulma, lähteet, lähdelinkit
-2. [[suomi-rekisteri]]      — varmistaa että rekisteri sopii aiheen vakavuuteen
+2. [[suomi-rekisteri]]      — varmistaa, että rekisteri sopii aiheen vakavuuteen
 3. [[suomi-ei-ai-sloppia]]  — yleinen AI-kuvioiden puhdistus
 4. [[suomi-anglismit]]      — käännöslainojen puhdistus
 5. [[suomi-kielihuolto]]    — mekaniikka

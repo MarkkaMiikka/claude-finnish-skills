@@ -37,7 +37,7 @@ Konteksti määrää, ei sosiaalinen asema yleisesti. Käytä teitittelyä näis
 ### 2.1 Viranomaiset omissa kirjeissään
 
 - Verohallinnon, Kelan, oikeuslaitoksen, poliisin viralliset kirjeet kansalaisille
-- Maistraatti, ulkomaalaisvirasto, työvoimaviranomaiset
+- Digi- ja väestötietovirasto (DVV), Maahanmuuttovirasto, työvoimaviranomaiset
 
 Tämä on viranomaisen vakiintunut konventio kansalaisia kohtaan, ei käänteinen suunta.
 

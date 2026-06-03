@@ -199,7 +199,7 @@ Vältä englannin sijoittelua: `$12.50` muuttuu suomeksi muotoon `12,50 $` tai `
 
 | Yksikkö | Lyhenne | Huom |
 |---|---|---|
-| Tavu | t (tai B) | `1024 t` tai `1 KB` (kontekstista) |
+| Tavu | B (tai t) | `1024 B` tai `1 KB` (kontekstista) |
 | Kilotavu | KB | `4 KB` |
 | Megatavu | MB | `2 MB` |
 | Gigatavu | GB | `500 GB` |
@@ -265,7 +265,7 @@ Esimerkkikatu 12 A 5
 | Kotimainen | `0XX XXX XXXX` | `040 123 4567` |
 | Kansainvälinen (Suomi) | `+358 XX XXX XXXX` | `+358 40 123 4567` |
 | Lankaverkko | `0X XXX XXXX` | `09 123 4567` (Helsinki) |
-| Yleinen palvelunumero | `0XXX XXX XXXX` | `0200 123 45` |
+| Yleinen palvelunumero | `0XXX XXX XXXX` | `0200 123 4567` |
 
 ### 7.2 Säännöt
 

@@ -110,7 +110,7 @@ AI-fraasien poistaminen on vain puolet työstä. Sieluton, neutraali teksti on y
 
 ---
 
-### 3. "-en"- ja "-ssa"-loppuiset varjoanalyysit
+### 3. "-en"-loppuiset varjoanalyysit (referatiivirakenne)
 
 **Vältä:** "korostaen X:n merkitystä", "edistäen Y:n leviämistä", "varmistaen, että...", "heijastaen Z:aa", "kuvastaen W:tä", "ilmentäen V:tä", "tuoden esiin..."
 
@@ -564,7 +564,7 @@ Suomessa lauseen alkuun voi nostaa minkä tahansa elementin sen korostamiseksi:
 | Neutraali | "Asiakas hyväksyi tarjouksen eilen." |
 | Korostetaan ajankohtaa | "Eilen asiakas hyväksyi tarjouksen." |
 | Korostetaan kohdetta | "Tarjouksen asiakas hyväksyi eilen." (markkinoiva painotus harvinainen) |
-| Korostetaan henkilöä | "Asiakas hyväksyi tarjouksen eilen." (tähän sopii intonaation kanssa) |
+| Korostetaan henkilöä | "Asiakas hyväksyi tarjouksen eilen." (subjekti on jo edessä neutraalissa järjestyksessä, joten henkilö korostuu luonnostaan) |
 
 AI ei käytä tätä painotustapaa, vaan kirjoittaa kaiken neutraalissa SVO-järjestyksessä. Tulos: teksti ei reagoi kontekstiin.
 

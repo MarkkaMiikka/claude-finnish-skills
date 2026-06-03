@@ -98,7 +98,7 @@ Kummatkin ovat hyväksyttäviä. Useimmat kirjoittajat aloittavat seuraavan rivi
 
 ### 3.1 Suomalainen avaus menee suoraan asiaan
 
-Englannin "Hope you're well" -tyylinen kuulumisten kysely ei käännetä suomeksi luonnollisesti. Aloita asiasta.
+Englannin "Hope you're well" -tyylinen kuulumisten kysely ei käänny suomeksi luonnollisesti. Aloita asiasta.
 
 **Sopiva avaus B2B-yhteydessä:**
 - `Kiitos viestistä.` (jos vastaat aiempaan viestiin)
@@ -222,7 +222,7 @@ Y-tunnus: 1234567-8
 
 - Lainauksia ("Tavoittele unelmiasi!" -tyyliset)
 - Emojeja tunnusten edessä
-- Pitkiä disclaimer-tekstejä paitsi kun yritys vaatii
+- Pitkiä vastuuvapauslausekkeita (disclaimer) paitsi kun yritys vaatii
 - AI-fraaseja, esim. "Empowering businesses to..." tai "Have a great day!"
 
 ---

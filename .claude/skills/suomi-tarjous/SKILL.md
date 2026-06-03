@@ -106,7 +106,7 @@ Hinta ilmoitetaan ilman ALV:tä, ja ALV eritellään erikseen.
 ```
 Konsultointityö:      100,00 €/h (ALV 0 %)
 40 tunnin sopimus:  4 000,00 €
-Alv 25,5 %:         1 020,00 €
+ALV 25,5 %:         1 020,00 €
 Yhteensä:           5 020,00 €
 ```
 
@@ -360,7 +360,7 @@ Seuraavat eivät kuulu tarjoukseen:
 | Tuki (8 h) | — | 800,00 € |
 | **Yhteensä** | **18 + tuki** | **16 100,00 €** |
 
-Alv 25,5 % lisätään laskutuksessa: 4 105,50 €
+ALV 25,5 % lisätään laskutuksessa: 4 105,50 €
 Kokonaishinta: **20 205,50 €** (sis. ALV)
 
 ## 4. Maksuehdot

@@ -1,6 +1,6 @@
 ---
 name: suomi-rekisteri
-description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi — yleiskieli, ammattikieli, asiakaskieli, puhekieli — ja varmistaa että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä, jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaniikkaa (yhdyssanat, pilkutus) — käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]].
+description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi — yleiskieli, ammattikieli, asiakaskieli, puhekieli — ja varmistaa, että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä, jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaniikkaa (yhdyssanat, pilkutus) — käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]].
 license: MIT
 ---
 
@@ -177,7 +177,7 @@ Markkinointitekstissä äkillinen "te-muoto" vaihtaminen sinä-puhutteluun ja ta
 ## Yhteenveto: rekisteri-tarkistuslista
 
 ```
-[ ] Kohde-rekisteri valittu ja kirjattu (virallinen / ammattikieli / yleiskieli / puhekieli)
+[ ] Kohderekisteri valittu ja kirjattu (virallinen / ammattikieli / yleiskieli / puhekieli)
 [ ] Sanasto kuuluu kohderekisteriin (ei "edellä mainittu" yleiskielessä, ei "tsekkaa" ammattikielessä)
 [ ] Virkerakenne sopii kohderekisteriin (pitkät vs lyhyet, passiivi vs aktiivi)
 [ ] Puhuttelutapa johdonmukainen (sä/te/persoonaton — pidä yhtä koko teksti)

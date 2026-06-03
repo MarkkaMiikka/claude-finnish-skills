@@ -31,7 +31,7 @@ Jokaisella kanavalla on:
 
 **Hook (ensimmäinen rivi):**
 - Kysymys, joka aktivoi tunnistamisen ("Mietitkö joskus, miksi...")
-- Oivallus tai kontraindikaatio ("Markkinointitiimit luulevat että X. Se ei ole totta.")
+- Oivallus tai vastaväite ("Markkinointitiimit luulevat että X. Se ei ole totta.")
 - Henkilökohtainen tarinan alku ("Eilen tein virheen, jonka maksoin myöhemmin.")
 - Konkreettinen numero alussa ("Käytin viikossa 18 tuntia raporttiin, jonka kukaan ei lukenut.")
 
@@ -92,7 +92,7 @@ Jokaisella kanavalla on:
 
 **Pituus:** 80–150 merkkiä captionissa. Hook on itse videon ensimmäiset 2 sekuntia, ei caption.
 
-**Caption-rooli:** Vahvistaa hookia, ei toista videota. Lisää konteksti, esittää kysymyksen, antaa kommenttisysäys.
+**Caption-rooli:** Vahvistaa hookia, ei toista videota. Lisää kontekstin, esittää kysymyksen, antaa kommenttisysäyksen.
 
 **Rakenne:**
 
@@ -209,7 +209,7 @@ Pidin kirjaa kokouksistani viikon ajan. Tulos: 40 % niistä olisi voitu hoitaa s
 Tallenna myöhempää varten. Kerro kommenteissa: missä SINUN aika menee?
 ```
 
-[Hashtagit ensimmäiseen kommenttiin: #työelämä #produktiivisuus #etätyö #kokoukset #ajanhallinta #urakehitys #suomi]
+[Hashtagit ensimmäiseen kommenttiin: #työelämä #tuottavuus #etätyö #kokoukset #ajanhallinta #urakehitys #suomi]
 
 ### TikTok-versio (caption, oletus, että video sisältää itse keskeisen)
 

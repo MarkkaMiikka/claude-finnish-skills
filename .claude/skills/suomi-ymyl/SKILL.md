@@ -64,7 +64,8 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 **Pätevät lähteet:**
 - Finanssivalvonta
 - Suomen Pankki
-- Valtiokonttori (eläkkeet, asuntolainat)
+- Valtiokonttori (valtion talous, valtiontakaukset)
+- Keva (julkisen sektorin eläkkeet)
 - Finanssiala ry
 - Verohallinto
 - Eläketurvakeskus (ETK)
