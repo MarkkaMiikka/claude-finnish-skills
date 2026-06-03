@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.2.1 — 2026-06-03
+
+Patch release. Correctness and consistency fixes across all 15 skills and the README — no new skills or pipelines. The skills were run through their own rules (anglism, AI-slop, grammar, and factual checks) and the findings applied.
+
+### Fixed
+
+- **Authoritative sources (YMYL and meta-skills):** corrected outdated or wrong Finnish authorities — `Trafi` → `Traficom`, the defunct `Suomen Vakuutusyhtiöiden Keskusliitto` → `Finanssiala ry`, `Maistraatti` / `Ulkomaalaisvirasto` → `Digi- ja väestötietovirasto (DVV)` / `Maahanmuuttovirasto`, and Valtiokonttori's scope (added `Keva` for public-sector pensions; `Eläketurvakeskus` already listed for earnings-related).
+- **Standard contract references (`suomi-tarjous`):** updated to current editions — `KSE 2013`, `IT2022`, `JIT 2015` — with a note to verify the latest version.
+- **VAT:** general rate shown as `25,5 %`; reduced-rate examples aligned with rates current for 2026.
+- **Localization (`suomi-lokalisaatio-perus`):** the service-number example now matches its stated pattern, and the byte abbreviation leads with `B`.
+- **Grammar and mechanics:** missing commas before `että`, object-case agreement, compound spelling (`kohderekisteri`), and `ei käännetä` → `ei käänny`.
+- **Organization spellings:** `YLE` / `KELA` → `Yle` / `Kela` (inflected directly, not as initialisms).
+
+### Changed
+
+- **Anglisms in the skills' own prose** replaced with Finnish equivalents (e.g. `em-dash` → `ajatusviiva`, `disclaimer` → `vastuuvapauslauseke`, `#produktiivisuus` → `#tuottavuus`).
+- **Consistency:** `suomi-hakemuspaketti` frontmatter now lists all three mandatory chained skills; the README context list and pipeline count are aligned; `ALV` capitalization standardized in proposal templates.
+- **Factual softening:** removed the claim that Google down-ranks AI content as such (reframed around quality/spam) and an unsourced training-data statistic.
+
+### Credits unchanged
+
+Attribution to [`akunikkola/suomi-finnish-skill`](https://github.com/akunikkola/suomi-finnish-skill), [`blader/humanizer`](https://github.com/blader/humanizer), and Wikipedia:Signs of AI writing preserved.
+
+---
+
 ## 0.2.0 — 2026-05-27
 
 Second release. Seven new skills covering Finnish business documents (email, application package, proposal, press release, newsletter), basic localization (dates, numbers, currency, addresses) and a decision matrix for sinuttelu/teitittely. The repo grows from 8 to 15 skills. The orchestrator (`suomi-tarkistuslista`) gains four new pipelines (G–J) and references two new meta-skills.
