@@ -366,7 +366,7 @@ Markkinoinnin ja maksetun mainonnan ammattilainen, jolla on neljän vuoden kokem
 ### Markkinointiasiantuntija, Esimerkki Oy (2024–nyk.)
 
 - Hallinnoin LinkedIn Ads- ja Google Ads -kampanjoiden viisinumeroisia kuukausibudjetteja, optimoin MQL-konversion mukaan
-- Koordinoin sisällöntuotannon kahden ulkopuolisen kumppanin kanssa, suunnittelin sisältöaikataulun datapohjaisesti
+- Koordinoin sisällöntuotannon kahden ulkopuolisen kumppanin kanssa, suunnittelin sisältöaikataulun kampanjadatan perusteella
 - Kasvatin uutiskirjeen tilaajamäärän 1 200 → 4 200 14 kuukaudessa
 - Vedin viikoittaisen raportoinnin pk-asiakkaille (kuusi asiakasta yhtäaikaisesti)
 

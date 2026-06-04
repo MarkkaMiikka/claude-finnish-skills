@@ -698,7 +698,7 @@ Vältä:
    - vaihtelee virkerakennetta luonnollisesti
    - käyttää konkreettisia faktoja sumeiden väitteiden sijaan
    - säilyttää sopivan rekisterin kontekstiin nähden
-   - käyttää "on"-verbiä ja muita yksinkertaisia rakenteita kun mahdollista
+   - käyttää "on"-verbiä ja muita yksinkertaisia rakenteita, kun mahdollista
 5. **Esitä luonnos**
 6. **Itse-audit:** "Mikä alla olevassa on edelleen ilmiselvästi AI-tuotettua?"
 7. Vastaa lyhyesti niihin merkkeihin, jotka jäivät
