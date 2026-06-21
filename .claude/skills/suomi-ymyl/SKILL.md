@@ -30,13 +30,15 @@ Tämä on **ohjeistus** – kuin terveysasiantuntija, sijoitusneuvoja, juristi t
 **Journalistinen näkökulma (sallittu kaikille ilman pätevyyttä):**
 > "Diabetesliitto kertoo metformiinin tyypilliseksi annokseksi kaksi kertaa päivässä aterian yhteydessä [linkki Diabetesliiton sivulle]."
 > "Finanssivalvonnan ohjeen mukaan vähäriskinen pitkän aikavälin sijoittaminen voi sopia eläkesäästöjen kasvattamiseen [linkki]."
-> "Suomen Asianajajaliitto suosittelee oikeudellisen tarkistuksen pyytämistä monimutkaisten sopimusten yhteydessä [linkki]."
+> "Suomen Asianajajaliiton mukaan monimutkaisten sopimusten yhteydessä kannattaa pyytää oikeudellinen tarkistus [linkki]."
 
 Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lukijan vastuulle klikata lähteeseen tarkistamaan.
 
 **Erotuksen ydinsääntö:**
 - Konsultin näkökulma: kerrot lukijalle mitä hänen pitäisi tehdä
 - Journalistinen näkökulma: kerrot lukijalle mitä pätevä taho on suositellut, jätät päätöksen lukijalle
+
+**Vältä suosituksen panemista virallisen tahon suuhun.** Erota kaksi asiaa: faktan attribuointi lähteelle ("X:n mukaan..." – aina turvallinen) ja suosituksen attribuointi ("X suosittelee Y:tä" – käytä vain, jos lähteen julkaisema sisältö todistettavasti ja sanatarkasti on tuo suositus, esimerkiksi virallinen hoitosuositus). Muuten "X:n mukaan" tai "X:n ohjeen mukaan" on turvallisempi: se viittaa nimettyyn lähdedokumenttiin eikä esitä tahoa suosittelijana.
 
 ---
 
@@ -143,7 +145,7 @@ Käytä näitä rakenteita YMYL-sisällössä:
 
 | Tilanne | Konsultin näkökulma (vältä) | Journalistinen näkökulma (käytä) |
 |---|---|---|
-| Yleinen suositus | "Suosittelemme tekemään X" | "[Pätevä taho] suosittelee X-tekemistä [linkki]" |
+| Yleinen suositus | "Suosittelemme tekemään X" | "[Pätevä taho]:n mukaan X [linkki]" (jos lähde on itse suositus: "[Pätevä taho]:n suosituksen mukaan...") |
 | Yksilölle ohje | "Sinun pitäisi tehdä X" | "Tarkista omat olosuhteet [pätevältä taholta]" |
 | Annos / määrä | "Ota 2 tablettia päivässä" | "[Lähde] kertoo tyypilliseksi annokseksi 2 tablettia päivässä [linkki]" |
 | Ajankohta / aikataulu | "Nopeasti / heti / 2 viikon kuluttua" | "[Lähde] kertoo ajankohdan olevan tyypillisesti..." |
@@ -171,6 +173,22 @@ Väite + [linkkiteksti viittaa lähteeseen](URL).
 
 ---
 
+## Sitaatin verifiointi ≠ sitaatin lainaaminen
+
+Lähteen nimeäminen ja linkki eivät vielä takaa, että sitaatti tai luku vastaa lähdettä. Tätä skilliä – ja mitä tahansa kielimallia – ajettaessa kannattaa tiedostaa: malli kohtelee annettua sitaattia valmiina, sanatarkkana lainauksena ja arvioi vain sen kieliasun. Se ei itse tarkista, sanooko lähde oikeasti niin. Pelkkä lukeminen ei paljasta tekaistua tai väärää sitaattia.
+
+Aja YMYL-sitaateille erillinen lähdeverifiointi:
+
+- **Hae virallinen lähde itse** (laki: säädöksen täysteksti tai sitä sanatarkasti lainaava sekundäärilähde; terveys: hoitosuositus; luku: alkuperäinen tilasto). Asenne: yritä kumota jokainen sitaatti, lakipykälä, momentti ja luku – oletus on "epäilty", kunnes lähde vahvistaa.
+- **Älä luota tekstissä olevaan "tarkistettu lähteestä X" -merkintään.** Se voi olla väärä. Tarkista alkuperä itse.
+- **Periytyvä virhe:** jos lainaat sitaatin toisesta valmiista tekstistä, se voi olla jo valmiiksi virheellinen. Verifioi alkuperäinen lähde, älä kopioi sokeasti.
+- **Jos sanatarkkaa lähdetekstiä ei voi tarkistaa, älä esitä sanatarkkaa sitaattia.** Pudota lainausmerkit ja anna referoivan väitteen ja lähdelinkin kantaa tieto.
+- **Ristiriidan kynnys:** ennen kuin julistat valmiin sitaatin vääräksi, vaadi vähintään kaksi toisistaan riippumatonta, samansisältöistä lähdettä – yksittäinen sivu voi itsekin olla väärässä.
+
+**Lähisukuinen virhe – attribuution vuoto.** Lähteen "X:n mukaan" -attribuutio voi vuotaa rakenteellisesti viereiseen, lähteistämättömään väitteeseen, vaikka itse fakta olisi tosi. Esimerkki: "Lähteen X mukaan valmistetta ei saa antaa alle 12-vuotiaalle. Sitä on saatavilla myös nestemäisenä." Lukija tulkitsee jälkimmäisen väitteen X:n sanomaksi, vaikka X ei maininnut sitä. Katkaise attribuutio ja sido lisäväite omaan lähteeseensä. (Sitaatin tekaisu = väärä sanamuoto; attribuution vuoto = oikea fakta mutta väärä lähdesidonta. Kumpikaan ei paljastu pelkällä kieliasun luennalla.)
+
+---
+
 ## Tarkistuslista per YMYL-väite
 
 ```
@@ -178,6 +196,8 @@ Väite + [linkkiteksti viittaa lähteeseen](URL).
 [ ] Onko lähde nimetty (organisaatio, virasto, lehti, asiantuntija)?
 [ ] Onko lähteeseen lähdelinkki samaan virkkeeseen tai välittömästi sen jälkeen?
 [ ] Onko väite tarkistettavissa annetussa lähteessä?
+[ ] Onko jokainen sitaatti, lakipykälä ja luku verifioitu itsenäisesti virallisesta lähteestä, eikä luotettu tekstin omaan "tarkistettu X:stä" -merkintään?
+[ ] Onko varmistettu, ettei lähteen attribuutio vuoda viereiseen lähteistämättömään väitteeseen?
 [ ] Onko vältetty "minä suosittelen" / "minun kokemus" -näkökulmaa (paitsi jos pätevä)?
 [ ] Onko aikaleima viittauksessa (jos lähde voi muuttua: lakiteksti, lääkeohje)?
 [ ] Onko vastuuvapauslauseke kohdassa, jossa väite voi muuttua tai jossa lukijan tilanne vaatii yksilöllistä arviota?
@@ -235,6 +255,8 @@ YMYL-aiheet vaativat yleensä ammattikielistä tai virallista rekisteriä. Liian
 ```
 [ ] Jokainen väite jolla on lukijan päätökseen vaikuttava sisältö on attribuoitu nimettyyn lähteeseen
 [ ] Jokainen lähde on linkitetty
+[ ] Jokainen sitaatti, lakipykälä ja luku on verifioitu itsenäisesti virallisesta lähteestä – ei luotettu tekstin omaan "tarkistettu X:stä" -merkintään
+[ ] Lähteen attribuutio ei vuoda viereiseen lähteistämättömään väitteeseen
 [ ] Ei "minä suosittelen / kannattaa / sinun pitäisi" -näkökulmaa
 [ ] Ei tilastoja tai lukuja ilman lähdettä
 [ ] Vastuuvapauslauseke on kerran sopivassa kohdassa jos aihe sitä vaatii
