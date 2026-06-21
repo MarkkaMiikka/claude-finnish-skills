@@ -311,6 +311,10 @@ Käyttäjä sanoo "aja suomi-tarkistus" ja saa yhden raportin. Skillinimiä ei t
 
 Lopulliseen raporttiin tulee kaikki löydökset jokaiselta skilliltä – myös pienet. Käyttäjä päättää itse miten paljon korjaa.
 
+### Sisältösarjan toistotarkistus
+
+Nämä skillit tarkistavat yhden tekstin kerrallaan, joten ne eivät rakenteellisesti näe toistuvaa kaavaa sarjan sisällä – samaa lopetuskappaletta, johdantokoukkua tai perustelufraasia kierrätettynä monessa artikkelissa. Kun tuotat tai editoit sisältösarjaa (esimerkiksi pSEO-sivut, blogisarja tai useampi laskeutumissivu), aja lisäksi sarjatason vertailu: lue kaikki osat yhdessä ja merkitse lähes sanatarkasti toistuvat kappaleet. Yksittäisen tekstin slop-tarkistus ei tätä havaitse.
+
 ## YHTEENVETO – orkestraattori-tarkistuslista
 
 ```

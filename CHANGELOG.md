@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.3.0 – 2026-06-21
+
+Adds field-tested verification discipline and a class of mechanical check the LLM pass cannot self-detect, drawn from production use of the bundle on a Finnish content site (pSEO, heavy YMYL). No new skills or pipelines.
+
+### Added
+
+- **suomi-kielihuolto:** new section "Näkymättömät ohjausmerkit" – soft hyphen (U+00AD), zero-width space (U+200B), directional marks (U+200E/U+200F) and word joiner (U+2060), with the explicit note that an LLM pass can't see them (they often vanish at tokenization), plus ripgrep and JavaScript sweeps. U+FEFF/BOM is excluded by design. Codepoints are documented as text rather than embedded as live characters, so the file passes its own sweep.
+- **suomi-ymyl:** new section "Sitaatin verifiointi ≠ sitaatin lainaaminen" – independent, adversarial source verification for quotes, statute references and numbers; the "attribution leak" sister failure mode; two new checklist lines (one per checklist).
+- **suomi-ei-ai-sloppia:** pattern #14 expanded – the em-dash character (U+2014) is itself a Finnish artifact (normalize to the en-dash U+2013), plus a mechanical "count, don't eyeball" density heuristic with an exception for dashes inside verbatim foreign-language source titles. Also adds a one-line pointer to the orchestrator's new series-level check.
+- **suomi-tarkistuslista:** new "Sisältösarjan toistotarkistus" note – per-text passes structurally can't see a formula (closing paragraph, intro hook, justification phrase) reused across a content series; run a series-level comparison pass over the whole set.
+- **README:** "Operationalizing the mechanical checks" appendix with an optional pre-commit grep example.
+
+### Changed
+
+- **Em-dash normalization (repo-wide):** all em-dashes (U+2014) across the 15 skills, the README and this changelog were normalized to the Finnish ajatusviiva, the en-dash (U+2013) – 484 occurrences in total. Deterministic, meaning-preserving glyph swap so the bundle passes its own new pattern #14 rule (the project invariant is that each skill passes its own checks).
+- **suomi-ymyl:** the default attribution form shifted from "[taho] suosittelee X" to "[taho]:n mukaan X". "Suosittelee" is kept only where the source verifiably publishes that exact recommendation (for example a Käypä hoito -suositus). Rationale: a bare endorsement verb puts a recommendation in a named body's mouth and carries a verification and trademark risk; attributing a fact to a named source document is safer.
+
+### Credits unchanged
+
+Attribution to [`akunikkola/suomi-finnish-skill`](https://github.com/akunikkola/suomi-finnish-skill), [`blader/humanizer`](https://github.com/blader/humanizer), Wikipedia:Signs of AI writing, [Kielitoimiston ohjepankki](https://kielitoimistonohjepankki.fi/) and [Selkokeskus](https://selkokeskus.fi/) preserved.
+
+---
+
 ## 0.2.1 – 2026-06-03
 
 Patch release. Correctness and consistency fixes across all 15 skills and the README – no new skills or pipelines. The skills were run through their own rules (anglism, AI-slop, grammar, and factual checks) and the findings applied.

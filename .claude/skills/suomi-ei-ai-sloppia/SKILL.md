@@ -13,6 +13,8 @@ Tunnistat ja poistat tekoälytuotetun tekstin tunnusmerkit suomenkielisestä tek
 
 **Avain:** englannista käännetty AI-slop kuulostaa suomessa erilaiselta. "Delve deeper" ei tule "sukella syvemmälle" -muotoon vaan piiloutuu rakenteisiin kuten "tutustua tarkemmin" tai "syventyä aiheeseen". Liiallinen passiivin käyttö ja anglismit ovat suomenkielisen AI-tekstin selvimmät tunnusmerkit.
 
+**Huom:** tämä skill arvioi yhtä tekstiä kerrallaan. Sisältösarjan toistuvan kaavan (sama lopetus tai koukku monessa artikkelissa) paljastaa vain sarjatason vertailu – ks. [[suomi-tarkistuslista]], kohta "Sisältösarjan toistotarkistus".
+
 ---
 
 ## TEHTÄVÄSI
@@ -282,6 +284,10 @@ AI-fraasien poistaminen on vain puolet työstä. Sieluton, neutraali teksti on y
 **Ongelma:** AI käyttää ajatusviivaa (–) "napakkuuteen", erityisesti myyntipuhe-tyylissä. Useimmat voi korvata pilkulla, pisteellä tai sulkeilla.
 
 Huom: tekstissä saa olla ajatusviivoja – mutta ei joka virkkeessä.
+
+**Merkki itse on vihje.** Suomen ajatusviiva on lyhyt "–" (U+2013) välilyönteineen. AI tuottaa usein englannin pitkän viivan (em-dash, U+2014), joka ei kuulu suomen typografiaan – muunna se lyhyeksi ajatusviivaksi (–) tai muotoile virke uudelleen.
+
+**Laske, älä silmäile.** Yksi silmämääräinen tarkistuskierros jättää tyypillisesti useita ajatusviivoja jäljelle. Mekaaninen tarkistus on luotettavampi: jos proosassa on enemmän kuin pari ajatusviivaa artikkelia kohti, suurin osa on poistettavissa. Poikkeus: aitoja käyttötarkoituksia ei lasketa mukaan, esimerkiksi pitkä viiva englanninkielisen lähdeotsikon sisällä, jonka lainaat sanatarkasti.
 
 **Ennen:**
 > Esimerkkiyritys on yhteisöllinen – ei vain firma – jonka asiakkaat tuntevat – ja siksi siinä yhdistyy paikallisuus ja vakaus – kaikki saman katon alta.

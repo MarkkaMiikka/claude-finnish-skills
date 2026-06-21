@@ -124,6 +124,18 @@ your draft text         ──┘                           (final mechanic chec
 
 When writing fresh content: write the draft, then humanize (`suomi-ei-ai-sloppia`), then check anglicisms (`suomi-anglismit`), then run mechanics (`suomi-kielihuolto`).
 
+## Operationalizing the mechanical checks
+
+These skills are advisory and LLM-driven. Two check classes – invisible control characters and em-dash density – are better enforced mechanically in the consuming repo, because a model reading the text can't reliably see them (they often vanish at tokenization). Example pre-commit grep for the invisible-character class (the em-dash density class is a similar count over U+2014 – see `suomi-ei-ai-sloppia` pattern #14):
+
+```bash
+# Fail the commit on invisible control characters in content
+rg -nP '[\x{00AD}\x{200B}\x{200E}\x{200F}\x{2060}]' content/ && {
+  echo "Invisible control characters found – run the sweep in suomi-kielihuolto."; exit 1; }
+```
+
+Use the LLM skills for judgment (slop, register, anglicisms, YMYL framing); use a deterministic hook for the byte-level classes the skills flag but can't self-enforce.
+
 ## Example – before / after
 
 An AI-generated job application opening, and what it looks like after the writer pulled out the AI tells and put in what they actually did. Note: this goes further than `suomi-ei-ai-sloppia` alone – the skill preserves the core message by design (see SKILL.md, "Säilytä merkitys"). The example pairs humanization with a deliberate reframe from abstract pitch to concrete experience, because that's the realistic move for a job application where the AI version says nothing about the candidate.
