@@ -1,7 +1,7 @@
 ---
 name: suomi-tarjous
 description: >
-  Suomalainen kaupallinen tarjous — rakenne, pakolliset elementit, ALV-erottelu, maksuehdot ja voimassaolo. Käytä kun rakennat tarjousta yritysasiakkaalle, freelance-tarjousta tai konsultointitarjousta, tai kun käyttäjä sanoo "tee tarjous", "muotoile tarjouspohja", "kirjoita kaupallinen tarjous", "tuotantotarjous", "freelance-tarjous", "konsultointitarjous", "B2B-tarjous", "ALV-erottelu" tai "maksuehdot". EI tee oikeudellista neuvontaa — viittaa Asianajajaliittoon kun käyttäjä pyytää sopimusehtojen sisältöä. Konsultoi [[suomi-lokalisaatio-perus]] -skilliä hinnoittelun muotoiluun ja [[suomi-sinuttelu-teitittely]] -skilliä asiakaspuhuttelumuotoon.
+  Suomalainen kaupallinen tarjous – rakenne, pakolliset elementit, ALV-erottelu, maksuehdot ja voimassaolo. Käytä kun rakennat tarjousta yritysasiakkaalle, freelance-tarjousta tai konsultointitarjousta, tai kun käyttäjä sanoo "tee tarjous", "muotoile tarjouspohja", "kirjoita kaupallinen tarjous", "tuotantotarjous", "freelance-tarjous", "konsultointitarjous", "B2B-tarjous", "ALV-erottelu" tai "maksuehdot". EI tee oikeudellista neuvontaa – viittaa Asianajajaliittoon kun käyttäjä pyytää sopimusehtojen sisältöä. Konsultoi [[suomi-lokalisaatio-perus]] -skilliä hinnoittelun muotoiluun ja [[suomi-sinuttelu-teitittely]] -skilliä asiakaspuhuttelumuotoon.
 license: MIT
 ---
 
@@ -19,15 +19,15 @@ Tämä skill antaa rungon suomalaiselle kaupalliselle tarjoukselle. Kattaa B2B-t
 
 Suomalainen kaupallinen tarjous sisältää aina nämä osat. Jos osa puuttuu, tarjous on epätäydellinen ja voi aiheuttaa sekaannuksia tai juridisia ongelmia.
 
-1. **Tarjouksen otsikko ja numero** — yksilöllinen viite, johon palataan sopimusvaiheessa
+1. **Tarjouksen otsikko ja numero** – yksilöllinen viite, johon palataan sopimusvaiheessa
 2. **Päiväys**
-3. **Tarjoaja** — yritystiedot mukaan lukien Y-tunnus ja ALV-rekisteröinti
-4. **Asiakas** — vastaanottava yritys ja yhteyshenkilö
-5. **Tarjottava työ tai tuote** — mitä kuuluu ja mitä EI kuulu
-6. **Hinnoittelu** — rivi riviltä, ALV erikseen
-7. **Maksuehdot** — maksuaika ja viivästyskorko
-8. **Tarjouksen voimassaolo** — esim. "30 päivää tarjouspäivästä"
-9. **Sopimusehdot tai viittaus alan vakiosopimuksiin** (IT2022, JIT 2015, KSE 2013 jne. — tarkista aina uusin voimassa oleva versio)
+3. **Tarjoaja** – yritystiedot mukaan lukien Y-tunnus ja ALV-rekisteröinti
+4. **Asiakas** – vastaanottava yritys ja yhteyshenkilö
+5. **Tarjottava työ tai tuote** – mitä kuuluu ja mitä EI kuulu
+6. **Hinnoittelu** – rivi riviltä, ALV erikseen
+7. **Maksuehdot** – maksuaika ja viivästyskorko
+8. **Tarjouksen voimassaolo** – esim. "30 päivää tarjouspäivästä"
+9. **Sopimusehdot tai viittaus alan vakiosopimuksiin** (IT2022, JIT 2015, KSE 2013 jne. – tarkista aina uusin voimassa oleva versio)
 10. **Yhteyshenkilö ja allekirjoitus**
 
 ---
@@ -144,7 +144,7 @@ Useimmissa konsultointi- ja markkinointiprojekteissa pätee yleinen 25,5 %.
 | Kuluttaja | Heti (verkkokauppa), 14 päivää lasku |
 | Julkinen sektori | Useimmiten 21–30 päivää |
 
-"Netto" tarkoittaa, että maksun on oltava perillä kyseiseen päivään mennessä. **Tarjouksessa maksuaika on neuvoteltavissa**, joten ehdota — älä määrää.
+"Netto" tarkoittaa, että maksun on oltava perillä kyseiseen päivään mennessä. **Tarjouksessa maksuaika on neuvoteltavissa**, joten ehdota – älä määrää.
 
 ### 4.2 Viivästyskorko
 
@@ -241,7 +241,7 @@ Tarkista, että tarjous kertoo selkeästi:
 | Vakiosopimus | Käyttöala |
 |---|---|
 | IT2022 | IT-palvelusopimukset |
-| JIT 2015 | Julkisen sektorin IT-hankinnat — vanha ehto, tarkista uusin versio ennen käyttöä |
+| JIT 2015 | Julkisen sektorin IT-hankinnat – vanha ehto, tarkista uusin versio ennen käyttöä |
 | KSE 2013 | Konsulttitoiminnan yleiset sopimusehdot (suunnittelu ja konsultointi) |
 | YSE 1998 | Rakennustyö |
 | RYHT 2000 | Rakennusurakan yleiset hankintaehdot |
@@ -249,7 +249,7 @@ Tarkista, että tarjous kertoo selkeästi:
 Tarjouksessa voi viitata sovellettavaan vakiosopimukseen:
 > Sovellettavat ehdot: KSE 2013 (konsulttitoiminnan yleiset sopimusehdot).
 
-**Tarkista aina sopimusehtojen uusin voimassa oleva versio ennen tarjouksen lähettämistä** — vakiosopimusten nimet ja vuosiluvut päivittyvät.
+**Tarkista aina sopimusehtojen uusin voimassa oleva versio ennen tarjouksen lähettämistä** – vakiosopimusten nimet ja vuosiluvut päivittyvät.
 
 ### 7.2 Jos ei viittaa vakiosopimukseen
 
@@ -316,7 +316,7 @@ Tarjouksen kieli on neutraali ja informaatiopainotteinen. Ajatusviivan käyttö 
 
 ---
 
-## 9. Sanitoitu malliesimerkki — B2B-konsultointitarjous
+## 9. Sanitoitu malliesimerkki – B2B-konsultointitarjous
 
 ```markdown
 Esimerkki Konsultointi Oy
@@ -348,7 +348,7 @@ Seuraavat eivät kuulu tarjoukseen:
 - HubSpot-lisenssimaksut (asiakas maksaa Hubille suoraan)
 - Mediaostot, kampanjabudjetit
 - Sisällöntuotanto (kopiotekstit, kuvat, videot)
-- Yli sovitun 18 työpäivän menevä työ — laskutetaan erikseen 850 €/päivä
+- Yli sovitun 18 työpäivän menevä työ – laskutetaan erikseen 850 €/päivä
 
 ## 3. Hinnoittelu
 
@@ -357,7 +357,7 @@ Seuraavat eivät kuulu tarjoukseen:
 | Esiselvitys | 5 | 4 250,00 € |
 | Suunnitelma | 3 | 2 550,00 € |
 | Toteutus | 10 | 8 500,00 € |
-| Tuki (8 h) | — | 800,00 € |
+| Tuki (8 h) | – | 800,00 € |
 | **Yhteensä** | **18 + tuki** | **16 100,00 €** |
 
 ALV 25,5 % lisätään laskutuksessa: 4 105,50 €
@@ -427,10 +427,10 @@ Konsultointijohtaja
 
 ## 11. Mihin tätä skilliä konsultoidaan
 
-- [[suomi-tarkistuslista]] — pipeline I: tarjous
-- [[suomi-lokalisaatio-perus]] — hinnoittelu, päivämäärät, ALV
-- [[suomi-sinuttelu-teitittely]] — asiakaspuhuttelumuoto
-- [[suomi-rekisteri]] — ammattikielen rekisteri
-- [[suomi-ei-ai-sloppia]] — myyntipuheen karsinta
-- [[suomi-kielihuolto]] — mekaniikka
-- [[suomi-sahkoposti]] — tarjouksen saateviestin muotoilu, kun tarjous lähetetään liitteenä
+- [[suomi-tarkistuslista]] – pipeline I: tarjous
+- [[suomi-lokalisaatio-perus]] – hinnoittelu, päivämäärät, ALV
+- [[suomi-sinuttelu-teitittely]] – asiakaspuhuttelumuoto
+- [[suomi-rekisteri]] – ammattikielen rekisteri
+- [[suomi-ei-ai-sloppia]] – myyntipuheen karsinta
+- [[suomi-kielihuolto]] – mekaniikka
+- [[suomi-sahkoposti]] – tarjouksen saateviestin muotoilu, kun tarjous lähetetään liitteenä

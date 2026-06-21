@@ -15,7 +15,7 @@ Pohjana akunikkola/suomi-finnish-skill (MIT). Lähde: Kielitoimiston ohjepankki,
 
 ---
 
-## 1. YHDYSSANAT — yleisin AI-virhe
+## 1. YHDYSSANAT – yleisin AI-virhe
 
 Yhdyssanavirheet ovat suomen kielen yleisin kirjoitusvirhe ja erityisen tyypillisiä tekoälyn tuottamassa tekstissä.
 
@@ -24,7 +24,7 @@ Yhdyssanavirheet ovat suomen kielen yleisin kirjoitusvirhe ja erityisen tyypilli
 - **Kiinteä merkityskokonaisuus → yhteen:** aamupala, äidinkieli, hengitysilma, asiakaspalvelu
 - **Rinnakkaiset sanat ilman vakiintunutta merkitystä → erikseen:** talon katto, nuori kapinallinen, sen sijaan
 
-### 1.2 Nominatiivialkuiset yhdyssanat — AINA yhteen
+### 1.2 Nominatiivialkuiset yhdyssanat – AINA yhteen
 
 Kun ensimmäinen osa on perusmuodossa oleva substantiivi, kyseessä on AINA yhdyssana:
 
@@ -58,7 +58,7 @@ Erikseen kun adjektiivi kuvaa vapaasti:
 - huomioon ottaen (EI: huomioonottaen)
 - lukuun ottamatta (EI: lukuunottamatta)
 
-POIKKEUS — kuvallinen tai vakiintunut merkitys → yhteen:
+POIKKEUS – kuvallinen tai vakiintunut merkitys → yhteen:
 - silmäänpistävä (huomiota herättävä)
 - poissaoleva (hajamielinen)
 - asiantunteva (osaava)
@@ -70,7 +70,7 @@ Käytä yhdysmerkkiä kun:
 - alkuosana on vierassana ja kokonaisuus muuten hankalalukuinen: pop-ohjelma, hip-hop-musiikki
 - sanaliittomainen ilmaus on määritteenä: avaimet käteen -periaate
 
-### 1.7 Tarkista nämä erityisen huolellisesti — AI tekee usein virheitä
+### 1.7 Tarkista nämä erityisen huolellisesti – AI tekee usein virheitä
 
 AINA yhteen:
 - verkkosivusto, verkkokauppa, verkkopalvelu
@@ -100,7 +100,7 @@ Kahden kokonaisen päälauseen väliin tulee pilkku:
 Jos rinnastuskonjunktiolla alkavalla lauseella on edeltävän kanssa yhteinen jäsen, ei pilkkua:
 - "Perhe kunnosti saunaa ja viimeisteli keittiön." (yhteinen tekijä)
 
-### 2.2 Pää- ja sivulauseen välissä — AINA pilkku
+### 2.2 Pää- ja sivulauseen välissä – AINA pilkku
 
 - "Ministeri totesi, että asia on loppuun käsitelty."
 - "Jos ääniä ei kerry tarpeeksi, päätöstä ei voi tehdä."
@@ -113,7 +113,7 @@ Jos rinnastuskonjunktiolla alkavalla lauseella on edeltävän kanssa yhteinen j�
 - **sillä** → edelle aina pilkku
 - **ja, tai, sekä** → pilkku vain kun molemmat lauseet kokonaisia
 
-### 2.4 Relatiivilauseet (joka, mikä) — pilkku molemmin puolin
+### 2.4 Relatiivilauseet (joka, mikä) – pilkku molemmin puolin
 
 - "Talo, joka oli rakennettu 1920, oli myynnissä."
 - "Mies, jota etsittiin, löytyi lopulta."
@@ -122,7 +122,7 @@ Jos rinnastuskonjunktiolla alkavalla lauseella on edeltävän kanssa yhteinen j�
 
 - "Monet marjat, kuten mustikat ja puolukat, kypsyvät elokuussa."
 
-### 2.6 Luetteloissa — EI Oxford-pilkkua
+### 2.6 Luetteloissa – EI Oxford-pilkkua
 
 - "Tarvitsemme jauhoja, sokeria, voita ja kananmunia." (ei pilkkua ennen "ja")
 
@@ -142,7 +142,7 @@ Suomessa desimaalierotin on pilkku, EI piste:
 - Erisnimissä: Suomi, Helsinki, Euroopan unioni, Kotimaisten kielten keskus
 - Nimien kaikissa osissa (paitsi pikkusanoissa pitkissä nimissä): Suomen Pankki, Tampereen yliopisto
 
-### 3.2 Pieni alkukirjain — AI tekee usein virheitä isoilla
+### 3.2 Pieni alkukirjain – AI tekee usein virheitä isoilla
 
 - Kansallisuudet ja kielet: suomalainen, ruotsin kieli, englanti
 - Viikonpäivät: maanantai, tiistai
@@ -155,7 +155,7 @@ Suomessa desimaalierotin on pilkku, EI piste:
 ### 3.3 Erityistapauksia
 
 - Lakien nimet pienellä: perustuslaki, kuntalaki
-- Juhlapyhät: vaihtelua — juhannus / joulu yleensä pienellä, mutta vakiintuneessa nimimäisessä käytössä isolla
+- Juhlapyhät: vaihtelua – juhannus / joulu yleensä pienellä, mutta vakiintuneessa nimimäisessä käytössä isolla
 - Taideteokset: vain ensimmäinen sana isolla: Seitsemän veljestä
 
 ---
@@ -220,7 +220,7 @@ Suomessa desimaalierotin on pilkku, EI piste:
 
 ---
 
-## 6. VIIVAT — yhdysmerkki vs. ajatusviiva
+## 6. VIIVAT – yhdysmerkki vs. ajatusviiva
 
 ### 6.1 Yhdysmerkki (-)
 
@@ -244,7 +244,7 @@ Suomessa desimaalierotin on pilkku, EI piste:
 - "Lapset leikkivät pihalla." (monikko + monikko)
 - "Osa lapsista leikkii pihalla." (yksikkö, koska "osa" on subjekti)
 
-### 7.2 Sijamuodot — partitiivi, akkusatiivi, genetiivi
+### 7.2 Sijamuodot – partitiivi, akkusatiivi, genetiivi
 
 Sijamuodot ovat suomen kielen perustana ja AI-tekstissä toistuva virhealue. Tunne kolme yleisintä, joiden välillä AI tekee sekaannuksia.
 
@@ -270,7 +270,7 @@ Sijamuodot ovat suomen kielen perustana ja AI-tekstissä toistuva virhealue. Tun
 | "Tarjoamme palvelu yrityksille" | "Tarjoamme palvelua yrityksille" | Yleinen tarjoaminen = partitiivi |
 | "Ostimme uudet ratkaisut" (kun ei kerralla kaikkia) | "Ostimme uusia ratkaisuja" | Epämääräinen monikko = partitiivi |
 
-#### 7.2.2 Genetiivi — possessiivi vs. ajan ja keston merkitsijä
+#### 7.2.2 Genetiivi – possessiivi vs. ajan ja keston merkitsijä
 
 Genetiivillä on suomessa monta käyttötarkoitusta. Yleisimmät AI-virheet:
 
@@ -280,7 +280,7 @@ Genetiivillä on suomessa monta käyttötarkoitusta. Yleisimmät AI-virheet:
 | "Yrityksenmme palvelut" | "Yrityksemme palvelut" | Monikon 1. persoonan possessiivi on -mme, ei -nmme |
 | "Asiakas käytössä on" | "Asiakkaan käytössä on" | Possessiivirakenne vaatii genetiivin omistajalle |
 
-#### 7.2.3 Paikallissijat — sisä-, ulko-, tulosija
+#### 7.2.3 Paikallissijat – sisä-, ulko-, tulosija
 
 Suomen paikallissijat (kuusi sijaa):
 
@@ -290,8 +290,8 @@ Suomen paikallissijat (kuusi sijaa):
 | Ulko- (päältä/päällä/päälle) | -lta/-ltä (ablatiivi) | -lla/-llä (adessiivi) | -lle (allatiivi) |
 
 Lisäksi olotila-sijat (eivät paikallissijoja, mutta usein samassa yhteydessä):
-- **Essiivi** (-na/-nä) — olotila: "lapsena", "opettajana"
-- **Translatiivi** (-ksi) — muutos: "lääkäriksi", "kauniiksi"
+- **Essiivi** (-na/-nä) – olotila: "lapsena", "opettajana"
+- **Translatiivi** (-ksi) – muutos: "lääkäriksi", "kauniiksi"
 
 **AI-virhe-esimerkkejä:**
 
@@ -300,7 +300,7 @@ Lisäksi olotila-sijat (eivät paikallissijoja, mutta usein samassa yhteydessä)
 - "Tämän projektin osalta" → OK
 - "Tämän projektin kuuluu" → "Tähän projektiin kuuluu" (verbin "kuulua" rektio on illatiivi, ei genetiivi)
 
-#### 7.2.4 Postpositioiden rektio — yleisin AI-virhe
+#### 7.2.4 Postpositioiden rektio – yleisin AI-virhe
 
 Postpositiot vaativat tietyn sijan ennen niitä. AI sekoittaa nämä jatkuvasti:
 
@@ -321,11 +321,11 @@ Postpositiot vaativat tietyn sijan ennen niitä. AI sekoittaa nämä jatkuvasti:
 - **päässä / etäisyydellä** ottaa genetiivin: "kymmenen kilometrin päässä"
 - **mukaan** ottaa genetiivin pääkäytössä ("tutkimuksen mukaan", "asian mukaan"); allatiivilla se on liikeverbin täydennys ("tuli meille mukaan"), ei postpositio
 
-### 7.3 Verbin rektio — verbi vaatii tietyn sijan
+### 7.3 Verbin rektio – verbi vaatii tietyn sijan
 
 Eri verbeillä on tietyt sijavaatimukset niiden objektille tai täydennykselle. AI sekoittaa näitä toistuvasti. Kun käytät verbiä, tarkista, että objekti tai täydennys on oikeassa sijassa.
 
-#### 7.3.1 Yleisimmät rektiot — opettele nämä
+#### 7.3.1 Yleisimmät rektiot – opettele nämä
 
 | Verbi | Vaadittu sija | Esimerkki |
 |---|---|---|
@@ -362,9 +362,9 @@ Kun tarkistat AI-tekstiä, listaa verbit ja tarkista per verbi:
 
 1. Onko verbillä erityinen rektio (vaatii muun kuin akkusatiivin)?
 2. Onko objekti tai täydennys oikeassa sijassa?
-3. Jos epäselvä, tarkista Kielitoimiston sanakirjasta (kielitoimistonsanakirja.fi) — verbin kohdalla mainitaan rektio.
+3. Jos epäselvä, tarkista Kielitoimiston sanakirjasta (kielitoimistonsanakirja.fi) – verbin kohdalla mainitaan rektio.
 
-### 7.4 Erisnimien taivutus — kotimaiset ja vieraskieliset
+### 7.4 Erisnimien taivutus – kotimaiset ja vieraskieliset
 
 Erisnimi on yleinen AI-virhealue, erityisesti vieraskielisten nimien taivutus suomeksi.
 
@@ -380,7 +380,7 @@ Kotimaiset paikannimet taipuvat normaalisti:
 
 Huom: Joillakin paikkakunnilla on perinteisesti ulkopaikallissijat (-lla/-lta/-lle) sisäsijojen sijasta. Tampere on yksi tällainen, samoin Sodankylä, Rovaniemi, Inari ja monet muut. Tarkista epäselvissä tapauksissa Kielitoimiston ohjepankki.
 
-#### 7.4.2 Vieraskielisten paikannimien taivutus — AI:n yleinen virhealue
+#### 7.4.2 Vieraskielisten paikannimien taivutus – AI:n yleinen virhealue
 
 Vieraskielisillä paikannimillä ja brändeillä on kaksi vaihtoehtoa:
 
@@ -399,7 +399,7 @@ Vieraskielisillä paikannimillä ja brändeillä on kaksi vaihtoehtoa:
 - Nimet, jotka päättyvät äännettäessä eri tavalla kuin kirjoitettaessa: Bordeaux'ssa (ääntyy "bordoo")
 - Digipalvelujen nimet taipuvat sen sijaan suoraan, älä käytä niissä kaksoispistettä: LinkedInissä, Skypessä, Excelissä, TikTokissa, Slackissa
 
-**Tärkeä sääntö:** valitse yksi tapa ja pidä se yhtenäisenä tekstin sisällä. AI:n yleisin virhe on **vaihdella** tekstin sisällä: "LinkedInissä" yhdessä virkkeessä, "LinkedIn:ssä" toisessa, "LinkedIn:issä" kolmannessa — käytä johdonmukaisesti suoraa muotoa "LinkedInissä".
+**Tärkeä sääntö:** valitse yksi tapa ja pidä se yhtenäisenä tekstin sisällä. AI:n yleisin virhe on **vaihdella** tekstin sisällä: "LinkedInissä" yhdessä virkkeessä, "LinkedIn:ssä" toisessa, "LinkedIn:issä" kolmannessa – käytä johdonmukaisesti suoraa muotoa "LinkedInissä".
 
 #### 7.4.3 Brändien ja palveluiden taivutus
 
@@ -475,7 +475,7 @@ Suomen passiivi on yleistävä:
 
 ---
 
-## 9. OIKOLUKU — seitsemän vaihetta
+## 9. OIKOLUKU – seitsemän vaihetta
 
 Kun tarkistat suomenkielistä tekstiä, käy listan läpi järjestyksessä:
 
@@ -506,11 +506,11 @@ Kun tarkistat suomenkielistä tekstiä, käy listan läpi järjestyksessä:
 - Partitiivi vs. akkusatiivi objekteissa (jatkuva vs. loppuun saatettu)
 - Postpositioiden rektio ("asian suhteen", "kokouksen jälkeen", "viikon kuluessa")
 - Verbin rektio (odottaa + partitiivi, uskoa + illatiivi, pitää + elatiivi)
-- Vieraskielisten erisnimien taivutus — yksi tapa koko tekstin läpi (suora muoto TAI kaksoispiste-erotin, ei sekoita)
+- Vieraskielisten erisnimien taivutus – yksi tapa koko tekstin läpi (suora muoto TAI kaksoispiste-erotin, ei sekoita)
 - Paikannimien sisä- vs. ulkopaikallissijat (Helsingissä vs. Tampereella)
 
 ### Vaihe 6: Tyyli ja sujuvuus
-- Ks. [[suomi-ei-ai-sloppia]] — anglismit, mahtipontisuus, AI-fraasit, käännöslainat
+- Ks. [[suomi-ei-ai-sloppia]] – anglismit, mahtipontisuus, AI-fraasit, käännöslainat
 - Liiallinen passiivi
 - Virkkeiden pituus
 

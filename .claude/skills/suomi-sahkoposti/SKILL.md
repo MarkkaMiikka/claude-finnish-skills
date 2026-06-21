@@ -1,7 +1,7 @@
 ---
 name: suomi-sahkoposti
 description: >
-  Suomenkielisen sähköpostin konventiot — tervehdys, lopetus, otsikko, asiakohtaisen viestin runko, allekirjoitus ja poissaoloviesti. Käytä kun kirjoitat asiakasviestiä, työsähköpostia, sisäistä viestiä tai cold outreach -viestiä, tai kun käyttäjä sanoo "kirjoita sähköposti", "tee mailin pohja", "muotoile työsähköposti", "vastaa asiakkaalle", "kirjoita asiakaspalveluviesti", "B2B-sähköposti", "rekrytointiviesti", "poissaoloviesti" tai "muotoile lähetän tämän asiakkaalle". Ei käsittele uutiskirjettä — käytä siihen [[suomi-uutiskirje]]. Konsultoi [[suomi-sinuttelu-teitittely]] -skilliä puhuttelumuodon valinnassa.
+  Suomenkielisen sähköpostin konventiot – tervehdys, lopetus, otsikko, asiakohtaisen viestin runko, allekirjoitus ja poissaoloviesti. Käytä kun kirjoitat asiakasviestiä, työsähköpostia, sisäistä viestiä tai cold outreach -viestiä, tai kun käyttäjä sanoo "kirjoita sähköposti", "tee mailin pohja", "muotoile työsähköposti", "vastaa asiakkaalle", "kirjoita asiakaspalveluviesti", "B2B-sähköposti", "rekrytointiviesti", "poissaoloviesti" tai "muotoile lähetän tämän asiakkaalle". Ei käsittele uutiskirjettä – käytä siihen [[suomi-uutiskirje]]. Konsultoi [[suomi-sinuttelu-teitittely]] -skilliä puhuttelumuodon valinnassa.
 license: MIT
 ---
 
@@ -10,11 +10,11 @@ license: MIT
 > **Vinkki:** Jos haluat ajaa kaikki suomi-* -skillit yhdessä oikeassa järjestyksessä, käytä `[[suomi-tarkistuslista]]` -orkestraattoria.
 
 Tämä skill tarjoaa sähköpostin rakenteen ja kielelliset konventiot. Yhdistä:
-- [[suomi-sinuttelu-teitittely]] — puhuttelumuoto
-- [[suomi-rekisteri]] — rekisterin tasaisuus
-- [[suomi-ei-ai-sloppia]] — AI-fraasien karsinta
-- [[suomi-anglismit]] — käännöslainojen karsinta
-- [[suomi-kielihuolto]] — mekaniikka
+- [[suomi-sinuttelu-teitittely]] – puhuttelumuoto
+- [[suomi-rekisteri]] – rekisterin tasaisuus
+- [[suomi-ei-ai-sloppia]] – AI-fraasien karsinta
+- [[suomi-anglismit]] – käännöslainojen karsinta
+- [[suomi-kielihuolto]] – mekaniikka
 
 ---
 
@@ -35,7 +35,7 @@ Otsikko on tärkein osa sähköpostia avaamisen kannalta. Suomenkielinen B2B-ots
 | Konteksti | Otsikko |
 |---|---|
 | Tarjouspyyntö | `Tarjouspyyntö: markkinointikampanja Q3 2026` |
-| Sopimusasia | `Allekirjoitus puuttuu — sopimus #2026-117` |
+| Sopimusasia | `Allekirjoitus puuttuu – sopimus #2026-117` |
 | Vastaus tarjoukseen | `Vs: Tarjouspyyntö: markkinointikampanja Q3 2026` |
 | Kokouspyyntö | `Kokousehdotus: 12.6. klo 14` |
 | Hakemus | `Hakemus: markkinointiasiantuntija (rek. 2026-04)` |
@@ -50,7 +50,7 @@ Otsikko on tärkein osa sähköpostia avaamisen kannalta. Suomenkielinen B2B-ots
 
 ### 1.4 "Vs:" vai "Re:"
 
-Suomessa molemmat ovat hyväksyttäviä. `Vs:` on suomenkielinen vakiomuoto, mutta useimmat sähköpostiohjelmat lisäävät `Re:` -muodon automaattisesti. Älä korjaa sitä jos järjestelmä lisää sen — se on standardia.
+Suomessa molemmat ovat hyväksyttäviä. `Vs:` on suomenkielinen vakiomuoto, mutta useimmat sähköpostiohjelmat lisäävät `Re:` -muodon automaattisesti. Älä korjaa sitä jos järjestelmä lisää sen – se on standardia.
 
 ---
 
@@ -69,10 +69,10 @@ Suomessa molemmat ovat hyväksyttäviä. `Vs:` on suomenkielinen vakiomuoto, mut
 
 ### 2.2 Mitä vältät
 
-- `Tervehdys` — vanhahtava, harvoin sopiva
-- `Hyvät naiset ja herrat` — sukupuolittava, vanhentunut
-- `Hi [name]` tai `Hello [name]` — englantilaisia
-- `Moikka!` huutomerkillä kollegan kanssa — huutomerkki yleensä turha
+- `Tervehdys` – vanhahtava, harvoin sopiva
+- `Hyvät naiset ja herrat` – sukupuolittava, vanhentunut
+- `Hi [name]` tai `Hello [name]` – englantilaisia
+- `Moikka!` huutomerkillä kollegan kanssa – huutomerkki yleensä turha
 
 ### 2.3 Tervehdyksen ja nimen pilkutus
 
@@ -115,7 +115,7 @@ Englannin "Hope you're well" -tyylinen kuulumisten kysely ei käänny suomeksi l
 
 Jos vastaat aiempaan viestiin, älä kuluta tilaa kiittelemällä. Mene asiaan.
 
-✅ `Kiitos viestistä. Toimituspäivä sopii — varaan ajan kalenteriin.`
+✅ `Kiitos viestistä. Toimituspäivä sopii – varaan ajan kalenteriin.`
 
 ❌ `Kiitos paljon viestistäsi, ja kiitos siitä että otit yhteyttä minuun näin nopeasti. Olen erittäin iloinen vastauksestasi. Tämä on todella mukavaa, että voimme keskustella tästä asiasta.`
 
@@ -125,7 +125,7 @@ Jos vastaat aiempaan viestiin, älä kuluta tilaa kiittelemällä. Mene asiaan.
 
 ### 4.1 Yksi asia per kappale
 
-Pidä kappaleet lyhyinä — 2–4 virkettä on hyvä ohje sähköpostissa. Mobiilissa pitkät kappaleet jäävät lukematta.
+Pidä kappaleet lyhyinä – 2–4 virkettä on hyvä ohje sähköpostissa. Mobiilissa pitkät kappaleet jäävät lukematta.
 
 ### 4.2 Pyyntömuodot
 
@@ -135,7 +135,7 @@ Pidä kappaleet lyhyinä — 2–4 virkettä on hyvä ohje sähköpostissa. Mobi
 | `Voisitko...` | Kohtelias | Kun pyyntö on poikkeuksellinen tai kuormittava |
 | `Voisitteko...` | Kohtelias, teitittely | Teitittelyssä |
 | `Olisitteko ystävällinen ja...` | Erittäin kohtelias | Sensitiivinen tilanne, viranomaiskirje |
-| `Haluatko...` | Kysyy halua | EI pyyntönä — käytä vain jos kysyt aitoa halua |
+| `Haluatko...` | Kysyy halua | EI pyyntönä – käytä vain jos kysyt aitoa halua |
 | `Lähetä` (käsky) | Suora | Sopii kun tilanne sallii, esim. tukipyyntö |
 
 **Esimerkki:**
@@ -173,10 +173,10 @@ Käytä [[suomi-lokalisaatio-perus]] -ohjeita:
 
 ### 5.2 Vältä
 
-- `Have a great day!` -käännös: `Mukavaa päivää!` — kuulostaa AI-tuotetulta, käytä harkitusti. Suomalainen sähköposti loppuu yleensä terveisiin, ei toivotukseen.
-- `Cheers` tai `BR` (best regards) — englantilaisia
-- `xoxo`, `T:` — liian rentoja työyhteydessä
-- Tyhjä loppu ilman terveisiä — ei sopiva
+- `Have a great day!` -käännös: `Mukavaa päivää!` – kuulostaa AI-tuotetulta, käytä harkitusti. Suomalainen sähköposti loppuu yleensä terveisiin, ei toivotukseen.
+- `Cheers` tai `BR` (best regards) – englantilaisia
+- `xoxo`, `T:` – liian rentoja työyhteydessä
+- Tyhjä loppu ilman terveisiä – ei sopiva
 
 ### 5.3 Lopetuksen ja allekirjoituksen muotoilu
 
@@ -256,7 +256,7 @@ Esimerkki Oy
 Sinuttelu (alle 70-v. asiakkaalle), lämmin sävy, konkreettinen vastaus.
 
 ```
-Otsikko: Vs: Tilaus 17789 — toimituspäivä
+Otsikko: Vs: Tilaus 17789 – toimituspäivä
 
 Hei Aino,
 
@@ -314,7 +314,7 @@ Aino Esimerkki
 Lyhyt, henkilökohtainen, tarjoaa konkreettista arvoa. Ei myyntipuheita.
 
 ```
-Otsikko: 22 %:n konversionousu — kiinnostaisiko keskustelu?
+Otsikko: 22 %:n konversionousu – kiinnostaisiko keskustelu?
 
 Hei Aino,
 
@@ -337,7 +337,7 @@ Esimerkki Oy
 
 - Lainaa **vain olennainen osa**, ei koko ketjua
 - Jos lainaat, käytä `>`-merkkiä tai sähköpostiohjelman lainausta
-- Pitkän ketjun ylin viesti on tärkein — pidä se ensimmäisenä
+- Pitkän ketjun ylin viesti on tärkein – pidä se ensimmäisenä
 
 ### 8.2 Vastauksen rakenne pitkässä ketjussa
 
@@ -358,7 +358,7 @@ Mikko
 Kun välität viestin eteenpäin (`Lähetä eteenpäin` / `Fwd:`), lisää lyhyt selitys siitä, miksi välität sen ja mitä toivot vastaanottajalta.
 
 ```
-Otsikko: Fwd: Tilaus 17789 — toimituspäivä
+Otsikko: Fwd: Tilaus 17789 – toimituspäivä
 
 Hei Mikko,
 
@@ -393,9 +393,9 @@ Esimerkki Oy
 
 ### 9.2 Vältä poissaoloviestissä
 
-- "Vastaan viestiin niin pian kuin mahdollista" — sano milloin oikeasti vastaat
-- Pitkät tarinat (`Olen viettämässä aikaa perheen kanssa Italiassa...`) — yksityistä, älä jaa
-- Englanninkielisiä rinnakkaisversioita ilman tarvetta — jos suomi on pääkieli ja kontekstit ovat suomalaisia, suomi riittää
+- "Vastaan viestiin niin pian kuin mahdollista" – sano milloin oikeasti vastaat
+- Pitkät tarinat (`Olen viettämässä aikaa perheen kanssa Italiassa...`) – yksityistä, älä jaa
+- Englanninkielisiä rinnakkaisversioita ilman tarvetta – jos suomi on pääkieli ja kontekstit ovat suomalaisia, suomi riittää
 - "Have a great day!" -lopetusta
 
 ### 9.3 Lyhempi versio (kollegan kanssa)
@@ -471,8 +471,8 @@ Useimmat ajatusviivat sähköpostissa korvaa pilkulla tai pisteellä. Ks. [[suom
 
 ## 12. Mihin tätä skilliä konsultoidaan
 
-- [[suomi-tarkistuslista]] — pipeline G: sähköposti
-- [[suomi-uutiskirje]] — uutiskirjeen eri rakenne, vaikka jakaa allekirjoituselementit
-- [[suomi-tarjous]] — tarjous on usein sähköpostin liitteenä, mutta tarjouksen muoto on omansa
-- [[suomi-rekisteri]] — rekisterivalinta sähköpostissa
-- [[suomi-sinuttelu-teitittely]] — puhuttelumuodon valinta
+- [[suomi-tarkistuslista]] – pipeline G: sähköposti
+- [[suomi-uutiskirje]] – uutiskirjeen eri rakenne, vaikka jakaa allekirjoituselementit
+- [[suomi-tarjous]] – tarjous on usein sähköpostin liitteenä, mutta tarjouksen muoto on omansa
+- [[suomi-rekisteri]] – rekisterivalinta sähköpostissa
+- [[suomi-sinuttelu-teitittely]] – puhuttelumuodon valinta

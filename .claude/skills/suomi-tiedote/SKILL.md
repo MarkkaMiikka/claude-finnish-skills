@@ -1,7 +1,7 @@
 ---
 name: suomi-tiedote
 description: >
-  Suomenkielinen lehdistötiedote ja sisäisen organisaation tiedote — rakenne, otsikko, ingressi, sitaatit, lisätietolohko ja taustaosa. Käytä kun kirjoitat lehdistötiedotteen, asiakastiedotteen, muutostiedotteen tai sisäisen tiedotteen, tai kun käyttäjä sanoo "kirjoita lehdistötiedote", "tee tiedote", "PR-tiedote", "asiakasviestintä", "muutostiedote", "lanseeraustiedote", "henkilöstötiedote" tai "embargo". Konsultoi [[suomi-sinuttelu-teitittely]] -skilliä asiakaspuhuttelumuotoon ja [[suomi-lokalisaatio-perus]] -skilliä päivämääriin ja numeroihin.
+  Suomenkielinen lehdistötiedote ja sisäisen organisaation tiedote – rakenne, otsikko, ingressi, sitaatit, lisätietolohko ja taustaosa. Käytä kun kirjoitat lehdistötiedotteen, asiakastiedotteen, muutostiedotteen tai sisäisen tiedotteen, tai kun käyttäjä sanoo "kirjoita lehdistötiedote", "tee tiedote", "PR-tiedote", "asiakasviestintä", "muutostiedote", "lanseeraustiedote", "henkilöstötiedote" tai "embargo". Konsultoi [[suomi-sinuttelu-teitittely]] -skilliä asiakaspuhuttelumuotoon ja [[suomi-lokalisaatio-perus]] -skilliä päivämääriin ja numeroihin.
 license: MIT
 ---
 
@@ -10,8 +10,8 @@ license: MIT
 > **Vinkki:** Jos haluat ajaa kaikki suomi-* -skillit yhdessä oikeassa järjestyksessä, käytä `[[suomi-tarkistuslista]]` -orkestraattoria.
 
 Tämä skill kattaa kaksi suomalaista tiedote-tyyppiä:
-- **Lehdistötiedote** — toimittajille ja medialle, julkaistaan organisaation kanavissa
-- **Sisäinen tai asiakastiedote** — organisaation jäsenille tai asiakkaille
+- **Lehdistötiedote** – toimittajille ja medialle, julkaistaan organisaation kanavissa
+- **Sisäinen tai asiakastiedote** – organisaation jäsenille tai asiakkaille
 
 Molemmat noudattavat **käänteistä pyramidia**: tärkein ensin, taustat lopussa. Lehdistötiedote on muodollisempi ja sisältää yritysesittelyn; sisäinen tiedote on lyhyempi ja suorempi.
 
@@ -46,7 +46,7 @@ Otsikko on **kuvaileva, ei klikkitavoitteinen**. AI-tuotetut tiedotteet käyttä
 
 ### 1.3 Ingressi
 
-Ingressi on **1–3 virkettä** otsikon jälkeen, joka vastaa peruskysymyksiin: kuka, mitä, missä, milloin, miksi. Tämä on tiedotteen tärkein osa — toimittaja päättää usein sen perusteella, lukeeko loppua.
+Ingressi on **1–3 virkettä** otsikon jälkeen, joka vastaa peruskysymyksiin: kuka, mitä, missä, milloin, miksi. Tämä on tiedotteen tärkein osa – toimittaja päättää usein sen perusteella, lukeeko loppua.
 
 **Esimerkki:**
 > Esimerkki Oy julkaisi tänään 27.5.2026 uuden Esimerkki-palvelun pk-yrityksille. Palvelu automatisoi laskutuksen ja kirjanpidon ja maksaa 49 € kuukaudessa. Kohderyhmänä ovat 1–10 hengen yritykset, joiden liikevaihto on alle miljoona euroa.
@@ -103,7 +103,7 @@ Esimerkki Oy on vuonna 2017 perustettu suomalainen ohjelmistoyhtiö, joka kehitt
 
 ## 2. Sisäisen tiedotteen rakenne
 
-Sisäinen tiedote on **lyhyempi ja suorempi** kuin lehdistötiedote. Ei tarvita yritysesittelyä — vastaanottajat ovat jo organisaation jäseniä.
+Sisäinen tiedote on **lyhyempi ja suorempi** kuin lehdistötiedote. Ei tarvita yritysesittelyä – vastaanottajat ovat jo organisaation jäseniä.
 
 ### 2.1 Yleisrakenne
 
@@ -128,7 +128,7 @@ Ystävällisin terveisin / Terveisin
 [Titteli]
 ```
 
-### 2.2 Esimerkki — muutostiedote
+### 2.2 Esimerkki – muutostiedote
 
 ```
 Otsikko: Uusi sähköpostijärjestelmä käyttöön 1.7.2026
@@ -172,7 +172,7 @@ TAUSTA: vähemmän kriittinen tieto       (yritysesittely lehdistötiedotteessa)
 ═══════════════════════════════════════
 ```
 
-Toimittaja, joka käyttää tiedotetta, voi leikata jutun mistä tahansa kohdasta — ja keskeisen tiedon pitää olla aina edellä.
+Toimittaja, joka käyttää tiedotetta, voi leikata jutun mistä tahansa kohdasta – ja keskeisen tiedon pitää olla aina edellä.
 
 ---
 
@@ -193,7 +193,7 @@ Suomalainen tiedotekulttuuri suosii **rauhallista, kuvailevaa** otsikkoa. Amerik
 
 ### 4.3 Passiivimuodon ylikäyttö
 
-Tiedote on tekijä-tyyppinen viesti — joku tekee jotain. Passiivi piilottaa tekijän.
+Tiedote on tekijä-tyyppinen viesti – joku tekee jotain. Passiivi piilottaa tekijän.
 
 ❌ "Tiedotetaan, että uusi palvelu otetaan käyttöön. Sopimukset uudistetaan ja asiakkaat informoidaan."
 
@@ -219,7 +219,7 @@ Tiedote ei aloita yritysesittelyllä. Ensimmäinen virke kertoo, mitä tapahtui.
 
 Tiedotteen kieli on jäsenneltyä proosaa, ei ajatusviivapainotteista myyntiretoriikkaa.
 
-❌ "Esimerkki Oy — alan pioneeri — lanseeraa uuden palvelun — pk-yrityksille — joka mullistaa kirjanpidon — automaation avulla."
+❌ "Esimerkki Oy – alan pioneeri – lanseeraa uuden palvelun – pk-yrityksille – joka mullistaa kirjanpidon – automaation avulla."
 
 ✅ "Esimerkki Oy lanseerasi kirjanpidon automaatiopalvelun pk-yrityksille."
 
@@ -270,7 +270,7 @@ Vaatii erityistä huolellisuutta. **Älä tee tätä AI:lla yksin.** Kriisiviest
 
 ---
 
-## 6. Sanitoitu malliesimerkki — lehdistötiedote
+## 6. Sanitoitu malliesimerkki – lehdistötiedote
 
 ```markdown
 Tiedote
@@ -338,10 +338,10 @@ Esimerkki Oy on vuonna 2017 perustettu suomalainen ohjelmistoyhtiö, joka kehitt
 
 ## 8. Mihin tätä skilliä konsultoidaan
 
-- [[suomi-tarkistuslista]] — pipeline H: tiedote
-- [[suomi-rekisteri]] — tiedotteen formaaliuden taso
-- [[suomi-ei-ai-sloppia]] — myyntipuheen, sitaattien ja kolmiosalistojen karsinta
-- [[suomi-anglismit]] — käännöslainat
-- [[suomi-kielihuolto]] — mekaniikka
-- [[suomi-sahkoposti]] — saateviesti tiedotteen mukana toimittajille
-- [[suomi-lokalisaatio-perus]] — päivämäärät, numerot
+- [[suomi-tarkistuslista]] – pipeline H: tiedote
+- [[suomi-rekisteri]] – tiedotteen formaaliuden taso
+- [[suomi-ei-ai-sloppia]] – myyntipuheen, sitaattien ja kolmiosalistojen karsinta
+- [[suomi-anglismit]] – käännöslainat
+- [[suomi-kielihuolto]] – mekaniikka
+- [[suomi-sahkoposti]] – saateviesti tiedotteen mukana toimittajille
+- [[suomi-lokalisaatio-perus]] – päivämäärät, numerot

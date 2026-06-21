@@ -1,7 +1,7 @@
 ---
 name: suomi-uutiskirje
 description: >
-  Suomenkielinen sähköpostiuutiskirje — otsikkorivi, preheader, avaus, sisältöblokit, CTA-konventiot, allekirjoitus ja peruutuslinkki. Käytä kun rakennat asiakasuutiskirjettä, sisältöuutiskirjettä, yrityksen sisäistä uutiskirjettä tai sähköpostimarkkinointia, tai kun käyttäjä sanoo "tee uutiskirje", "kirjoita newsletter", "email-kampanja", "uutiskirjeen otsikko", "asiakaskirje" tai "kuukausikirje". Ei käsittele yksittäistä sähköpostia — käytä siihen [[suomi-sahkoposti]]. Konsultoi [[suomi-lokalisaatio-perus]] -skilliä päivämääriin ja [[suomi-sinuttelu-teitittely]] -skilliä lukijan puhuttelumuotoon.
+  Suomenkielinen sähköpostiuutiskirje – otsikkorivi, preheader, avaus, sisältöblokit, CTA-konventiot, allekirjoitus ja peruutuslinkki. Käytä kun rakennat asiakasuutiskirjettä, sisältöuutiskirjettä, yrityksen sisäistä uutiskirjettä tai sähköpostimarkkinointia, tai kun käyttäjä sanoo "tee uutiskirje", "kirjoita newsletter", "email-kampanja", "uutiskirjeen otsikko", "asiakaskirje" tai "kuukausikirje". Ei käsittele yksittäistä sähköpostia – käytä siihen [[suomi-sahkoposti]]. Konsultoi [[suomi-lokalisaatio-perus]] -skilliä päivämääriin ja [[suomi-sinuttelu-teitittely]] -skilliä lukijan puhuttelumuotoon.
 license: MIT
 ---
 
@@ -86,7 +86,7 @@ Suomalainen uutiskirjelukija **haluaa heti pointin**. Tämä eroaa amerikkalaise
 **Suomalaisen lukijan kannalta hyvä avaus:**
 > Hei Aino,
 >
-> Q2-raporttimme on valmis. Tärkein löytö: 240 yrityksen vastaukset osoittavat, että pk-yritysten markkinointibudjetti laski keskimäärin 12 % vuoden alusta — ja AI-työkalut korvaavat aiempaa sisäistä tuotantoa.
+> Q2-raporttimme on valmis. Tärkein löytö: 240 yrityksen vastaukset osoittavat, että pk-yritysten markkinointibudjetti laski keskimäärin 12 % vuoden alusta – ja AI-työkalut korvaavat aiempaa sisäistä tuotantoa.
 >
 > [Lue koko raportti]
 
@@ -102,7 +102,7 @@ Englannin uutiskirjekulttuurissa P.S. on lähes pakollinen lopussa. Suomeksi se 
 - Haluat alleviivata yhden CTA:n
 - Et joka uutiskirjeessä
 
-Älä laita P.S.-osaa joka kerta — silloin se menettää tehonsa.
+Älä laita P.S.-osaa joka kerta – silloin se menettää tehonsa.
 
 ---
 
@@ -121,7 +121,7 @@ Tyypilliset blokkityypit:
 ### 4.2 Yksittäisen blokin rakenne
 
 ```
-[Blokin otsikko — lyhyt ja kuvaileva]
+[Blokin otsikko – lyhyt ja kuvaileva]
 
 [1–3 lyhyttä kappaletta. Mobiilissa kappale on 3–4 riviä.]
 
@@ -156,15 +156,15 @@ Suomalaiset lukevat uutiskirjeitä pääosin mobiilissa. Suunnittele:
 
 ### 5.2 Vältä
 
-- `Klikkaa tästä` — ruudunlukijoiden ja saavutettavuuden kannalta huono (linkin teksti pitää kertoa, mihin se vie)
-- `KLIKKAA HETI!` — yliampuva
-- `Don't miss out` -käännös (`Älä missaa`) — anglismi
+- `Klikkaa tästä` – ruudunlukijoiden ja saavutettavuuden kannalta huono (linkin teksti pitää kertoa, mihin se vie)
+- `KLIKKAA HETI!` – yliampuva
+- `Don't miss out` -käännös (`Älä missaa`) – anglismi
 - CTA jolla on yli 5 sanaa
 
 ### 5.3 CTA-painikkeen muotoilu
 
 - Yhden CTA:n per blokki (lukijan keskittyminen)
-- Kontrastiväri (saavutettavuus — riittävä tekstin ja taustan kontrasti, WCAG 2.1 AA -taso)
+- Kontrastiväri (saavutettavuus – riittävä tekstin ja taustan kontrasti, WCAG 2.1 AA -taso)
 - Linkin teksti kuvaileva (`Lataa Q2-raportti`, ei `Klikkaa tästä`)
 
 ---
@@ -208,7 +208,7 @@ Saat tämän viestin, koska olet tilannut Esimerkki Oy:n uutiskirjeen.
 
 ### 7.3 Vältä
 
-- `Click here to unsubscribe` — suomeksi peruutuslinkki
+- `Click here to unsubscribe` – suomeksi peruutuslinkki
 - Pieni harmaa peruutuslinkki, jota ei näe (saavutettavuus, juridinen riski)
 - Pelkkä `Unsubscribe` ilman selitettä
 
@@ -268,7 +268,7 @@ Kaikki AI-uutiskirjeet alkavat tällä. Aloita sisällöllä, ei kuulutuksilla.
 
 ### 9.4 Liika lihavointi ja kursivointi
 
-AI lihavoi avainsanat mekaanisesti. Lue uutiskirje ääneen — kohta, jonka korostat puheessa, on lihavoitavissa, muut eivät.
+AI lihavoi avainsanat mekaanisesti. Lue uutiskirje ääneen – kohta, jonka korostat puheessa, on lihavoitavissa, muut eivät.
 
 ### 9.5 Liika emoji B2B-kontekstissa
 
@@ -289,7 +289,7 @@ Yhdessä blokissa yksi CTA. Uutiskirjeessä yhteensä 2–4 CTA:ta. Liika valint
 
 ---
 
-## 10. Sanitoitu malliesimerkki — sisältöuutiskirje
+## 10. Sanitoitu malliesimerkki – sisältöuutiskirje
 
 ```markdown
 [Otsikkorivi]: Q2-raportti: pk-yritysten markkinointitrendit
@@ -317,7 +317,7 @@ Q2-raportin yllättävin yksittäinen luku: 67 % vastaajista vähensi maksetun m
 
 ## Tulossa kesäkuussa
 
-**Webinaari 12.6. klo 14.00 — AI-työnkulut sisällöntuotannossa**
+**Webinaari 12.6. klo 14.00 – AI-työnkulut sisällöntuotannossa**
 
 Mikko Mallikas kertoo, miten Esimerkki Oy automatisoi 80 % sisällöntuotannon rutiinityöstä Clauden työkaluilla. Mukana käytännön esimerkit ja avoin Q&A.
 
@@ -370,11 +370,11 @@ Saat tämän viestin, koska olet tilannut Esimerkki Oy:n uutiskirjeen.
 
 ## 12. Mihin tätä skilliä konsultoidaan
 
-- [[suomi-tarkistuslista]] — pipeline J: uutiskirje
-- [[suomi-lokalisaatio-perus]] — päivämäärät, kellonajat, numerot
-- [[suomi-sinuttelu-teitittely]] — lukijan puhuttelumuoto
-- [[suomi-rekisteri]] — rekisterin valinta (asiakaskieli tai ammattikieli)
-- [[suomi-ei-ai-sloppia]] — kuulumisten kyselyjen ja kolmiosalistojen karsinta
-- [[suomi-anglismit]] — käännöslainat otsikoissa ja CTA:ssa
-- [[suomi-kielihuolto]] — mekaniikka
-- [[suomi-sahkoposti]] — yksittäisen sähköpostin konventiot (ei uutiskirje)
+- [[suomi-tarkistuslista]] – pipeline J: uutiskirje
+- [[suomi-lokalisaatio-perus]] – päivämäärät, kellonajat, numerot
+- [[suomi-sinuttelu-teitittely]] – lukijan puhuttelumuoto
+- [[suomi-rekisteri]] – rekisterin valinta (asiakaskieli tai ammattikieli)
+- [[suomi-ei-ai-sloppia]] – kuulumisten kyselyjen ja kolmiosalistojen karsinta
+- [[suomi-anglismit]] – käännöslainat otsikoissa ja CTA:ssa
+- [[suomi-kielihuolto]] – mekaniikka
+- [[suomi-sahkoposti]] – yksittäisen sähköpostin konventiot (ei uutiskirje)

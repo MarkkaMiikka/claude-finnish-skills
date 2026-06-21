@@ -1,6 +1,6 @@
 ---
 name: suomi-selkokieli
-description: Muunna monimutkainen suomenkielinen teksti (virastokieli, ammattikieli, lainopillinen teksti, sopimusteksti) selkokielelle tai sen lähimmäksi vastineeksi. Käytä kun käyttäjä sanoo "tee tästä selkokielinen", "yksinkertaista", "muunna virastokielestä", "tee tästä luettavampi", "saavutettava versio", "selkokielistä", tai antaa monimutkaisen tekstin, joka pitää avata laajemmalle lukijakunnalle. Skill noudattaa Selkokeskuksen ohjeita: lyhyt virke, yksi ajatus per virke, tuttu sanasto, konkreettiset esimerkit, looginen jäsentely. Ei kata pelkkää oikolukua — käytä siihen [[suomi-kielihuolto]]. Ei kata AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]]. Ei kata rekisterin tunnistamista — käytä siihen [[suomi-rekisteri]].
+description: Muunna monimutkainen suomenkielinen teksti (virastokieli, ammattikieli, lainopillinen teksti, sopimusteksti) selkokielelle tai sen lähimmäksi vastineeksi. Käytä kun käyttäjä sanoo "tee tästä selkokielinen", "yksinkertaista", "muunna virastokielestä", "tee tästä luettavampi", "saavutettava versio", "selkokielistä", tai antaa monimutkaisen tekstin, joka pitää avata laajemmalle lukijakunnalle. Skill noudattaa Selkokeskuksen ohjeita: lyhyt virke, yksi ajatus per virke, tuttu sanasto, konkreettiset esimerkit, looginen jäsentely. Ei kata pelkkää oikolukua – käytä siihen [[suomi-kielihuolto]]. Ei kata AI-slop -kuvioita – käytä siihen [[suomi-ei-ai-sloppia]]. Ei kata rekisterin tunnistamista – käytä siihen [[suomi-rekisteri]].
 license: MIT
 ---
 
@@ -101,7 +101,7 @@ Kappale ei sisällä useita aiheita. Yksi pääajatus, jota tukee 2–3 selittä
 
 ### 10. Apusanat ovat sallittuja, jopa suositeltavia
 
-Selkokielessä pienet selventävät sanat eivät ole "täytettä" — ne auttavat lukijaa:
+Selkokielessä pienet selventävät sanat eivät ole "täytettä" – ne auttavat lukijaa:
 
 - "Tämä tarkoittaa..."
 - "Esimerkiksi..."
@@ -112,11 +112,11 @@ Selkokielessä pienet selventävät sanat eivät ole "täytettä" — ne auttava
 
 ## Selkokielistämisen prosessi
 
-### Vaihe 1 — Tunnista kohdelukija
+### Vaihe 1 – Tunnista kohdelukija
 
 Jos selkokielistät tekstin "maahanmuuttajille", se voi vaatia eri valintoja kuin "lukivaikeudesta kärsiville". Jos kohde on yleinen "saavutettava versio", noudata yleisiä selkokielen sääntöjä.
 
-### Vaihe 2 — Etsi raskaat rakenteet
+### Vaihe 2 – Etsi raskaat rakenteet
 
 Lue alkuteksti ja merkitse:
 
@@ -126,28 +126,28 @@ Lue alkuteksti ja merkitse:
 - Passiivit
 - Abstraktit ilmaisut
 
-### Vaihe 3 — Pilko virkkeet
+### Vaihe 3 – Pilko virkkeet
 
 Jokainen merkitsemäsi pitkä virke = useampi lyhyt virke. Kirjoita alkuperäinen ajatus uudelleen niin, että jokainen virke sisältää vain yhden ajatuksen.
 
-### Vaihe 4 — Vaihda sanasto
+### Vaihe 4 – Vaihda sanasto
 
 Vaihda tuntemattomat sanat tuttuihin. Jos ammattisanasta ei pääse eroon (esim. lakitermi), selitä sana välittömästi:
 
 > "Asianajopalkkio. Se tarkoittaa rahaa, jonka maksat juristille."
 
-### Vaihe 5 — Vaihda passiivi aktiiviksi
+### Vaihe 5 – Vaihda passiivi aktiiviksi
 
 Tunnista kuka tekee. Kirjoita siinä muodossa.
 
-### Vaihe 6 — Lisää lukijaystävällisyyttä
+### Vaihe 6 – Lisää lukijaystävällisyyttä
 
 - Otsikoita jokaiselle uudelle aiheelle
 - Listoja jos asioita on monta
 - Tyhjiä rivejä kappaleiden väliin
 - Tummennuksia avainsanoille
 
-### Vaihe 7 — Lue ääneen
+### Vaihe 7 – Lue ääneen
 
 Selkokielinen teksti pitää voida lukea ääneen sujuvasti. Jos kompastelet, vielä yksi kierros.
 
@@ -218,7 +218,7 @@ Selkokielinen teksti pitää voida lukea ääneen sujuvasti. Jos kompastelet, vi
 
 ---
 
-## Selkokielen rajat — mitä se EI ole
+## Selkokielen rajat – mitä se EI ole
 
 Selkokielistäminen ei ole:
 

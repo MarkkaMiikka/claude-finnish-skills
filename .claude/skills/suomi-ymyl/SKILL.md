@@ -1,10 +1,10 @@
 ---
 name: suomi-ymyl
-description: Suomenkielisen YMYL-sisällön (Your Money or Your Life — terveys, talous, lakiasiat, turvallisuus, ravitsemus, viranomaisasiat) kirjoittaminen journalistisesta näkökulmasta. Käytä AINA kun tuotat tai tarkistat suomenkielistä sisältöä, jossa lukijan terveys, raha, turvallisuus tai oikeudet voivat olla riippuvaisia tekstin paikkansapitävyydestä. Aktivoituu kun käyttäjä mainitsee terveydellisen ohjeen, lääkkeen, sairauden, oikeudellisen neuvon, sijoituspäätöksen, lainan, vakuutuksen, ruoka-allergian, turvallisuusohjeen, eläinten hoidon, viranomaisasian, tai pyytää sisältöä, joka voi vaikuttaa lukijan päätöksiin näissä aiheissa. Skill ohjaa erottamaan suosittelun (mitä virkamies/asiantuntija on sanonut, lähteen linkillä) referointiin verrattuna omaan suositteluun (mitä kirjoittaja itse väittäisi — kielletty YMYL-sisällössä ilman virallista pätevyyttä). Käytä rinnan [[suomi-kielihuolto]] ja [[suomi-ei-ai-sloppia]] -skillien kanssa.
+description: Suomenkielisen YMYL-sisällön (Your Money or Your Life – terveys, talous, lakiasiat, turvallisuus, ravitsemus, viranomaisasiat) kirjoittaminen journalistisesta näkökulmasta. Käytä AINA kun tuotat tai tarkistat suomenkielistä sisältöä, jossa lukijan terveys, raha, turvallisuus tai oikeudet voivat olla riippuvaisia tekstin paikkansapitävyydestä. Aktivoituu kun käyttäjä mainitsee terveydellisen ohjeen, lääkkeen, sairauden, oikeudellisen neuvon, sijoituspäätöksen, lainan, vakuutuksen, ruoka-allergian, turvallisuusohjeen, eläinten hoidon, viranomaisasian, tai pyytää sisältöä, joka voi vaikuttaa lukijan päätöksiin näissä aiheissa. Skill ohjaa erottamaan suosittelun (mitä virkamies/asiantuntija on sanonut, lähteen linkillä) referointiin verrattuna omaan suositteluun (mitä kirjoittaja itse väittäisi – kielletty YMYL-sisällössä ilman virallista pätevyyttä). Käytä rinnan [[suomi-kielihuolto]] ja [[suomi-ei-ai-sloppia]] -skillien kanssa.
 license: MIT
 ---
 
-# YMYL-sisältö suomeksi — journalistinen näkökulma
+# YMYL-sisältö suomeksi – journalistinen näkökulma
 
 > **Vinkki:** Jos haluat ajaa kaikki suomi-* -skillit yhdessä oikeassa järjestyksessä, käytä `[[suomi-tarkistuslista]]` -orkestraattoria. Se valitsee oikeat skillit ja pipeline-järjestyksen tekstin kontekstin perusteella.
 
@@ -14,9 +14,9 @@ YMYL on Googlen sisältöluokitus: **Your Money or Your Life**. Sisältöä, jon
 
 YMYL-sisällön julkaiseminen ilman pätevää lähdettä on:
 
-- **Eettisesti ongelmallista** — lukija voi tehdä päätöksiä virheellisen tiedon perusteella
-- **Juridisesti riskialtista** — joissakin maissa korvausvelvollisuus virheellisen ohjeen seurauksista
-- **SEO-riskialtista** — Google arvioi sisältöä laadun, tarkkuuden, olennaisuuden ja luotettavuuden perusteella (E-E-A-T: Expertise, Experience, Authoritativeness, Trustworthiness). AI:lla tuotettu arvoton, epätarkka tai laajamittaisesti generoitu YMYL-sisältö voi rikkoa Googlen laatu- ja roskasisältöohjeita.
+- **Eettisesti ongelmallista** – lukija voi tehdä päätöksiä virheellisen tiedon perusteella
+- **Juridisesti riskialtista** – joissakin maissa korvausvelvollisuus virheellisen ohjeen seurauksista
+- **SEO-riskialtista** – Google arvioi sisältöä laadun, tarkkuuden, olennaisuuden ja luotettavuuden perusteella (E-E-A-T: Expertise, Experience, Authoritativeness, Trustworthiness). AI:lla tuotettu arvoton, epätarkka tai laajamittaisesti generoitu YMYL-sisältö voi rikkoa Googlen laatu- ja roskasisältöohjeita.
 
 ## Journalistinen näkökulma vs. konsultin näkökulma
 
@@ -25,7 +25,7 @@ YMYL-sisällön julkaiseminen ilman pätevää lähdettä on:
 > "Suosittelemme sijoittamaan eläkesäästöt indeksirahastoon."
 > "Sinun pitäisi pyytää oikeudenkäyntiavustajalta tarkistus ennen sopimuksen allekirjoittamista."
 
-Tämä on **ohjeistus** — kuin terveysasiantuntija, sijoitusneuvoja, juristi tai eläinlääkäri antaisi.
+Tämä on **ohjeistus** – kuin terveysasiantuntija, sijoitusneuvoja, juristi tai eläinlääkäri antaisi.
 
 **Journalistinen näkökulma (sallittu kaikille ilman pätevyyttä):**
 > "Diabetesliitto kertoo metformiinin tyypilliseksi annokseksi kaksi kertaa päivässä aterian yhteydessä [linkki Diabetesliiton sivulle]."
@@ -46,7 +46,7 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 
 **Pätevät lähteet, joita voi referoida:**
 - THL (Terveyden ja hyvinvoinnin laitos)
-- Käypä hoito (Duodecim) — kansalliset hoitosuositukset
+- Käypä hoito (Duodecim) – kansalliset hoitosuositukset
 - Lääketietokeskus (Pharmaca Fennica)
 - Fimea (Lääkealan turvallisuus- ja kehittämiskeskus)
 - Yliopistojen lääketieteelliset tiedekunnat
@@ -55,9 +55,9 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Suomalainen Lääkäriseura Duodecim
 
 **Vältä:**
-- "Suosittelemme" — käytä sen sijaan "Käypä hoito -ohjeen mukaan"
-- "Lääke vaikuttaa nopeasti" — käytä "valmisteyhteenvedon mukaan vaikutus alkaa..."
-- Annosohjeita ilman lähdettä — aina lähde
+- "Suosittelemme" – käytä sen sijaan "Käypä hoito -ohjeen mukaan"
+- "Lääke vaikuttaa nopeasti" – käytä "valmisteyhteenvedon mukaan vaikutus alkaa..."
+- Annosohjeita ilman lähdettä – aina lähde
 
 ### B. Talous ja sijoittaminen
 
@@ -72,8 +72,8 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Kuluttajaliitto
 
 **Vältä:**
-- "Indeksirahasto on hyvä valinta" — käytä "Finanssivalvonnan kuluttajaohjeen mukaan..."
-- "Kannattaa nostaa lainaa nyt korkojen takia" — sijoitusneuvonta, vaatii pätevyyden
+- "Indeksirahasto on hyvä valinta" – käytä "Finanssivalvonnan kuluttajaohjeen mukaan..."
+- "Kannattaa nostaa lainaa nyt korkojen takia" – sijoitusneuvonta, vaatii pätevyyden
 - Tuotto-odotuksia ilman lähdettä
 
 ### C. Lakiasiat ja oikeudet
@@ -87,7 +87,7 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Tietosuojavaltuutettu
 
 **Vältä:**
-- "Voit irtisanoutua kahden viikon irtisanomisajalla" — käytä "Työsopimuslain (55/2001) 6 luvun mukaan..."
+- "Voit irtisanoutua kahden viikon irtisanomisajalla" – käytä "Työsopimuslain (55/2001) 6 luvun mukaan..."
 - Oikeudellisia tulkintoja monimutkaisista tapauksista
 - Sopimuspohjien suoraa suosittelua ilman juristin tarkistusta
 
@@ -101,7 +101,7 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Suomen Sydänliitto
 
 **Vältä:**
-- "Tämä ruoka-aine on terveellinen" — käytä "Ruokaviraston ravintosuosituksen mukaan..."
+- "Tämä ruoka-aine on terveellinen" – käytä "Ruokaviraston ravintosuosituksen mukaan..."
 - Allergioiden hoito-ohjeita
 - Erityisruokavalion suosittelua ilman ravitsemusterapeuttipätevyyttä
 
@@ -115,7 +115,7 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Rotujärjestöt (kun referoit rotutietoa)
 
 **Vältä:**
-- "Tämä rotu sopii lapsiperheeseen" — referoi rotujärjestöä
+- "Tämä rotu sopii lapsiperheeseen" – referoi rotujärjestöä
 - Sairauden hoito-ohjeita
 - Ravinto-ohjeita ilman eläinlääkärin tai virallisen lähteen referointia
 
@@ -131,13 +131,13 @@ Tämä on **referointi**: toistat, mitä pätevä taho on sanonut, ja jätät lu
 - Kuntien virkamiesohjeet
 
 **Vältä:**
-- "Sinun pitäisi hakea tätä etuutta" — käytä "Kelan ohjeen mukaan etuuteen voi olla oikeutettu, jos..."
+- "Sinun pitäisi hakea tätä etuutta" – käytä "Kelan ohjeen mukaan etuuteen voi olla oikeutettu, jos..."
 - Päätösaikataulujen ennustaminen
 - Henkilökohtaisten päätösten suosittelua
 
 ---
 
-## Lauserakenteet — journalistinen näkökulma
+## Lauserakenteet – journalistinen näkökulma
 
 Käytä näitä rakenteita YMYL-sisällössä:
 
@@ -149,7 +149,7 @@ Käytä näitä rakenteita YMYL-sisällössä:
 | Ajankohta / aikataulu | "Nopeasti / heti / 2 viikon kuluttua" | "[Lähde] kertoo ajankohdan olevan tyypillisesti..." |
 | Vaikutus | "Vaikuttaa nopeasti / hyvin / tehokkaasti" | "[Lähde] dokumentoi vaikutuksen alkavan..." |
 | Valinta | "Valitse X" | "[Pätevä taho] kuvaa X:n soveltuvan tilanteeseen, jossa..." |
-| Vaara | "Älä tee X — se on vaarallista" | "[Lähde] varoittaa X:n yhteydessä [linkki varoituslehteen]" |
+| Vaara | "Älä tee X – se on vaarallista" | "[Lähde] varoittaa X:n yhteydessä [linkki varoituslehteen]" |
 
 ---
 
@@ -185,7 +185,7 @@ Väite + [linkkiteksti viittaa lähteeseen](URL).
 
 ---
 
-## YMYL-vastuuvapauslauseke — milloin tarvitaan
+## YMYL-vastuuvapauslauseke – milloin tarvitaan
 
 Joissakin YMYL-sisällöissä kannattaa lisätä lyhyt vastuuvapauslauseke:
 
@@ -198,7 +198,7 @@ Joissakin YMYL-sisällöissä kannattaa lisätä lyhyt vastuuvapauslauseke:
 **Lakiasioissa:**
 > "Tämä artikkeli ei korvaa yksilöllistä oikeudellista neuvontaa. Monimutkaisissa tapauksissa pyydä juristin tarkistus."
 
-Älä laita vastuuvapauslauseketta jokaiseen YMYL-virkkeeseen — kerran sopivassa kohdassa riittää.
+Älä laita vastuuvapauslauseketta jokaiseen YMYL-virkkeeseen – kerran sopivassa kohdassa riittää.
 
 ---
 
@@ -210,11 +210,11 @@ AI vetää ne sisään koska markkinointi- ja blogitekstit on tyypillisesti kirj
 
 ### 2. Tutkimusten "yleinen referointi"
 
-"Tutkimusten mukaan", "asiantuntijat sanovat", "yleisesti tiedetään" ilman nimettyä lähdettä. Ympäripyöreä, lähteetön viittaus — nimeä lähde tai poista väite.
+"Tutkimusten mukaan", "asiantuntijat sanovat", "yleisesti tiedetään" ilman nimettyä lähdettä. Ympäripyöreä, lähteetön viittaus – nimeä lähde tai poista väite.
 
 ### 3. Lääkkeiden tai annosten ohjeistus ilman lähdettä
 
-Erityisen riskialtis kategoria. AI saattaa tuottaa annosohjeen, joka näyttää oikealta mutta jolla ei ole lähdettä — lukija saattaa toimia sen mukaan.
+Erityisen riskialtis kategoria. AI saattaa tuottaa annosohjeen, joka näyttää oikealta mutta jolla ei ole lähdettä – lukija saattaa toimia sen mukaan.
 
 ### 4. Tilastojen / lukujen heittäminen ilman lähdettä
 

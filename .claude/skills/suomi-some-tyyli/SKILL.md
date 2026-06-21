@@ -1,6 +1,6 @@
 ---
 name: suomi-some-tyyli
-description: Kirjoita suomenkielisiä some-postauksia kanavakohtaisilla mikrorekistereillä. Käytä kun käyttäjä sanoo "tee LinkedIn-postaus", "kirjoita Instagram-caption", "TikTok-hook", "Facebook-postaus", "tee multi-channel some", "samaan viestiin eri kanavaversiot", tai antaa raakaviestin, joka pitäisi muotoilla kanavakohtaisesti. Skill tunnistaa, että LinkedIn, Instagram, TikTok ja Facebook ovat omia mikrorekisterejään suomeksi — yhden geneerisen some-version kirjoittaminen ei toimi. Tuottaa kanavakohtaiset versiot oikealla pituudella, sävyllä, rakenteella ja CTA-konventiolla. Käytä rinnan [[suomi-ei-ai-sloppia]] -humanisointi-skillin ja [[suomi-kielihuolto]] -mekaniikkaskillin kanssa final-passissa.
+description: Kirjoita suomenkielisiä some-postauksia kanavakohtaisilla mikrorekistereillä. Käytä kun käyttäjä sanoo "tee LinkedIn-postaus", "kirjoita Instagram-caption", "TikTok-hook", "Facebook-postaus", "tee multi-channel some", "samaan viestiin eri kanavaversiot", tai antaa raakaviestin, joka pitäisi muotoilla kanavakohtaisesti. Skill tunnistaa, että LinkedIn, Instagram, TikTok ja Facebook ovat omia mikrorekisterejään suomeksi – yhden geneerisen some-version kirjoittaminen ei toimi. Tuottaa kanavakohtaiset versiot oikealla pituudella, sävyllä, rakenteella ja CTA-konventiolla. Käytä rinnan [[suomi-ei-ai-sloppia]] -humanisointi-skillin ja [[suomi-kielihuolto]] -mekaniikkaskillin kanssa final-passissa.
 license: MIT
 ---
 
@@ -25,7 +25,7 @@ Jokaisella kanavalla on:
 
 ## Kanavakohtaiset säännöt
 
-### LinkedIn — suomenkielinen ammattilainen
+### LinkedIn – suomenkielinen ammattilainen
 
 **Pituus:** 800–1300 merkkiä (näytetään ilman "näytä lisää" -klikkausta noin 200 merkkiä, joten alkupään pitää koukuttaa).
 
@@ -49,7 +49,7 @@ Jokaisella kanavalla on:
 
 **Rekisteri:** Ammattikieli + henkilökohtainen sävy. Ei mainospuhetta. Ei "intohimoinen tuloksentekijä" -kliseitä. Suora ja konkreettinen.
 
-**Hashtagit:** Suomessa hashtagien arvo LinkedInissä on laskenut — 0–3 olennaista tagia loppuun. Älä laita 10. Älä laita yhtä hashtagia per rivi.
+**Hashtagit:** Suomessa hashtagien arvo LinkedInissä on laskenut – 0–3 olennaista tagia loppuun. Älä laita 10. Älä laita yhtä hashtagia per rivi.
 
 **CTA:** Ei "kommentoi 🚀-emojilla" -tyyppisiä. Avoin kysymys, joka kutsuu keskusteluun ("Miten teidän tiimissä tämä on ratkaistu?").
 
@@ -60,11 +60,11 @@ Jokaisella kanavalla on:
 - Liian pitkä postaus ilman luettavuusrakennetta
 - Itsekehu-sävy ("Olen ylpeä, että...")
 
-### Instagram — visuaali + caption
+### Instagram – visuaali + caption
 
 **Pituus:** caption 100–300 merkkiä optimi. Kun pidempi, taita tyhjillä riveillä luettavaksi.
 
-**Hook:** captionin ensimmäiset 125 merkkiä näkyvät syötteessä — laita avain sinne.
+**Hook:** captionin ensimmäiset 125 merkkiä näkyvät syötteessä – laita avain sinne.
 
 **Rakenne:**
 
@@ -80,7 +80,7 @@ Jokaisella kanavalla on:
 
 **Rekisteri:** Yleiskieli + tunne. Visuaalin tukena. Lyhyemmät virkkeet kuin LinkedInissä.
 
-**Hashtagit:** 5–15 olennaista. Sekoita laajaa (#markkinointi) ja kapeaa (#B2B-markkinointi-suomi). Ei kaikki hashtagit samalla rivillä captioniin — ensimmäiseen kommenttiin tai erotettuna tyhjillä riveillä.
+**Hashtagit:** 5–15 olennaista. Sekoita laajaa (#markkinointi) ja kapeaa (#B2B-markkinointi-suomi). Ei kaikki hashtagit samalla rivillä captioniin – ensimmäiseen kommenttiin tai erotettuna tyhjillä riveillä.
 
 **Vältä Instagramissa:**
 - Liian pitkä caption ilman tyhjiä rivejä (lukijaystävällisyys)
@@ -88,7 +88,7 @@ Jokaisella kanavalla on:
 - CTA ilman selkeää ohjeistusta ("klikkaa biota" → "Linkki biossa")
 - LinkedIn-tyylinen ammattikielinen virke
 
-### TikTok — caption + hook (videon kanssa)
+### TikTok – caption + hook (videon kanssa)
 
 **Pituus:** 80–150 merkkiä captionissa. Hook on itse videon ensimmäiset 2 sekuntia, ei caption.
 
@@ -99,14 +99,14 @@ Jokaisella kanavalla on:
 ```
 [Caption: 1 lyhyt rivi, joka tukee videon hookia tai kontekstoi sen]
 [Tyhjä rivi]
-[CTA: 1 lause, joka kutsuu sitoutumaan — kommentti, seuraaminen, tallennus]
+[CTA: 1 lause, joka kutsuu sitoutumaan – kommentti, seuraaminen, tallennus]
 [Tyhjä rivi]
 [Hashtagit: 3–6 olennaista, ei spämmiä]
 ```
 
 **Rekisteri:** Puhekielisempi kuin Instagram. Lyhyt, suora. Tunnustetaan, että lukija on lyhyellä huomiokyvyllä.
 
-**Hashtagit:** 3–6 — ei enempää. TikTokin algoritmi painottaa muita signaaleja enemmän kuin hashtageja. Käytä mieluummin 1 trendaava + 2 kapean aiheen + 1 brändi.
+**Hashtagit:** 3–6 – ei enempää. TikTokin algoritmi painottaa muita signaaleja enemmän kuin hashtageja. Käytä mieluummin 1 trendaava + 2 kapean aiheen + 1 brändi.
 
 **Vältä TikTokissa:**
 - Liian pitkä caption (TikTokin caption-näkyvyys on rajallinen)
@@ -114,7 +114,7 @@ Jokaisella kanavalla on:
 - Hashtag-spämmi 20+ tagia
 - "Linkki biossa" ilman selkeää syytä lukijalle klikata
 
-### Facebook — vaihteleva yleisö, kontekstin mukaan
+### Facebook – vaihteleva yleisö, kontekstin mukaan
 
 **Pituus:** Vaihtelee. Yritystilien postaukset 100–500 merkkiä. Pidemmät tarinat-tyyliset 500–1200 merkkiä.
 
@@ -137,11 +137,11 @@ Jokaisella kanavalla on:
 
 Kun pyydetään yksi viesti → 4 kanavaa:
 
-### Vaihe 1 — Ydinviesti
+### Vaihe 1 – Ydinviesti
 
 Tunnista, mikä on **se yksi asia**, jonka jokaisen kanavan version lukijan pitää saada. Tämä on lähtökapseli kaikkiin neljään.
 
-### Vaihe 2 — Kohdeyleisö kanavittain
+### Vaihe 2 – Kohdeyleisö kanavittain
 
 | Kanava | Tyypillinen suomalainen yleisö |
 |---|---|
@@ -150,7 +150,7 @@ Tunnista, mikä on **se yksi asia**, jonka jokaisen kanavan version lukijan pit�
 | TikTok | Nuorempi keskimäärin, viihdettä, lyhyt huomiokyky, mobiili |
 | Facebook | Vanhempi keskimäärin, yhteisölliset jaot, tarinat, suorat ostopäätökset |
 
-### Vaihe 3 — Kanavakohtainen kirjoitus
+### Vaihe 3 – Kanavakohtainen kirjoitus
 
 Kirjoita kanavakohtaiset versiot tyhjästä. Älä käännä yhtä versiota toisesta. Joka versio:
 
@@ -158,11 +158,11 @@ Kirjoita kanavakohtaiset versiot tyhjästä. Älä käännä yhtä versiota tois
 - Käyttää kanavan rekisteriä
 - Optimoi kanavan algoritmisille signaaleille (LinkedIn: kommentit; Instagram: tallennukset; TikTok: katseluaika; Facebook: jaot)
 
-### Vaihe 4 — Hashtag-strategia kanavittain
+### Vaihe 4 – Hashtag-strategia kanavittain
 
-Kuten yllä — eri kanavat = eri hashtag-strategiat. Älä kopioi samaa hashtag-listaa kaikille.
+Kuten yllä – eri kanavat = eri hashtag-strategiat. Älä kopioi samaa hashtag-listaa kaikille.
 
-### Vaihe 5 — Viimeistelytarkistus per versio
+### Vaihe 5 – Viimeistelytarkistus per versio
 
 Aja jokainen versio läpi:
 - [[suomi-ei-ai-sloppia]] (poistaa AI-fraasit + kliseet)
@@ -173,7 +173,7 @@ Aja jokainen versio läpi:
 
 ## Yhden viestin esimerkki neljässä kanavassa
 
-**Lähtöviesti:** "Tein tällä viikolla tutkimuksen oman aikataulun käytöstä — kolme tuntia päivässä menee kokouksiin joista 40 % olisi voitu hoitaa sähköpostilla."
+**Lähtöviesti:** "Tein tällä viikolla tutkimuksen oman aikataulun käytöstä – kolme tuntia päivässä menee kokouksiin joista 40 % olisi voitu hoitaa sähköpostilla."
 
 ### LinkedIn-versio (1100 merkkiä)
 
@@ -184,17 +184,17 @@ Pidin kirjaa kalenteristani 5 työpäivän ajan. Joka tunti, mihin se meni.
 
 Lopputulos: kokouksia 3 tuntia per päivä. Niistä 40 % olisi pystytty hoitamaan sähköpostilla.
 
-Tämä ei ole uutta — kaikki tietävät että kokouksia on liikaa. Mutta numero tekee siitä konkreettista:
+Tämä ei ole uutta – kaikki tietävät että kokouksia on liikaa. Mutta numero tekee siitä konkreettista:
 
-— 15 tuntia viikossa kokouksissa
-— 6 tuntia viikossa kokouksissa, jotka eivät tarvinneet kokousta
-— Yksi työpäivä, jolla olisin tehnyt todellista työtä
+– 15 tuntia viikossa kokouksissa
+– 6 tuntia viikossa kokouksissa, jotka eivät tarvinneet kokousta
+– Yksi työpäivä, jolla olisin tehnyt todellista työtä
 
 Kolme muutosta, jotka teen ensi viikolla:
 
 1. Oletus uusiin kokouspyyntöihin: "Voiko tämän hoitaa sähköpostilla?"
 2. 15 minuutin kokoukset 30 minuutin sijaan aina kun mahdollista
-3. Ei tiistain kokouksia ennen klo 13.00 — aamupäivä syvä työpäivä
+3. Ei tiistain kokouksia ennen klo 13.00 – aamupäivä syvä työpäivä
 
 Onko teidän tiimissä tehty samaa harjoitusta? Mitä tuli ilmi?
 ```
@@ -226,7 +226,7 @@ Kommentoi alle: oletko itse mitannut?
 ```
 Tein viikon kokeen: pidin kirjaa kalenterista tunti kerrallaan. Lopputulos: 15 tuntia viikossa kokouksissa, joista lähes 6 tuntia olisi pystytty hoitamaan sähköpostilla.
 
-Kolme muutosta seuraavaan viikkoon — kirjoitin tästä pidemmin LinkedInissä, linkki kommentteihin.
+Kolme muutosta seuraavaan viikkoon – kirjoitin tästä pidemmin LinkedInissä, linkki kommentteihin.
 
 Onko muilla samanlaisia kokemuksia? Mitä työkaluja kalenterin analyysiin?
 ```

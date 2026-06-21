@@ -5,11 +5,11 @@ description: >
 license: MIT
 ---
 
-# Sinuttelu vai teitittely — päätösmatriisi
+# Sinuttelu vai teitittely – päätösmatriisi
 
 > **Vinkki:** Jos haluat ajaa kaikki suomi-* -skillit yhdessä oikeassa järjestyksessä, käytä `[[suomi-tarkistuslista]]` -orkestraattoria.
 
-Tämä skill auttaa valitsemaan sinuttelu- ja teitittelymuotojen välillä suomeksi sekä korjaa sekoittuvaa puhuttelumuotoa. Suomalainen viestintäkulttuuri on **paljon vähemmän teitittelevää kuin saksalainen tai ranskalainen** — AI-mallit virittävät teitittelyä liian helposti, koska harjoitusdata painottuu kohteliaaseen rekisteriin.
+Tämä skill auttaa valitsemaan sinuttelu- ja teitittelymuotojen välillä suomeksi sekä korjaa sekoittuvaa puhuttelumuotoa. Suomalainen viestintäkulttuuri on **paljon vähemmän teitittelevää kuin saksalainen tai ranskalainen** – AI-mallit virittävät teitittelyä liian helposti, koska harjoitusdata painottuu kohteliaaseen rekisteriin.
 
 ---
 
@@ -119,10 +119,10 @@ Monikkomuoto pätee silloin, kun teitittelyä käytetään monelle henkilölle y
 
 ### 4.4 Kohteliaisuusrakenteet
 
-- `Voisitteko...` — kohtelias pyyntö
-- `Olisitteko ystävällinen ja...` — erittäin kohtelias pyyntö
-- `Tehkää...` — imperatiivi teitittelyssä, kuulostaa tylyltä, käytä harkitusti
-- `Olkaa hyvä ja...` — pehmentää imperatiivia
+- `Voisitteko...` – kohtelias pyyntö
+- `Olisitteko ystävällinen ja...` – erittäin kohtelias pyyntö
+- `Tehkää...` – imperatiivi teitittelyssä, kuulostaa tylyltä, käytä harkitusti
+- `Olkaa hyvä ja...` – pehmentää imperatiivia
 
 ---
 
@@ -199,11 +199,11 @@ Saksaksi `Sie` on oletus ja `du` poikkeus. Ranskaksi `vous` on oletus ja `tu` po
 
 ### 7.3 Yhden tekstin sisällä vaihtelu
 
-Pidä sama muoto **koko viestissä**. Jos vaihdat, pidä päätös perusteltuna (esim. saatteet teitittelyä, runko sinuttelua — mutta tämä on harvinainen tapaus, useimmiten kannattaa pitää yksi muoto).
+Pidä sama muoto **koko viestissä**. Jos vaihdat, pidä päätös perusteltuna (esim. saatteet teitittelyä, runko sinuttelua – mutta tämä on harvinainen tapaus, useimmiten kannattaa pitää yksi muoto).
 
 ### 7.4 Korvaava kohteliaisuus passiivilla
 
-Passiivi ei ole automaattisesti kohteliasta — usein se on AI-slopin merkki. Ks. [[suomi-ei-ai-sloppia]] kohta 13.
+Passiivi ei ole automaattisesti kohteliasta – usein se on AI-slopin merkki. Ks. [[suomi-ei-ai-sloppia]] kohta 13.
 
 ❌ `Voitaisiinko teiltä saada hakemus käsiteltäväksi?`
 ✅ `Voitteko lähettää hakemuksen?` (teitittelyssä)
@@ -219,7 +219,7 @@ Passiivi ei ole automaattisesti kohteliasta — usein se on AI-slopin merkki. Ks
 - `Hyvä vastaanottaja` (yleinen kirje)
 - `Arvoisa vastaanottaja` (formaali)
 
-Vältä `Hyvät naiset ja herrat` — vanhentunut, sukupuolittava.
+Vältä `Hyvät naiset ja herrat` – vanhentunut, sukupuolittava.
 
 ### 8.2 Useita vastaanottajia samassa viestissä
 
@@ -246,15 +246,15 @@ Käytä kun tarkistat suomenkielistä viestiä:
 [ ] Jos teitittely: onko partisiippi yksikössä yhdelle henkilölle (Olette saanut, ei Olette saaneet)?
 [ ] Onko "you" käännetty automaattisesti "te":ksi vaikka sinuttelu olisi luonnollisempi?
 [ ] Onko ylikohteliaisuus pehmennetty jämäkämpään suuntaan?
-[ ] Onko passiivi käytetty kohteliaisuuden korvaajana — voiko sen muuttaa aktiiviksi?
+[ ] Onko passiivi käytetty kohteliaisuuden korvaajana – voiko sen muuttaa aktiiviksi?
 ```
 
 ---
 
 ## 10. Mihin tätä skilliä konsultoidaan
 
-- [[suomi-sahkoposti]] — tervehdys ja koko viestin muoto
-- [[suomi-tarjous]] — asiakasviestintä tarjouksessa
-- [[suomi-ymyl]] — sensitiiviset aiheet (terveys, talous, oikeus) saattavat vaatia teitittelyä
-- [[suomi-uutiskirje]] — yhtenäinen muoto läpi uutiskirjeen
-- [[suomi-rekisteri]] — rekisteri ja puhuttelumuoto liittyvät, mutta eivät ole sama asia
+- [[suomi-sahkoposti]] – tervehdys ja koko viestin muoto
+- [[suomi-tarjous]] – asiakasviestintä tarjouksessa
+- [[suomi-ymyl]] – sensitiiviset aiheet (terveys, talous, oikeus) saattavat vaatia teitittelyä
+- [[suomi-uutiskirje]] – yhtenäinen muoto läpi uutiskirjeen
+- [[suomi-rekisteri]] – rekisteri ja puhuttelumuoto liittyvät, mutta eivät ole sama asia

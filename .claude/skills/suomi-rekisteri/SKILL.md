@@ -1,6 +1,6 @@
 ---
 name: suomi-rekisteri
-description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi — yleiskieli, ammattikieli, asiakaskieli, puhekieli — ja varmistaa, että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä, jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaniikkaa (yhdyssanat, pilkutus) — käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita — käytä siihen [[suomi-ei-ai-sloppia]].
+description: Kalibroi suomenkielisen tekstin rekisteri tarkoituksenmukaiseksi – yleiskieli, ammattikieli, asiakaskieli, puhekieli – ja varmistaa, että rekisteri pysyy yhtenäisenä tekstin sisällä. Käytä kun käyttäjä sanoo "tarkista rekisteri", "kuulostaa liian viralliselta", "kuulostaa liian rennolta", "rekisteri vaihtelee", "sopimaton sävy", "muuta yleiskielelle", "muuta ammattikielelle", "muuta asiakaskielelle", tai kun teet sisältöä, jossa eri osioilla on eri sävyvaatimukset (esim. brändin pääsivu = ammattikieli, FAQ = lähempänä asiakaskieltä, blogikommentti = puhekielisempi). Skill tunnistaa rekisterit, ehdottaa kalibrointia ja korjaa rekisterivaihtelua. Ei käsittele mekaniikkaa (yhdyssanat, pilkutus) – käytä siihen [[suomi-kielihuolto]]. Ei käsittele AI-slop -kuvioita – käytä siihen [[suomi-ei-ai-sloppia]].
 license: MIT
 ---
 
@@ -14,10 +14,10 @@ Rekisteri on tekstin **kielellinen muotoilu** suhteessa lukijaan ja viestintäti
 
 Suomi käyttää neljää päärekisteriä:
 
-1. **Virallinen / hallinnollinen** — viranomaisteksti, lait, asetukset, viralliset päätökset
-2. **Ammattikieli** — asiantuntijatyö, ammattijulkaisut, koulutus, raportointi
-3. **Yleiskieli / asiakaskieli** — markkinointi kuluttajille, journalismi, ohjeet, käyttöoppaat, FAQ
-4. **Puhekieli / arkikieli** — some-postaukset rennoilla kanavilla, kommentit, henkilökohtainen kirjoittaminen
+1. **Virallinen / hallinnollinen** – viranomaisteksti, lait, asetukset, viralliset päätökset
+2. **Ammattikieli** – asiantuntijatyö, ammattijulkaisut, koulutus, raportointi
+3. **Yleiskieli / asiakaskieli** – markkinointi kuluttajille, journalismi, ohjeet, käyttöoppaat, FAQ
+4. **Puhekieli / arkikieli** – some-postaukset rennoilla kanavilla, kommentit, henkilökohtainen kirjoittaminen
 
 ## Yleisin AI-virhe rekisterissä
 
@@ -53,7 +53,7 @@ Kysy jokaisesta virkkeestä tai kappaleesta:
 
 | Rekisteri | Puhuttelu |
 |---|---|
-| Virallinen | "asianomaisen on", "henkilö voi" — ei suoraa puhuttelua |
+| Virallinen | "asianomaisen on", "henkilö voi" – ei suoraa puhuttelua |
 | Ammattikieli | "Voitte", "Te" (joissain yhteyksissä), "asiakas" |
 | Yleiskieli | "Sinä", "te-kohteliaisuusmuoto valinnainen", suora puhuttelu |
 | Puhekieli | "Sä", "sun", "muista että..." |
@@ -71,7 +71,7 @@ Kysy jokaisesta virkkeestä tai kappaleesta:
 
 ## Rekisteri-prosessi tekstin tarkastukseen
 
-### Vaihe 1 — Päätä kohderekisteri ennen tekstin lukemista
+### Vaihe 1 – Päätä kohderekisteri ennen tekstin lukemista
 
 Kysy itseltäsi (tai pyydä käyttäjältä jos epäselvää):
 
@@ -79,7 +79,7 @@ Kysy itseltäsi (tai pyydä käyttäjältä jos epäselvää):
 - **Mitä tarkoitusta varten?** Päätöksenteko vs. tutustuminen vs. viihtyminen vs. ohjeen seuraaminen
 - **Missä kanavassa?** Verkkosivun pääsivu (ammattikieli yleensä), FAQ (yleiskielinen), some-postaus (puhekielisempi), uutiskirje (asiakaskieli + ammattikieli sekoitus)
 
-### Vaihe 2 — Tarkista yhtenäisyys
+### Vaihe 2 – Tarkista yhtenäisyys
 
 Lue teksti läpi ja merkitse:
 
@@ -87,7 +87,7 @@ Lue teksti läpi ja merkitse:
 - **Virkkeet, jotka ovat liian raskaita** (pitkät sivulauseet ja nominaalimuodot yleiskielisessä tekstissä)
 - **Lauseet, jotka ovat liian rentoja** (puhekielisiä elementtejä ammattikielisessä tekstissä)
 
-### Vaihe 3 — Tarkista rekisterivaihtelu eri osioiden välillä
+### Vaihe 3 – Tarkista rekisterivaihtelu eri osioiden välillä
 
 Joillain teksteillä on legitiimi syy vaihtaa rekisteriä eri osioissa. Esim:
 
@@ -96,7 +96,7 @@ Joillain teksteillä on legitiimi syy vaihtaa rekisteriä eri osioissa. Esim:
 | Yrityksen pääsivun hero | Ammattikieli, voi olla mainosmainen |
 | Tuotekuvauksen otsikko + ingressi | Ammattikieli |
 | Tuotekuvauksen "miten käytät" | Yleiskieli / asiakaskieli |
-| FAQ | Yleiskieli / asiakaskieli — vastaa lukijan kysymystä lukijan tasolla |
+| FAQ | Yleiskieli / asiakaskieli – vastaa lukijan kysymystä lukijan tasolla |
 | Käyttöehdot / tietosuojaseloste | Virallinen (laillinen vaatimus) |
 | Asiakaspalvelun chatbotti | Asiakaskieli, jopa puhekielisempi |
 | Blogiartikkeli | Ammattikieli + persoona |
@@ -104,7 +104,7 @@ Joillain teksteillä on legitiimi syy vaihtaa rekisteriä eri osioissa. Esim:
 
 Jos teksti on koko ajan yhdessä rekisterissä mutta sen pitäisi vaihdella → korjaa.
 
-### Vaihe 4 — Korjaa
+### Vaihe 4 – Korjaa
 
 Jokaisen rekisterirajaa rikkovan kohdan kohdalla:
 
@@ -180,8 +180,8 @@ Markkinointitekstissä äkillinen "te-muoto" vaihtaminen sinä-puhutteluun ja ta
 [ ] Kohderekisteri valittu ja kirjattu (virallinen / ammattikieli / yleiskieli / puhekieli)
 [ ] Sanasto kuuluu kohderekisteriin (ei "edellä mainittu" yleiskielessä, ei "tsekkaa" ammattikielessä)
 [ ] Virkerakenne sopii kohderekisteriin (pitkät vs lyhyet, passiivi vs aktiivi)
-[ ] Puhuttelutapa johdonmukainen (sä/te/persoonaton — pidä yhtä koko teksti)
-[ ] Persoonan käyttö johdonmukainen (me/minä/passiivi — sekoittaminen ei satunnaista)
+[ ] Puhuttelutapa johdonmukainen (sä/te/persoonaton – pidä yhtä koko teksti)
+[ ] Persoonan käyttö johdonmukainen (me/minä/passiivi – sekoittaminen ei satunnaista)
 [ ] Eri osiot (hero, FAQ, käyttöehdot, blogi) ovat omissa rekistereissään mutta jokainen osio on yhtenäinen
 [ ] Ei tarpeettomia anglismi-rekisteririkkoja ("guys", "killer", "tsekkaa")
 [ ] Lukija tunnistaa selkeästi kenelle teksti on suunnattu pelkän ensimmäisen kappaleen perusteella

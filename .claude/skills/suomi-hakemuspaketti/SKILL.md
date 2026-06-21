@@ -19,10 +19,10 @@ Tämä skill räätälöi suomenkielisen CV:n ja hakemuskirjeen yhteen tiettyyn 
 
 Pyydä käyttäjältä ennen kuin aloitat:
 
-1. **Työpaikkailmoituksen koko teksti** — tai linkki, jonka käyttäjä lukee ja kopioi
-2. **Hakijan tausta** — joko olemassa oleva CV (mikä tahansa muoto) tai vapaamuotoinen kuvaus
-3. **Hakijan yhteystiedot** — etu- ja sukunimi, puhelin, sähköposti, kaupunki, LinkedIn-profiili
-4. **Mahdolliset rajaukset** — esim. "älä mainitse X-tehtävää" tai "korosta Y-osaamista"
+1. **Työpaikkailmoituksen koko teksti** – tai linkki, jonka käyttäjä lukee ja kopioi
+2. **Hakijan tausta** – joko olemassa oleva CV (mikä tahansa muoto) tai vapaamuotoinen kuvaus
+3. **Hakijan yhteystiedot** – etu- ja sukunimi, puhelin, sähköposti, kaupunki, LinkedIn-profiili
+4. **Mahdolliset rajaukset** – esim. "älä mainitse X-tehtävää" tai "korosta Y-osaamista"
 
 Jos jotain puuttuu, kysy. Älä keksi hakijan taustaa.
 
@@ -34,15 +34,15 @@ Jos jotain puuttuu, kysy. Älä keksi hakijan taustaa.
 
 Pura ilmoitus seuraaviin osiin:
 
-- **Pakolliset vaatimukset** — "vaadimme", "edellytetään", "tulee olla"
-- **Toivotut taidot** — "katsomme eduksi", "plussaa", "toivomme"
-- **Painotetut termit** — sanat, jotka toistuvat tai joita on lihavoitu
-- **Kulttuurivinkit** — yrityksen tapa kirjoittaa (esim. "tiimimme on rento" → vältä yliformaali sävy)
-- **Pyydetyt liitteet** — joskus pyydetään palkkatoive, portfolio, suosittelijat
+- **Pakolliset vaatimukset** – "vaadimme", "edellytetään", "tulee olla"
+- **Toivotut taidot** – "katsomme eduksi", "plussaa", "toivomme"
+- **Painotetut termit** – sanat, jotka toistuvat tai joita on lihavoitu
+- **Kulttuurivinkit** – yrityksen tapa kirjoittaa (esim. "tiimimme on rento" → vältä yliformaali sävy)
+- **Pyydetyt liitteet** – joskus pyydetään palkkatoive, portfolio, suosittelijat
 
 ### Vaihe 2: Sovita hakijan tausta ilmoituksen kieleen
 
-Käy hakijan tausta läpi ja **valitse** mitkä bulletit nousevat CV:n kärkeen. Älä yritä kertoa kaikkea — valitse 70 % sisällöstä, joka vastaa ilmoitusta.
+Käy hakijan tausta läpi ja **valitse** mitkä bulletit nousevat CV:n kärkeen. Älä yritä kertoa kaikkea – valitse 70 % sisällöstä, joka vastaa ilmoitusta.
 
 Vastaavuus tarkoittaa kahta asiaa:
 - **Sisältö vastaa** ilmoituksen vaatimuksiin
@@ -59,9 +59,9 @@ Käytä kohdassa 4 olevaa rakennetta.
 ### Vaihe 5: Aja tarkistukset
 
 Pakollinen ketjutus:
-- [[suomi-ei-ai-sloppia]] — erityisesti kuvio 31 (suomalainen humble brag) ja kuvio 7 (AI-sanasto)
-- [[suomi-kielihuolto]] — yhdyssanat, pilkutus, sijamuodot
-- [[suomi-anglismit]] — käännöslainat (poikkeus: alan vakiintuneet termit kuten "orgaaninen", "brieffata", "konversio" säilytetään)
+- [[suomi-ei-ai-sloppia]] – erityisesti kuvio 31 (suomalainen humble brag) ja kuvio 7 (AI-sanasto)
+- [[suomi-kielihuolto]] – yhdyssanat, pilkutus, sijamuodot
+- [[suomi-anglismit]] – käännöslainat (poikkeus: alan vakiintuneet termit kuten "orgaaninen", "brieffata", "konversio" säilytetään)
 
 ### Vaihe 6: Anna muunto-ohjeet
 
@@ -69,14 +69,14 @@ Loppuun anna käyttäjälle ohjeet markdown-tiedostojen muuntamiseen .docx- tai 
 
 ---
 
-## 3. CV.md — rakenne ja konventiot
+## 3. CV.md – rakenne ja konventiot
 
 ### 3.1 Yleisrakenne
 
 ```markdown
 # Etunimi Sukunimi
 
-[tagline yhdellä rivillä — esim. "Markkinointi · AI · Konsultointi"]
+[tagline yhdellä rivillä – esim. "Markkinointi · AI · Konsultointi"]
 
 [Kaupunki, Suomi] · [puhelin] · [sähköposti] · [linkedin.com/in/...]
 
@@ -116,9 +116,9 @@ Loppuun anna käyttäjälle ohjeet markdown-tiedostojen muuntamiseen .docx- tai 
 
 ## Kielet
 
-- Suomi — äidinkieli
-- Englanti — [erinomainen / hyvä / tyydyttävä / alkeet]
-- [Muu kieli] — [taso]
+- Suomi – äidinkieli
+- Englanti – [erinomainen / hyvä / tyydyttävä / alkeet]
+- [Muu kieli] – [taso]
 
 ## Suosittelijat
 
@@ -157,7 +157,7 @@ Jos numeroa ei ole, käytä konkreettista lopputulosta (lanseeraus, asiakas, tul
 
 Jätä pois roolit, jotka eivät tue hakua. Älä tunge kaikkea CV:hen.
 
-### 3.5 Yhdyssanojen kärki — tarkista nämä
+### 3.5 Yhdyssanojen kärki – tarkista nämä
 
 - markkinointistrategia, markkinointiviestintä, markkinointiosasto
 - asiakaskokemus, asiakaspalvelu, asiakaspysyvyys
@@ -176,26 +176,26 @@ Jätä pois roolit, jotka eivät tue hakua. Älä tunge kaikkea CV:hen.
 
 ---
 
-## 4. Hakemuskirje.md — rakenne ja konventiot
+## 4. Hakemuskirje.md – rakenne ja konventiot
 
 ### 4.1 Yleisrakenne
 
 ```markdown
 [Päiväys: 27.5.2026]
 
-[Vastaanottaja, jos tiedossa nimi tai titteli — "Aino Esimerkki, rekrytointivastaava" tai "Esimerkki Oy:n rekrytointitiimi"]
+[Vastaanottaja, jos tiedossa nimi tai titteli – "Aino Esimerkki, rekrytointivastaava" tai "Esimerkki Oy:n rekrytointitiimi"]
 
 # Hakemus: [tehtävän nimi sellaisena kuin ilmoituksessa]
 
-[Tervehdys — ks. kohta 4.2]
+[Tervehdys – ks. kohta 4.2]
 
-[Avauskappale — ks. kohta 4.3]
+[Avauskappale – ks. kohta 4.3]
 
-[Keskikappale 1 — ks. kohta 4.4]
+[Keskikappale 1 – ks. kohta 4.4]
 
 [Keskikappale 2, jos tarvitaan]
 
-[Lopetuskappale — ks. kohta 4.5]
+[Lopetuskappale – ks. kohta 4.5]
 
 [Lopetussanat]
 
@@ -296,7 +296,7 @@ Maks. 1 sivu. Kolme kappaletta (avaus + keskikappale + lopetus) on yleensä riit
 
 ### 5.3 Yhteiset anti-patternit
 
-- Ajatusviivan (—) ylikäyttö (max 1 koko hakemuksessa, mieluiten 0)
+- Ajatusviivan (–) ylikäyttö (max 1 koko hakemuksessa, mieluiten 0)
 - Iso Alkukirjain Otsikoissa (vain ensimmäinen sana isolla suomessa)
 - Emojit
 - Lihavointi joka toisessa virkkeessä
@@ -327,16 +327,16 @@ Pandoc-asennus: [pandoc.org/installing.html](https://pandoc.org/installing.html)
 
 1. Avaa Google Docs
 2. Kopioi markdown-tiedoston sisältö
-3. Liitä Google Docsiin — markdown-rakenne säilyy yleensä hyvin
+3. Liitä Google Docsiin – markdown-rakenne säilyy yleensä hyvin
 4. Tarkista muotoilu silmämääräisesti
 5. Tiedosto → Lataa → Microsoft Word (.docx) tai PDF (.pdf)
 
 ### 6.3 Markdown-editorit, joissa on vientitoiminto
 
-- **Typora** (kaupallinen) — Tiedosto → Vie → Word / PDF
-- **Obsidian** (ilmainen) — Vaatii vientilisäosan
-- **VS Code** + Markdown PDF -laajennos — Komento "Markdown PDF: Export"
-- **Marked 2** (macOS) — sisäänrakennettu vienti
+- **Typora** (kaupallinen) – Tiedosto → Vie → Word / PDF
+- **Obsidian** (ilmainen) – Vaatii vientilisäosan
+- **VS Code** + Markdown PDF -laajennos – Komento "Markdown PDF: Export"
+- **Marked 2** (macOS) – sisäänrakennettu vienti
 
 ### 6.4 ATS-yhteensopivuus
 
@@ -346,7 +346,7 @@ Pidä CV-rakenne yksinkertaisena: ei taulukkoja, ei sarakkeita, ei tekstilaatiko
 
 ---
 
-## 7. Sanitoitu malliesimerkki — CV.md
+## 7. Sanitoitu malliesimerkki – CV.md
 
 ```markdown
 # Aino Esimerkki
@@ -398,9 +398,9 @@ Pääaine: liiketaloustiede.
 
 ## Kielet
 
-- Suomi — äidinkieli
-- Englanti — erinomainen
-- Ruotsi — hyvä
+- Suomi – äidinkieli
+- Englanti – erinomainen
+- Ruotsi – hyvä
 
 ## Suosittelijat
 
@@ -409,7 +409,7 @@ Pyydettäessä.
 
 ---
 
-## 8. Sanitoitu malliesimerkki — Hakemuskirje.md
+## 8. Sanitoitu malliesimerkki – Hakemuskirje.md
 
 ```markdown
 27.5.2026
@@ -466,10 +466,10 @@ aino.esimerkki@example.fi
 
 ## 10. Mihin tätä skilliä konsultoidaan
 
-- [[suomi-tarkistuslista]] — pipeline F: hakemus/CV
-- [[suomi-rekisteri]] — ammattikieli + henkilökohtainen sävy
-- [[suomi-ei-ai-sloppia]] — pakollinen ketjutus, erityisesti kuvio 31 humble brag
-- [[suomi-kielihuolto]] — pakollinen mekaniikkatarkistus
-- [[suomi-anglismit]] — pakollinen, huomioiden alan vakiintunut sanasto
-- [[suomi-sahkoposti]] — jos hakemus lähetetään sähköpostitse (saateviestin muoto)
-- [[suomi-lokalisaatio-perus]] — päivämäärät, numerot, yhteystiedot
+- [[suomi-tarkistuslista]] – pipeline F: hakemus/CV
+- [[suomi-rekisteri]] – ammattikieli + henkilökohtainen sävy
+- [[suomi-ei-ai-sloppia]] – pakollinen ketjutus, erityisesti kuvio 31 humble brag
+- [[suomi-kielihuolto]] – pakollinen mekaniikkatarkistus
+- [[suomi-anglismit]] – pakollinen, huomioiden alan vakiintunut sanasto
+- [[suomi-sahkoposti]] – jos hakemus lähetetään sähköpostitse (saateviestin muoto)
+- [[suomi-lokalisaatio-perus]] – päivämäärät, numerot, yhteystiedot
