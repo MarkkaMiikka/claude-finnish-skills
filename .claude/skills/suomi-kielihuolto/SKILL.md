@@ -475,7 +475,40 @@ Suomen passiivi on yleistävä:
 
 ---
 
-## 9. OIKOLUKU – seitsemän vaihetta
+## 9. NÄKYMÄTTÖMÄT OHJAUSMERKIT – aja mekaaninen tarkistus, älä luota lukemiseen
+
+Näkymättömät ohjausmerkit vuotavat suomenkieliseen tekstiin rajapinnoista (avoimen datan API:t, palvelukartat, julkaisujärjestelmät eli CMS) ja kopioidusta tekstistä. Ne eivät näy tekstissä, mutta rikkovat hakutoiminnon ja ruudunlukijan – erityisesti kun ne osuvat yhdyssanan keskelle. Esimerkiksi yhdyssanaan "joukkoliikenneoperaattori" voi jäädä nollalevyinen välilyönti (U+200B) sanan osien väliin, jolloin haku sanalla "joukkoliikenneoperaattori" ei enää löydä sitä.
+
+**Tärkeä rajoitus:** tätä skilliä ajava kielimalli ei näe näitä merkkejä luotettavasti. Ne katoavat usein jo tokenisointivaiheessa, joten teksti voi näyttää puhtaalta, vaikka merkkejä on seassa. Tämä on tämän paketin ainoa tarkistus, jota ei voi tehdä lukemalla – se on tehtävä ohjelmallisesti. (Tässä ohjeessa merkit on tarkoituksella kuvattu koodipisteinä eikä upotettu eläviksi merkeiksi, jotta tämä tiedosto itse läpäisee saman tarkistuksen.)
+
+| Merkki | Nimi | Mistä tulee |
+|---|---|---|
+| U+00AD | pehmeä tavutusmerkki (soft hyphen) | tekstinkäsittely, verkkosivut |
+| U+200B | nollalevyinen välilyönti (zero-width space) | julkaisujärjestelmä (CMS), kopioitu HTML |
+| U+200E / U+200F | suuntamerkit: vasemmalta oikealle (LRM) ja oikealta vasemmalle (RLM) | sekakieliset lähteet |
+| U+2060 | sanaliitin (word joiner) | tekstinkäsittely |
+
+U+FEFF (BOM) jätetään tämän tarkistuksen ulkopuolelle: tiedoston alussa se voi olla tarkoituksellinen, joten sen poisto vaatii erillisen harkinnan.
+
+Hae merkit (ripgrep):
+
+```
+rg -nP '[\x{00AD}\x{200B}\x{200E}\x{200F}\x{2060}]' polku/
+```
+
+Poista ohjelmallisesti (JavaScript):
+
+```
+text.replace(/[\u00AD\u200B\u200E\u200F\u2060]/g, '')
+```
+
+Poisto on turvallista: nämä ovat näkymättömiä muotoiluartefakteja. Pehmeä tavutusmerkki on valinnainen tavutusvihje eikä näy, ellei sana katkea rivinvaihdossa; nollalevyinen välilyönti ei näy lainkaan.
+
+**Käytäntö:** kun teksti tulee rajapinnasta, julkaisujärjestelmästä tai kopioituna, aja tämä tarkistus ennen julkaisua. Jos työskentelet toistuvasti saman sisältöprojektin parissa, kytke tarkistus esimerkiksi versionhallinnan pre-commit-koukkuun, niin sitä ei tarvitse muistaa ajaa käsin (ks. README-tiedoston ohjeet mekaanisista tarkistuksista).
+
+---
+
+## 10. OIKOLUKU – seitsemän vaihetta
 
 Kun tarkistat suomenkielistä tekstiä, käy listan läpi järjestyksessä:
 
@@ -521,7 +554,7 @@ Kun tarkistat suomenkielistä tekstiä, käy listan läpi järjestyksessä:
 
 ---
 
-## 10. LISÄTIEDOT
+## 11. LISÄTIEDOT
 
 Tarkista epäselvissä tapauksissa:
 - Kielitoimiston ohjepankki: https://kielitoimistonohjepankki.fi/
