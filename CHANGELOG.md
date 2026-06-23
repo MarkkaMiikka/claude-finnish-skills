@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.1 – 2026-06-23
+
+Patch release. Adds a salience-ordered triage block to `suomi-ei-ai-sloppia`, informed by empirical English-language AI-tell audits (a human-cited ranking vs. a keyword-match ranking). No new skills, pipelines or rules – the 32 patterns are unchanged; this only foregrounds the highest-signal ones and the mechanical-vs-judgment split.
+
+### Added
+
+- **suomi-ei-ai-sloppia:** new top section "Korkeimman signaalin tunnusmerkit – tarkista nämä ensin" – a Finnish-weighted priority order (em dash, anglisms, over-hype/humble-brag, "ei vain X vaan Y", uniform sentence rhythm, sycophancy/chatbot residue) that foregrounds the em dash as the single most-cited tell (→ pattern #14). Includes the caveat that a keyword pass over-flags frequent-but-rarely-cited diction (bolded bullets, "in conclusion", connectives like "however/thus") and misses the structural tells humans actually cite (uniform rhythm, formulaic shape, triads) – those need human reading, not grep. The Finnish-specific top tells (anglisms, over-hype, SVO-rigidity) are weighted above the English ranking because they are invisible to English-language audits.
+
+### Credits unchanged
+
+Attribution to [`akunikkola/suomi-finnish-skill`](https://github.com/akunikkola/suomi-finnish-skill), [`blader/humanizer`](https://github.com/blader/humanizer), Wikipedia:Signs of AI writing, [Kielitoimiston ohjepankki](https://kielitoimistonohjepankki.fi/) and [Selkokeskus](https://selkokeskus.fi/) preserved.
+
+---
+
 ## 0.3.0 – 2026-06-21
 
 Adds field-tested verification discipline and a class of mechanical check the LLM pass cannot self-detect, drawn from production use of the bundle on a Finnish content site (pSEO, heavy YMYL). No new skills or pipelines.

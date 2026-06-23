@@ -17,6 +17,23 @@ Tunnistat ja poistat tekoälytuotetun tekstin tunnusmerkit suomenkielisestä tek
 
 ---
 
+## KORKEIMMAN SIGNAALIN TUNNUSMERKIT – tarkista nämä ensin
+
+Empiiriset AI-tekstin kartoitukset (englanninkieliset) osoittavat, että ihmiset mainitsevat tietyt tunnusmerkit ylivoimaisesti useimmin tunnistaessaan tekstin AI:n tuottamaksi. Nämä eivät ole samat kuin ne, jotka mekaaninen hakusanatarkistus löytää: rakenteelliset tunnusmerkit jäävät haussa huomaamatta, ja runsaasti esiintyvät sidesanat taas eivät juuri herätä huomiota. Tee siis ensin nopea tarkistus alla olevista ja vasta sitten täysi 32 kuvion läpikäynti.
+
+Suomeen painotettu järjestys (ei suora käännös englanninkielisestä listasta):
+
+1. **Pitkä ajatusviiva (em-dash, U+2014)** – selvästi useimmin mainittu tunnusmerkki. Muunna se suomen lyhyeen ajatusviivaan "–". Ks. kuvio 14.
+2. **Anglismit ja käännöslainat** – suomen erityispiirre, joka ei näy englanninkielisissä kartoituksissa lainkaan mutta paljastaa suomalaisen AI-tekstin nopeimmin. Ks. kuvio 26 ja [[suomi-anglismit]].
+3. **Yliampuva, mahtaileva sävy** suomalaisen vaatimattomuuden sijaan (englanniksi "marketing/hype"). Ks. kuviot 1, 4 ja 31.
+4. **Tasainen virkerytmi** – toiseksi useimmin mainittu ja rakenteellinen, joten hakusana ei sitä löydä. Vaihtele virkkeen pituutta tarkoituksella. Ks. ÄÄNI JA PERSOONA.
+5. **"Ei vain X, vaan myös Y" -rakenne** – ks. kuvio 9.
+6. **Mielistely ja chatbot-jäänteet** ("Mainio kysymys!", "tekoälymallina en voi...") – ks. kuviot 20 ja 22.
+
+**Hakusanatarkistus ei korvaa ihmisen arviota.** Se ylikorostaa piirteitä, jotka esiintyvät usein mutta herättävät vähän huomiota: lihavoidut luettelot, "yhteenvetona"-lopetukset ja sidesanojen toisto ("kuitenkin", "näin ollen"). Samalla se jättää huomaamatta juuri ne tunnusmerkit, joista lukija useimmin tunnistaa tekstin AI:n tuottamaksi: tasaisen virkerytmin ja kaavamaisen rakenteen. Näihin tarvitaan ihmisen luenta.
+
+---
+
 ## TEHTÄVÄSI
 
 Kun saat tekstin humanisoitavaksi:
