@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.3.2 – 2026-06-23
+
+Patch release. Two small additions to `suomi-ei-ai-sloppia` drawn from the same English-language AI-tell audits (the keyword-match ranking), adapted to Finnish. No new skills, pipelines or numbered patterns.
+
+### Added
+
+- **suomi-ei-ai-sloppia #32:** new subsection "Sidesanojen ja siirtymäfraasien ylikäyttö" – mechanically stacked connectives (`kuitenkin / näin ollen / lisäksi / edelleen / toisaalta`). This is the single most frequent keyword tell in English (`however / thus / moreover`, 6.3%) yet almost never cited – high prevalence, low salience – so it had no home in the bundle until now.
+- **suomi-ei-ai-sloppia #7:** diction list extended with `valjastaa / hyödyntää / virtaviivaistaa / luotsata / navigoida` (leverage/harness, utilize, streamline, navigate) and `vivahteikas / monisyinen / kirjo / kudelma` (nuanced, tapestry) – fancy Finnish renderings of high-frequency English AI diction. Words already covered (comprehensive→kokonaisvaltainen, seamless→saumaton, profound→syvällinen, crucial→ratkaiseva) were left as-is.
+
+### Credits unchanged
+
+Attribution to [`akunikkola/suomi-finnish-skill`](https://github.com/akunikkola/suomi-finnish-skill), [`blader/humanizer`](https://github.com/blader/humanizer), Wikipedia:Signs of AI writing, [Kielitoimiston ohjepankki](https://kielitoimistonohjepankki.fi/) and [Selkokeskus](https://selkokeskus.fi/) preserved.
+
+---
+
 ## 0.3.1 – 2026-06-23
 
 Patch release. Adds a salience-ordered triage block to `suomi-ei-ai-sloppia`, informed by empirical English-language AI-tell audits (a human-cited ranking vs. a keyword-match ranking). No new skills, pipelines or rules – the 32 patterns are unchanged; this only foregrounds the highest-signal ones and the mechanical-vs-judgment split.

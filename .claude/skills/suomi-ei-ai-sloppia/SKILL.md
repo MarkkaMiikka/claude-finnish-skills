@@ -197,6 +197,8 @@ AI-fraasien poistaminen on vain puolet työstä. Sieluton, neutraali teksti on y
 - **korostaa, painottaa, ilmentää, heijastaa, kuvastaa, edustaa**
 - **sukeltaa (syvemmälle), pureutua, ottaa askeleita kohti**
 - **adressoida, implementoida, operoida, optimoida (kuvallisesti)**
+- **valjastaa, hyödyntää, virtaviivaistaa, luotsata/navigoida (kuvallisesti)** (käännöslainat: leverage/harness, utilize, streamline, navigate – kun "käyttää", "tehostaa" tai "edetä" riittää)
+- **vivahteikas, monisyinen, kirjo, kudelma (kuvallisina muotisanoina)** (käännöslainat: nuanced, tapestry)
 
 **Ennen:**
 > Lisäksi Esimerkkipankki edistää saumattoman ja intuitiivisen asiakaskokemuksen toteutumista pankkitoiminnassa, mikä mahdollistaa monipuolisen ja räätälöidyn palvelun.
@@ -699,6 +701,18 @@ Virkkeittäin (etenkin markkinointi-, esittely- ja hakemustekstissä):
 
 **Jälkeen:**
 > Esimerkkipankki haluaa varmistaa, että asiakkaat osaavat käyttää digikanavia – pankkiasiointi tapahtuu yhä enemmän verkossa.
+
+#### Sidesanojen ja siirtymäfraasien ylikäyttö
+
+AI aloittaa virkkeitä ja kappaleita mekaanisilla sidesanoilla: "kuitenkin", "näin ollen", "lisäksi", "edelleen", "toisaalta", "siten", "tämän lisäksi", "kaiken kaikkiaan". Englanniksi tämä on yleisin hakusanalla löytyvä tunnusmerkki (however, thus, moreover, furthermore), mutta lukija mainitsee sen harvoin – se on runsas mutta huomaamaton. Suomessa luonteva teksti sitoo ajatukset useammin itse sisällöllä kuin virkkeen alkuun toistuvasti liimatulla sidesanalla.
+
+**Ennen:**
+> Kampanja ylitti tavoitteet. Näin ollen budjettia kasvatettiin. Lisäksi kohderyhmää laajennettiin. Toisaalta kustannukset nousivat. Kaiken kaikkiaan tulos oli silti hyvä.
+
+**Jälkeen:**
+> Kampanja ylitti tavoitteet, joten budjettia kasvatettiin ja kohderyhmää laajennettiin. Kustannukset nousivat, mutta tulos oli silti hyvä.
+
+Sidesana ei ole kielletty: yksittäinen "kuitenkin" tai "siksi" on usein juuri oikea. Vältä vain niiden mekaanista toistoa joka virkkeen tai kappaleen alussa.
 
 #### Latteat kielikuvat ja kliseet
 
